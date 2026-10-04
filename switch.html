@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nintendo Switch 家族破解史时间轴 | V1 · 续航版/Lite/OLED · Switch 2</title>
+<meta name="description" content="Nintendo Switch 全系列破解史：PegaSwitch、Fusée Gelée RCM 软破、Atmosphère 生态、SX Core 与 Picofly 硬破、Mig Switch 烧录卡争议，附原文链接。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-consoles="switch-v1,switch-mariko,switch-2" style="--accent:var(--switch)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="index.html">总览</a>
+      <a href="xbox.html">Xbox 家族</a>
+      <a href="switch.html" class="active">Switch 家族</a>
+      <a href="playstation.html">PlayStation 家族</a>
+      <a href="cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1 style="background:linear-gradient(120deg,#ffa8a8 5%,#e60012 95%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Nintendo Switch 家族破解史</h1>
+    <p class="lede">
+      Switch 的破解史可以精确到一条分界线：<b>2018 年 4 月的 Fusée Gelée</b>。英伟达 Tegra X1 芯片的 USB 恢复模式存在一处缓冲区溢出，
+      而这段代码固化在 BootROM 里，任天堂无法通过系统更新修复，只能在新批次硬件中换芯片。结果是首发出厂（约 2018 年 6 月前）的每一台 Switch
+      都能用一根 Type-C 线加一个 RCM 夹子进入自制系统；而此后的续航版、Lite 与 OLED 全部改用 Tegra X1+，只能靠焊接改机。
+      2025 年发售的 Switch 2 沿用 Horizon 内核并加入指针认证、内存加密与抗毛刺设计，至今没有被攻破内核。
+    </p>
+    <div class="hero-meta">
+      <div><b data-stat="events">—</b>收录事件</div>
+      <div><b data-stat="span">—</b>时间跨度</div>
+      <div><b data-stat="domains">—</b>来源站点</div>
+      <div><b data-stat="cves">—</b>个 CVE 编号</div>
+      <div><b>3</b>个机型</div>
+    </div>
+  </header>
+
+  <h2 class="section-title">本页机型</h2>
+  <div id="console-index" class="console-index"></div>
+
+  <div class="toolbar" style="margin-top:26px">
+    <input id="search" type="search" placeholder="搜索漏洞名 / 工具 / CVE / 年份…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:280px;flex:1;max-width:420px">
+  </div>
+
+  <div class="legend" style="margin-bottom:24px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <footer class="footer">
+    <p><b>关于本站</b>：本站为技术史整理，所有条目均以公开报道、官方公告、CVE 数据库与开源项目页面为来源，链接直接指向原文。</p>
+    <p>破解主机可能违反厂商服务条款、当地法律（如 DMCA 第 1201 条反规避条款）并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+  </footer>
+</div>
+
+<script src="data/switch-v1.js"></script>
+<script src="data/switch-mariko.js"></script>
+<script src="data/switch-2.js"></script>
+<script src="assets/timeline.js"></script>
+</body>
+</html>

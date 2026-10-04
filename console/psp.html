@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayStation Portable (PSP) 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="PlayStation Portable (PSP) 破解史时间轴：PSP是史上破解最彻底、生命周期最长的掌机之一：从2005年Photo Viewer的TIFF缓冲区溢出开始，索尼与自制社区展开长达十年的猫鼠游戏。2007年的Pandora神奇电池用服务模式电池把硬破变成通用降级工具，">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="psp" data-single="1" style="--accent:var(--ps)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html" class="active">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../playstation.html">PlayStation 家族</a> ／
+    <span style="color:var(--text-dim)">PlayStation Portable (PSP)</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">PlayStation Portable (PSP)<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2004-12</b>发售</div>
+      <div><b>23</b>收录事件</div>
+      <div><b>2004–2026</b>时间跨度</div>
+      <div><b>49</b>条原文链接</div>
+      <div><b>1</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">PlayStation</p>
+      <p class="ch-summary">PSP是史上破解最彻底、生命周期最长的掌机之一：从2005年Photo Viewer的TIFF缓冲区溢出开始，索尼与自制社区展开长达十年的猫鼠游戏。2007年的Pandora神奇电池用服务模式电池把硬破变成通用降级工具，2008年PSP-3000封堵该路径后，社区转向ChickHEN、TN HEN与PRO等项目。最终2016年的Infinity利用启动链持久化，让曾被认为无法永久破解的PSP-3000/Go也获得开机即生效的自制系统。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，PSP 全系（1000/2000/3000/Go/E1000）在 6.60/6.61 上都能实现永久破解：用 Infinity 或 2024 年问世的新版 cIPL（Despertar del Cementerio v10）即可让开机即生效的自制系统常驻，再加上 ARK-4 提供现代功能，官方系统自 2015 年的 6.61 起再无更新。整个生态已经完全定型，社区只做维护性更新——ARK-4 在 2026 年 5 月 15 日发布了 4.20.69 r206。</span></div>
+      <div class="stat-row"><span class="stat-pill">工具与生态 <b>10</b></span><span class="stat-pill">软破 <b>5</b></span><span class="stat-pill">软件漏洞 <b>1</b></span><span class="stat-pill">法律与产业 <b>4</b></span><span class="stat-pill">硬破 <b>1</b></span><span class="stat-pill">硬件漏洞 <b>2</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">PlayStation 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="ps1.html"><span class="cc-name">PlayStation (PS1)</span><span class="cc-count">26 条</span></a><a class="console-chip" href="ps2.html"><span class="cc-name">PlayStation 2</span><span class="cc-count">20 条</span></a><a class="console-chip cc-active" href="psp.html"><span class="cc-name">PlayStation Portable (PSP)</span><span class="cc-count">23 条</span></a><a class="console-chip" href="ps3.html"><span class="cc-name">PlayStation 3</span><span class="cc-count">29 条</span></a><a class="console-chip" href="ps-vita.html"><span class="cc-name">PlayStation Vita</span><span class="cc-count">27 条</span></a><a class="console-chip" href="ps4.html"><span class="cc-name">PlayStation 4</span><span class="cc-count">33 条</span></a><a class="console-chip" href="ps5.html"><span class="cc-name">PlayStation 5</span><span class="cc-count">24 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="ps2.html"><span>← 上一台</span><b>PlayStation 2</b></a><a class="pn pn-next" href="ps3.html"><span>下一台 →</span><b>PlayStation 3</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 PlayStation Portable (PSP) 的破解史时间轴，共 23 个事件、49 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/psp.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

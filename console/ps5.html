@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayStation 5 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="PlayStation 5 破解史时间轴：PS5 的防线由三层组成：WebKit/BD-J 等用户态入口、FreeBSD 派生的内核，以及运行在 AMD Secure Processor 上的 hypervisor 与 XOM 只读代码保护——后者才是 PS5 ">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="ps5" data-single="1" style="--accent:var(--ps)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html" class="active">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../playstation.html">PlayStation 家族</a> ／
+    <span style="color:var(--text-dim)">PlayStation 5</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">PlayStation 5<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2020-11</b>发售</div>
+      <div><b>24</b>收录事件</div>
+      <div><b>2020–2026</b>时间跨度</div>
+      <div><b>55</b>条原文链接</div>
+      <div><b>2</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">PlayStation</p>
+      <p class="ch-summary">PS5 的防线由三层组成：WebKit/BD-J 等用户态入口、FreeBSD 派生的内核，以及运行在 AMD Secure Processor 上的 hypervisor 与 XOM 只读代码保护——后者才是 PS5 破解长期停滞的真正瓶颈。2022 年 10 月的 4.03 内核链与 TheFloW 的 BD-J 沙箱逃逸奠定了早期生态，此后近三年公开进展缓慢，低固件主机成为稀缺资源。2025 年末形势突变：39C3 公开的 AMD PSP/BootROM 电压毛刺研究导致 BootROM 密钥外泄，并引发社区漏洞抢发潮；2026 年的 Relapse 链把可用内核读写推高到 13.60。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，公开可越狱的固件上限已从早期几年的 4.03-4.51 一举推到 13.60：2026 年 9 月底公开的 Relapse 链（WebKit 用户态 + aio_multi_wait UAF 内核）同时覆盖 PS5 与 PS5 Pro 的 7.00-13.60，几秒内即可取得内核读写并注入自制程序，但属关机即失效的临时越狱。2026 年 9 月 16 日发布的 14.00 固件修复了该内核漏洞，10 月推送的 26.06-14.10.00 更被《GTA 6》强制要求，因此只有停留在 13.60 及以下的机器可破。低版本机型另有 ps5-linux 路线，可在 3.00-7.61 的原版与 Slim 上启动完整 Linux；2025 年 12 月 39C3 的 AMD PSP 电压毛刺研究与随后流传的 BootROM 密钥属于不可通过固件修补的硬件层。</span></div>
+      <div class="stat-row"><span class="stat-pill">工具与生态 <b>8</b></span><span class="stat-pill">软件漏洞 <b>3</b></span><span class="stat-pill">软破 <b>5</b></span><span class="stat-pill">法律与产业 <b>5</b></span><span class="stat-pill">硬件漏洞 <b>3</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">PlayStation 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="ps1.html"><span class="cc-name">PlayStation (PS1)</span><span class="cc-count">26 条</span></a><a class="console-chip" href="ps2.html"><span class="cc-name">PlayStation 2</span><span class="cc-count">20 条</span></a><a class="console-chip" href="psp.html"><span class="cc-name">PlayStation Portable (PSP)</span><span class="cc-count">23 条</span></a><a class="console-chip" href="ps3.html"><span class="cc-name">PlayStation 3</span><span class="cc-count">29 条</span></a><a class="console-chip" href="ps-vita.html"><span class="cc-name">PlayStation Vita</span><span class="cc-count">27 条</span></a><a class="console-chip" href="ps4.html"><span class="cc-name">PlayStation 4</span><span class="cc-count">33 条</span></a><a class="console-chip cc-active" href="ps5.html"><span class="cc-name">PlayStation 5</span><span class="cc-count">24 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="ps4.html"><span>← 上一台</span><b>PlayStation 4</b></a><span class="pn pn-off"></span></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 PlayStation 5 的破解史时间轴，共 24 个事件、55 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/ps5.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

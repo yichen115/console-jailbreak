@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Switch 续航版 / Lite / OLED（Mariko） 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="Switch 续航版 / Lite / OLED（Mariko） 破解史时间轴：Mariko 机型把 Tegra X1 换成了 Tegra X1+，BootROM 中修掉了 Fusée Gelée（CVE-2018-6242），又把 GMMU、Security Engine 等老漏洞一并堵上，因此 ">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="switch-mariko" data-single="1" style="--accent:var(--switch)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html">Xbox 家族</a>
+      <a href="../switch.html" class="active">Switch 家族</a>
+      <a href="../playstation.html">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../switch.html">Nintendo Switch 家族</a> ／
+    <span style="color:var(--text-dim)">Switch 续航版 / Lite / OLED（Mariko）</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">Switch 续航版 / Lite / OLED（Mariko）<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2019-08</b>发售</div>
+      <div><b>26</b>收录事件</div>
+      <div><b>2016–2026</b>时间跨度</div>
+      <div><b>65</b>条原文链接</div>
+      <div><b>5</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">Switch</p>
+      <p class="ch-summary">Mariko 机型把 Tegra X1 换成了 Tegra X1+，BootROM 中修掉了 Fusée Gelée（CVE-2018-6242），又把 GMMU、Security Engine 等老漏洞一并堵上，因此 iPatched 时代的“RCM + 注入器”软件路线全线失效。唯一剩下的攻击面是 SoC 上电阶段的硬件故障注入（glitch），于是历史主线从软件漏洞彻底转向焊接 modchip：Team Xecuter 的 SX Core/SX Lite、开源的 Spacecraft-NX 固件、2021 年起的 HWFLY 克隆，到 2022-2023 年基于 RP2040 的低成本 Picofly。同期 Team Xecuter 被美国起诉、Gary Bowser 被判 40 个月，MIG Switch 烧录卡则在 2024 年引爆新一轮诉讼，构成“技术靠硬破、产业靠法务”的双线格局。这条格局延续到 2026 年仍未改变：官方固件已推进到 23.0.0，Atmosphère 1.12.0 同步跟进，而 Mariko 的软件入口依旧为零，攻击面只剩 SoC 上电阶段的故障注入；任天堂则把火力集中到烧录卡销售渠道与模拟器代码仓库上。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，Mariko 三机型（续航版/Lite/OLED）依然没有任何公开的软件级破解，唯一可行路线仍是焊接 Picofly、HWFLY 类 modchip 后由 Hekate 引导 Atmosphère。2026 年出现了两个值得记录的变化：7 月研究者 Gezine 公开了不依赖 WebKit 与存档漏洞、可完全离线触发的通用 userland 漏洞（同时适用于 Switch 1/2），社区一度把它视为软破希望，但它被限制在应用沙箱内、无法提权到内核，也不受固件版本限制这一点并不能改变 Mariko“无软破”的结论；软件侧 Atmosphère 1.12.0（2026 年 9 月 27 日）已支持最新的 23.0.0 固件，改机用户按社区惯例应等全套组件适配后再升级。法律侧继续收紧：荷兰海牙地方法院 2026 年 9 月裁定面向欧洲消费者销售 MIG Switch 等规避设备违法，任天堂 8 月还一次性下架了 400 多个 Switch 模拟器 GitHub 仓库。</span></div>
+      <div class="stat-row"><span class="stat-pill">软破 <b>2</b></span><span class="stat-pill">硬件漏洞 <b>5</b></span><span class="stat-pill">工具与生态 <b>5</b></span><span class="stat-pill">硬破 <b>6</b></span><span class="stat-pill">法律与产业 <b>7</b></span><span class="stat-pill">软件漏洞 <b>1</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">Nintendo Switch 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="switch-v1.html"><span class="cc-name">Nintendo Switch（V1 / Erista）</span><span class="cc-count">28 条</span></a><a class="console-chip cc-active" href="switch-mariko.html"><span class="cc-name">Switch 续航版 / Lite / OLED（Mariko）</span><span class="cc-count">26 条</span></a><a class="console-chip" href="switch-2.html"><span class="cc-name">Nintendo Switch 2</span><span class="cc-count">26 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="switch-v1.html"><span>← 上一台</span><b>Nintendo Switch（V1 / Erista）</b></a><a class="pn pn-next" href="switch-2.html"><span>下一台 →</span><b>Nintendo Switch 2</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 Switch 续航版 / Lite / OLED（Mariko） 的破解史时间轴，共 26 个事件、65 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/switch-mariko.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

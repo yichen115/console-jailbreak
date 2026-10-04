@@ -1,0 +1,126 @@
+=== 同年跨机型近似事件（dice >= 0.40），按相似度降序 ===
+候选对数: 62
+1.000 同月  [破解产业与法律战（横向专题）] 2022-02 Bowser 获刑 40 个月
+              [Xbox Series X|S] 2022-02 Bowser 获刑 40 个月
+0.889 异月  [破解产业与法律战（横向专题）] 2020-10 美国司法部起诉 Team Xecuter
+              [Nintendo Switch（V1 / Erista）] 2020 美国司法部起诉 Team Xecuter 核心成员
+0.867 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2020-10 Team Xecuter 成员被捕并被起诉
+              [Xbox（初代）] 2020-10 Team Xecuter 成员被捕
+0.846 同月  [破解产业与法律战（横向专题）] 2022-02 Bowser 获刑 40 个月
+              [Xbox 360] 2022-02 Gary Bowser 获刑 40 个月
+0.846 同月  [Xbox 360] 2022-02 Gary Bowser 获刑 40 个月
+              [Xbox Series X|S] 2022-02 Bowser 获刑 40 个月
+0.824 同月  [PlayStation 4] 2020-10 美国 DOJ 起诉 Team Xecuter 核心成员
+              [Xbox 360] 2020-10 DOJ 起诉 Team Xecuter
+0.800 异月  [PlayStation 4] 2020-10 美国 DOJ 起诉 Team Xecuter 核心成员
+              [Nintendo Switch（V1 / Erista）] 2020 美国司法部起诉 Team Xecuter 核心成员
+0.783 同月  [破解产业与法律战（横向专题）] 2022-02 Bowser 获刑 40 个月
+              [Xbox（初代）] 2022-02 Bowser 案判刑 40 个月
+0.783 同月  [Xbox（初代）] 2022-02 Bowser 案判刑 40 个月
+              [Xbox Series X|S] 2022-02 Bowser 获刑 40 个月
+0.769 同月  [PlayStation 4] 2022-06 TheFloW 公开 BD-JB 蓝光 Java 沙箱逃逸
+              [PlayStation 5] 2022-06 TheFloW 公开 BD-J 蓝光沙箱逃逸
+0.733 同月  [破解产业与法律战（横向专题）] 2020-10 美国司法部起诉 Team Xecuter
+              [Xbox 360] 2020-10 DOJ 起诉 Team Xecuter
+0.727 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2022-02 Gary Bowser 被判 40 个月并赔款
+              [Xbox 360] 2022-02 Gary Bowser 获刑 40 个月
+0.718 同月  [破解产业与法律战（横向专题）] 2026-08 任天堂一次下架 400 余个模拟器仓库
+              [Switch 续航版 / Lite / OLED（Mariko）] 2026-08 任天堂一次性下架 400 余个 Switch 模拟器仓库
+0.718 同月  [PlayStation 4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月
+              [Switch 续航版 / Lite / OLED（Mariko）] 2022-02 Gary Bowser 被判 40 个月并赔款
+0.690 同月  [Xbox（初代）] 2020-10 Team Xecuter 成员被捕
+              [Xbox Series X|S] 2020-10 Team Xecuter 两名负责人被捕
+0.667 异月  [破解产业与法律战（横向专题）] 1999-03 Sony 诉 Connectix 案
+              [PlayStation (PS1)] 1999 Sony 起诉 Connectix：VGS 模拟器案
+0.667 同月  [破解产业与法律战（横向专题）] 2020-10 美国司法部起诉 Team Xecuter
+              [PlayStation 4] 2020-10 美国 DOJ 起诉 Team Xecuter 核心成员
+0.667 同月  [PlayStation 4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月
+              [Xbox 360] 2022-02 Gary Bowser 获刑 40 个月
+0.667 同月  [Xbox 360] 2020-10 DOJ 起诉 Team Xecuter
+              [Xbox（初代）] 2020-10 Team Xecuter 成员被捕
+0.667 同月  [Xbox 360] 2022-02 Gary Bowser 获刑 40 个月
+              [Xbox（初代）] 2022-02 Bowser 案判刑 40 个月
+0.647 异月  [Nintendo Switch（V1 / Erista）] 2020 美国司法部起诉 Team Xecuter 核心成员
+              [Xbox 360] 2020-10 DOJ 起诉 Team Xecuter
+0.645 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2020-10 Team Xecuter 成员被捕并被起诉
+              [Xbox 360] 2020-10 DOJ 起诉 Team Xecuter
+0.643 同月  [破解产业与法律战（横向专题）] 2011-01 SCEA 诉 Hotz（GeoHot）
+              [PlayStation 3] 2011-01 索尼起诉 GeoHot（SCEA v. Hotz）
+0.629 同月  [破解产业与法律战（横向专题）] 2011-02 德国 graf_chokolo 被搜查
+              [PlayStation 3] 2011-02 graf_chokolo 遭搜查与百万欧元索赔
+0.629 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2022-02 Gary Bowser 被判 40 个月并赔款
+              [Nintendo Switch（V1 / Erista）] 2022-02 Bowser 被判 40 个月，须赔偿任天堂
+0.621 同月  [破解产业与法律战（横向专题）] 2020-10 美国司法部起诉 Team Xecuter
+              [Xbox（初代）] 2020-10 Team Xecuter 成员被捕
+0.606 同月  [破解产业与法律战（横向专题）] 2020-10 美国司法部起诉 Team Xecuter
+              [Switch 续航版 / Lite / OLED（Mariko）] 2020-10 Team Xecuter 成员被捕并被起诉
+0.606 同月  [PlayStation 4] 2020-10 美国 DOJ 起诉 Team Xecuter 核心成员
+              [Xbox（初代）] 2020-10 Team Xecuter 成员被捕
+0.606 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2020-10 Team Xecuter 成员被捕并被起诉
+              [Xbox Series X|S] 2020-10 Team Xecuter 两名负责人被捕
+0.606 异月  [Nintendo Switch（V1 / Erista）] 2020 美国司法部起诉 Team Xecuter 核心成员
+              [Xbox（初代）] 2020-10 Team Xecuter 成员被捕
+0.600 同月  [Xbox 360] 2020-10 DOJ 起诉 Team Xecuter
+              [Xbox Series X|S] 2020-10 Team Xecuter 两名负责人被捕
+0.595 同月  [PlayStation 4] 2020-10 美国 DOJ 起诉 Team Xecuter 核心成员
+              [Switch 续航版 / Lite / OLED（Mariko）] 2020-10 Team Xecuter 成员被捕并被起诉
+0.595 异月  [Switch 续航版 / Lite / OLED（Mariko）] 2020-10 Team Xecuter 成员被捕并被起诉
+              [Nintendo Switch（V1 / Erista）] 2020 美国司法部起诉 Team Xecuter 核心成员
+0.595 异月  [Switch 续航版 / Lite / OLED（Mariko）] 2024-02 MIG Switch 烧录卡首批出货
+              [Nintendo Switch（V1 / Erista）] 2024 MiG Switch 烧录卡：绕过一切漏洞的硬件路线
+0.579 同月  [破解产业与法律战（横向专题）] 2025-09 MIG Switch 案 200 万
+              [Nintendo Switch 2] 2025-09 MIG Switch 厂商以 200 万美元和解并遭永久禁售
+0.579 同月  [破解产业与法律战（横向专题）] 2025-09 MIG Switch 案 200 万
+              [Switch 续航版 / Lite / OLED（Mariko）] 2025-09 MIG Switch/modchip 卖家被判赔 200 万美元
+0.571 同月  [破解产业与法律战（横向专题）] 2022-02 Bowser 获刑 40 个月
+              [Nintendo Switch（V1 / Erista）] 2022-02 Bowser 被判 40 个月，须赔偿任天堂
+0.571 同月  [Nintendo Switch（V1 / Erista）] 2022-02 Bowser 被判 40 个月，须赔偿任天堂
+              [Xbox Series X|S] 2022-02 Bowser 获刑 40 个月
+0.571 同月  [Xbox One] 2026-03 BLISS：电压毛刺攻破初代机安全处理器
+              [Xbox Series X|S] 2026-03 Bliss 电压毛刺攻破 Xbox One
+0.563 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2026-10 现状未变：Mariko 仍无软破，固件 23.0.0 由 Atmosphère 1.12.0 接住
+              [Nintendo Switch（V1 / Erista）] 2026-10 现状：固件 23.0.0 与 Atmosphère 1.12.0 同步，V1 仍是唯一纯软破机型
+0.563 同月  [破解产业与法律战（横向专题）] 2020-10 美国司法部起诉 Team Xecuter
+              [Xbox Series X|S] 2020-10 Team Xecuter 两名负责人被捕
+0.556 异月  [破解产业与法律战（横向专题）] 2006-10 Sony 诉 Divineo 缺席判决
+              [PlayStation 2] 2006-08 Sony v. Divineo 判决：直读芯片销售违法
+0.552 同月  [破解产业与法律战（横向专题）] 2022-02 Bowser 获刑 40 个月
+              [Switch 续航版 / Lite / OLED（Mariko）] 2022-02 Gary Bowser 被判 40 个月并赔款
+0.552 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2022-02 Gary Bowser 被判 40 个月并赔款
+              [Xbox Series X|S] 2022-02 Bowser 获刑 40 个月
+0.552 同月  [Nintendo Switch（V1 / Erista）] 2022-02 Bowser 被判 40 个月，须赔偿任天堂
+              [Xbox（初代）] 2022-02 Bowser 案判刑 40 个月
+0.541 异月  [PlayStation 3] 2010-08 PS Jailbreak USB 狗问世
+              [PlayStation Portable (PSP)] 2010-12 PSJailbreak 案：索尼诉破解设备销售商
+0.533 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2022-02 Gary Bowser 被判 40 个月并赔款
+              [Xbox（初代）] 2022-02 Bowser 案判刑 40 个月
+0.526 同月  [PlayStation 4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月
+              [Nintendo Switch（V1 / Erista）] 2022-02 Bowser 被判 40 个月，须赔偿任天堂
+0.520 同月  [Nintendo Switch 2] 2025-09 MIG Switch 厂商以 200 万美元和解并遭永久禁售
+              [Switch 续航版 / Lite / OLED（Mariko）] 2025-09 MIG Switch/modchip 卖家被判赔 200 万美元
+0.500 同月  [破解产业与法律战（横向专题）] 2022-02 Bowser 获刑 40 个月
+              [PlayStation 4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月
+0.500 同月  [PlayStation 4] 2020-10 美国 DOJ 起诉 Team Xecuter 核心成员
+              [Xbox Series X|S] 2020-10 Team Xecuter 两名负责人被捕
+0.500 同月  [PlayStation 4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月
+              [Xbox Series X|S] 2022-02 Bowser 获刑 40 个月
+0.500 异月  [Nintendo Switch（V1 / Erista）] 2020 美国司法部起诉 Team Xecuter 核心成员
+              [Xbox Series X|S] 2020-10 Team Xecuter 两名负责人被捕
+0.500 同月  [Nintendo Switch（V1 / Erista）] 2022-02 Bowser 被判 40 个月，须赔偿任天堂
+              [Xbox 360] 2022-02 Gary Bowser 获刑 40 个月
+0.485 同月  [PlayStation 4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月
+              [Xbox（初代）] 2022-02 Bowser 案判刑 40 个月
+0.456 异月  [Nintendo Switch 2] 2026-10 现状：仍未被破解，内核与 hypervisor 零突破，成果全部停在 userland
+              [Xbox Series X|S] 2026-03 Series 内核与 hypervisor 无公开漏洞
+0.450 同月  [Xbox One] 2020-11 Xbox Series X|S 发售：Dev Mode 成为模拟器主阵地
+              [Xbox Series X|S] 2020-11 Series X|S 发售，无可用软破
+0.433 同月  [Nintendo Switch 2] 2018-04 Fusée Gelée 硬件漏洞公开：Switch 1 的经典 RCM 软破
+              [Nintendo Switch（V1 / Erista）] 2018-04 Fusée Gelée（CVE-2018-6242）公开：不可修补的 RCM 软破
+0.423 同月  [Nintendo Switch 2] 2018-04 Fusée Gelée 硬件漏洞公开：Switch 1 的经典 RCM 软破
+              [Switch 续航版 / Lite / OLED（Mariko）] 2018-04 Fusée Gelée 公开：BootROM 级 RCM 溢出
+0.414 同月  [Xbox One] 2016-03 微软开放 Dev Mode 开发者模式预览
+              [Xbox Series X|S] 2016-03 Dev Mode 让零售机变开发机
+0.407 同月  [Switch 续航版 / Lite / OLED（Mariko）] 2018-04 Fusée Gelée 公开：BootROM 级 RCM 溢出
+              [Nintendo Switch（V1 / Erista）] 2018-04 Fusée Gelée（CVE-2018-6242）公开：不可修补的 RCM 软破
+0.400 异月  [破解产业与法律战（横向专题）] 2025-12 Switch 2 EULA 变砖条款
+              [Nintendo Switch 2] 2025-01 Switch 2 正式公布，社区被泼冷水

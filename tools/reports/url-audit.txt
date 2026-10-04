@@ -1,0 +1,409 @@
+事件 395 条 | 链接引用 928 次 | 唯一 URL 703 个 | 唯一域名 213 个
+
+=== 域名分布（按引用次数降序）===
+ 180    github.com
+  53    en.wikipedia.org
+  44    gbatemp.net
+  36    wololo.net
+  28    consolemods.org
+  26    nvd.nist.gov
+  20  ? switchbrew.org
+  15    arstechnica.com
+  14    fail0verflow.com
+  13    eurogamer.net
+  13    justice.gov
+  13    psx-place.com
+  13    free60.org
+  12    engadget.com
+  12  ? nintendolife.com
+  12    xboxoneresearch.github.io
+  11  ? wiki.henkaku.xyz
+  10    theverge.com
+  10    notebookcheck.net
+   9    courtlistener.com
+   9  ? videogameschronicle.com
+   9  ? tarnkappe.info
+   9  ? blog.ihaveahax.net
+   8    cturt.github.io
+   8  ? ithome.com
+   7  ? ice.gov
+   7    zdnet.com
+   6    web.archive.org
+   6  ? copyright.gov
+   6    gamesindustry.biz
+   6  ? tweaktown.com
+   5  ? x.com
+   5    nintendo.com
+   5    gamedeveloper.com
+   5  ? exploit-db.com
+   5    psdevwiki.com
+   5    learn.microsoft.com
+   5  ? semiengineering.com
+   4    cnet.com
+   4  ? federalregister.gov
+   4    bbc.com
+   4    archive.org
+   4    ign.com
+   4  ? yifan.lu
+   4    theofficialflow.github.io
+   4    polygon.com
+   4  ? logic-sunrise.com
+   4  ? gigazine.net
+   4  ? wiki.hacks.guide
+   4  ? xboxdevwiki.net
+   3  ? pinsentmasons.com
+   3  ? jolt.law.harvard.edu
+   3    theregister.com
+   3  ? blog.xyz.is
+   3    xda-developers.com
+   3  ? korben.info
+   3  ? sonyinteractive.com
+   3    news.xbox.com
+   3    tomshardware.com
+   2    news.bbc.co.uk
+   2  ? mcvuk.com
+   2  ? truthinadvertising.org
+   2    eff.org
+   2    storage.courtlistener.com
+   2    kotaku.com
+   2  ? gamerant.com
+   2  ? fsf.org
+   2    hackaday.com
+   2  ? vita.hacks.guide
+   2  ? lacerta.es
+   2    alex-free.github.io
+   2  ? cdrinfo.com
+   2    media.ccc.de
+   2  ? escapistmagazine.com
+   2  ? digitalworldz.co.uk
+   2  ? slashgear.com
+   2  ? videocardz.com
+   2  ? gamefa.com
+   2  ? hardwear.io
+   2  ? endlessparadigm.com
+   2  ? nintendo.co.jp
+   2  ? playground.ru
+   2  ? reddit.com
+   2  ? gamespot.com
+   2  ? 1emulation.com
+   2  ? icode4.coffee
+   2  ? biteyourconsole.net
+   2  ? generationamiga.com
+   2  ? pcmag.com
+   2    youtube.com
+   2    techcrunch.com
+   2  ? sourceforge.net
+   2  ? forums.xboxscene.org
+   2  ? kodi.wiki
+   2  ? xbox-scene.info
+   2  ? exputer.com
+   2  ? windowsreport.com
+   2  ? digitaltoday.co.kr
+   1  ? hklii.org
+   1    en.m.wikipedia.org
+   1  ? caselaw.nationalarchives.gov.uk
+   1  ? hcourt.gov.au
+   1  ? www8.austlii.edu.au
+   1  ? ncjolt.org
+   1  ? derstandard.at
+   1  ? eurogamer.de
+   1    blog.playstation.com
+   1    thehackernews.com
+   1    torrentfreak.com
+   1  ? screenrant.com
+   1  ? theguardian.com
+   1  ? shacknews.com
+   1  ? usatoday.com
+   1  ? govinfo.gov
+   1  ? defectivebydesign.org
+   1  ? stichtingbrein.nl
+   1  ? kyoto-np.co.jp
+   1  ? godisageek.com
+   1  ? stevivor.com
+   1  ? packetstormsecurity.com
+   1  ? henkaku.xyz
+   1  ? gamerevolution.com
+   1  ? beta.rtbf.be
+   1  ? instructables.com
+   1  ? wiki.gamehacking.org
+   1    wired.com
+   1  ? www7.austlii.edu.au
+   1  ? psio.cybdyn-systems.com.au
+   1  ? hackinformer.com
+   1  ? pcsx-redux.consoledev.net
+   1  ? psxtools.de
+   1  ? resetera.com
+   1  ? stoneagegamer.com
+   1  ? respawn.outlookindia.com
+   1  ? news.17173.com
+   1  ? sony.mediaroom.com
+   1  ? ps2savetools.com
+   1  ? deseret.com
+   1    ps2homebrew.github.io
+   1  ? techpowerup.com
+   1  ? hwbusters.com
+   1  ? videogamer.com
+   1  ? digitalfoundry.net
+   1    events.ccc.de
+   1  ? gameinformer.com
+   1  ? siliconangle.com
+   1  ? destructoid.com
+   1    wiki.gbatemp.net
+   1  ? gueux-forum.net
+   1  ? purepc.pl
+   1  ? digi.ithome.com
+   1  ? thelab.gr
+   1  ? readkong.com
+   1  ? vuxml.freebsd.org
+   1    cve.mitre.org
+   1  ? freebsd.org
+   1    fahrplan.events.ccc.de
+   1  ? bytesnbits.co.uk
+   1  ? beebom.com
+   1    vice.com
+   1  ? curia.europa.eu
+   1  ? eur-lex.europa.eu
+   1  ? cyberq.tw
+   1  ? en.kocpc.com.tw
+   1  ? itsfoss.com
+   1  ? sourcetrail.com
+   1  ? ixbt.games
+   1  ? diy.zol.com.cn
+   1  ? automata.penny-arcade.com
+   1    cve.org
+   1  ? exophase.com
+   1  ? infinity.lolhax.org
+   1  ? cnn.com
+   1    accounts.nintendo.com
+   1  ? bsky.app
+   1  ? levelup.com
+   1  ? automaton-media.com
+   1  ? thenews.com.pk
+   1  ? m.ithome.com
+   1    pk.ign.com
+   1  ? techbriefly.com
+   1  ? nintendo.com.hk
+   1  ? tech.yahoo.com
+   1  ? infobae.com
+   1  ? digi.hsw.cn
+   1  ? ctvnews.ca
+   1  ? dualshockers.com
+   1  ? vulnerability.circl.lu
+   1  ? ibotmodz.net
+   1  ? muycomputer.com
+   1  ? elotrolado.net
+   1    bbc.co.uk
+   1  ? swarm.ptsecurity.com
+   1    on.theverge.com
+   1    kudayasu.github.io
+   1    torushyperv.github.io
+   1  ? digiex.net
+   1  ? www1.folha.uol.com.br
+   1  ? lwn.net
+   1  ? itprotoday.com
+   1  ? purexbox.com
+   1  ? insignia.live
+   1  ? wired.it
+   1    gist.github.com
+   1  ? wccftech.com
+   1  ? noticias3d.com
+   1  ? hitmarker.net
+   1  ? xboxland.net
+   1  ? windowscentral.com
+   1  ? ppe.pl
+   1  ? thexboxguide.com
+   1  ? 163.com
+   1  ? 4gamers.com.tw
+
+=== 不在宽松白名单内的域名（需人工确认可靠性）===
+  20x  switchbrew.org
+  12x  nintendolife.com
+  11x  wiki.henkaku.xyz
+  9x  videogameschronicle.com
+  9x  tarnkappe.info
+  9x  blog.ihaveahax.net
+  8x  ithome.com
+  7x  ice.gov
+  6x  copyright.gov
+  6x  tweaktown.com
+  5x  x.com
+  5x  exploit-db.com
+  5x  semiengineering.com
+  4x  federalregister.gov
+  4x  yifan.lu
+  4x  logic-sunrise.com
+  4x  gigazine.net
+  4x  wiki.hacks.guide
+  4x  xboxdevwiki.net
+  3x  pinsentmasons.com
+  3x  jolt.law.harvard.edu
+  3x  blog.xyz.is
+  3x  korben.info
+  3x  sonyinteractive.com
+  2x  mcvuk.com
+  2x  truthinadvertising.org
+  2x  gamerant.com
+  2x  fsf.org
+  2x  vita.hacks.guide
+  2x  lacerta.es
+  2x  cdrinfo.com
+  2x  escapistmagazine.com
+  2x  digitalworldz.co.uk
+  2x  slashgear.com
+  2x  videocardz.com
+  2x  gamefa.com
+  2x  hardwear.io
+  2x  endlessparadigm.com
+  2x  nintendo.co.jp
+  2x  playground.ru
+  2x  reddit.com
+  2x  gamespot.com
+  2x  1emulation.com
+  2x  icode4.coffee
+  2x  biteyourconsole.net
+  2x  generationamiga.com
+  2x  pcmag.com
+  2x  sourceforge.net
+  2x  forums.xboxscene.org
+  2x  kodi.wiki
+  2x  xbox-scene.info
+  2x  exputer.com
+  2x  windowsreport.com
+  2x  digitaltoday.co.kr
+  1x  hklii.org
+  1x  caselaw.nationalarchives.gov.uk
+  1x  hcourt.gov.au
+  1x  www8.austlii.edu.au
+  1x  ncjolt.org
+  1x  derstandard.at
+  1x  eurogamer.de
+  1x  screenrant.com
+  1x  theguardian.com
+  1x  shacknews.com
+  1x  usatoday.com
+  1x  govinfo.gov
+  1x  defectivebydesign.org
+  1x  stichtingbrein.nl
+  1x  kyoto-np.co.jp
+  1x  godisageek.com
+  1x  stevivor.com
+  1x  packetstormsecurity.com
+  1x  henkaku.xyz
+  1x  gamerevolution.com
+  1x  beta.rtbf.be
+  1x  instructables.com
+  1x  wiki.gamehacking.org
+  1x  www7.austlii.edu.au
+  1x  psio.cybdyn-systems.com.au
+  1x  hackinformer.com
+  1x  pcsx-redux.consoledev.net
+  1x  psxtools.de
+  1x  resetera.com
+  1x  stoneagegamer.com
+  1x  respawn.outlookindia.com
+  1x  news.17173.com
+  1x  sony.mediaroom.com
+  1x  ps2savetools.com
+  1x  deseret.com
+  1x  techpowerup.com
+  1x  hwbusters.com
+  1x  videogamer.com
+  1x  digitalfoundry.net
+  1x  gameinformer.com
+  1x  siliconangle.com
+  1x  destructoid.com
+  1x  gueux-forum.net
+  1x  purepc.pl
+  1x  digi.ithome.com
+  1x  thelab.gr
+  1x  readkong.com
+  1x  vuxml.freebsd.org
+  1x  freebsd.org
+  1x  bytesnbits.co.uk
+  1x  beebom.com
+  1x  curia.europa.eu
+  1x  eur-lex.europa.eu
+  1x  cyberq.tw
+  1x  en.kocpc.com.tw
+  1x  itsfoss.com
+  1x  sourcetrail.com
+  1x  ixbt.games
+  1x  diy.zol.com.cn
+  1x  automata.penny-arcade.com
+  1x  exophase.com
+  1x  infinity.lolhax.org
+  1x  cnn.com
+  1x  bsky.app
+  1x  levelup.com
+  1x  automaton-media.com
+  1x  thenews.com.pk
+  1x  m.ithome.com
+  1x  techbriefly.com
+  1x  nintendo.com.hk
+  1x  tech.yahoo.com
+  1x  infobae.com
+  1x  digi.hsw.cn
+  1x  ctvnews.ca
+  1x  dualshockers.com
+  1x  vulnerability.circl.lu
+  1x  ibotmodz.net
+  1x  muycomputer.com
+  1x  elotrolado.net
+  1x  swarm.ptsecurity.com
+  1x  digiex.net
+  1x  www1.folha.uol.com.br
+  1x  lwn.net
+  1x  itprotoday.com
+  1x  purexbox.com
+  1x  insignia.live
+  1x  wired.it
+  1x  wccftech.com
+  1x  noticias3d.com
+  1x  hitmarker.net
+  1x  xboxland.net
+  1x  windowscentral.com
+  1x  ppe.pl
+  1x  thexboxguide.com
+  1x  163.com
+  1x  4gamers.com.tw
+
+=== 缺少标题的来源 ===
+  无
+
+=== 只有一个来源的事件（共 34 条）===
+[ps-vita] 2021-04 PS Store 关闭计划撤回，官方商店保留 (1 个来源)
+[ps2] 2004-06 HD Loader：硬盘启动游戏，改机转向内置存储 (1 个来源)
+[ps2] 2008-12 Free HDBoot 发布：把引导搬进内置硬盘 (1 个来源)
+[ps4] 2015-06 PS4 主板 UART 串口被发现，需焊接引出 (1 个来源)
+[ps4] 2017-10 首个 PS4 内核漏洞 namedobj 被公开 (1 个来源)
+[ps4] 2017-12 crashdump 成为内核内存抽取途径 (1 个来源)
+[ps4] 2018-11 通过 HDMI-CEC 攻陷 PS4 Pro 南桥 Belize (1 个来源)
+[ps4] 2021-03 7.55 越狱与 Mira 自定义固件发布 (1 个来源)
+[ps4] 2022-02 Gary Bowser 因改机盗版案被判 40 个月 (1 个来源)
+[ps4] 2022-05 PSVR 处理盒安全启动被攻破 (1 个来源)
+[ps4] 2024-10 GoldHEN 2.4b18 覆盖 10.50 至 10.71 (1 个来源)
+[ps4] 2025-02 社区尝试把 PPPwn 移植到 12.00 (1 个来源)
+[ps4] 2025-08 BD-JB 结合 Lapse 扩展到 12.50 (1 个来源)
+[ps5] 2021-11 PS5 root keys 与调试设置被公开 (1 个来源)
+[ps5] 2022-08 Sony 提高 PS4/PS5 漏洞赏金上限 (1 个来源)
+[switch-2] 2025-01 Switch 2 正式公布，社区被泼冷水 (1 个来源)
+[switch-2] 2025-04 直面会后错误信息泛滥，研究者逐条澄清 (1 个来源)
+[switch-2] 2025-06-03 发售前技术分析：为何 Switch 2 难以被破解 (1 个来源)
+[switch-2] 2025-07 改装机检测升级：轻微改动也触发封禁 (1 个来源)
+[switch-2] 2025-08 假破解视频与 BlueNX 骗局被社区揭穿 (1 个来源)
+[switch-2] 2025-11-03 switchbrew 整理 T239 硬件安全特性 (1 个来源)
+[switch-2] 2025-11 熔丝布局公开：防降级与抗毛刺设计曝光 (1 个来源)
+[switch-2] 2025-12-08 FSF 批评 Switch 2 封禁机制，用户被迫申诉 (1 个来源)
+[switch-mariko] 2019-07 Nintendo Switch Lite 发表（Mariko 首款机型） (1 个来源)
+[switch-mariko] 2019-08 Hekate 更新支持新硬件，成为通用引导器 (1 个来源)
+[switch-v1] 2021-05 任天堂胜诉 RomUniverse：判赔 210 万美元 (1 个来源)
+[switch-v1] 2023 Bowser 提前出狱，赔偿义务继续 (1 个来源)
+[xbox-360] 2012-02 RGH 2.0 让全系 Phat 可破 (1 个来源)
+[xbox-one] 2017-03 Xbox Live Creators Program 上线 (1 个来源)
+[xbox-one] 2017-04 微软正式禁止商店上架模拟器 (1 个来源)
+[xbox-one] 2017-09 Edge 文件系统暴露漏洞 (1 个来源)
+[xbox-one] 2019-06 UnattendedUtilities 提权漏洞 (1 个来源)
+[xbox-one] 2019-07 System.xvd 读写覆盖漏洞 (1 个来源)
+[xbox-one] 2019-09 外置 VBI 加载：硬盘上放文件即可引导 (1 个来源)
+
+=== 描述过短（<60 字）的事件（共 0 条）===

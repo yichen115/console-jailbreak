@@ -1,0 +1,1267 @@
+﻿待核查 URL: 701 个 (并发 16, 超时 25000ms)
+
+[  6/701] ok   200      https://accounts.nintendo.com/term/eula/US?lang=en-US
+[  1/701] ok   200      http://jolt.law.harvard.edu/digest/sony-computer-entmt-am-v-hotz
+[  7/701] ok   200      https://alex-free.github.io/tonyhax-international/
+[  4/701] ok   200      http://psio.cybdyn-systems.com.au/about/
+[  8/701] ok   200      https://alex-free.github.io/tonyhax-international/changelog.html
+[  3/701] ok   200      http://packetstormsecurity.com/files/123088/
+[ 16/701] FAIL 405      https://arstechnica.com/gaming/2017/04/microsoft-formally-bans-emulators-on-xbox-windows-10-download-shops/
+[ 14/701] FAIL 405      https://arstechnica.com/gaming/2010/08/court-halts-ps-jailbreak-sales-gives-sony-control-of-inventory/
+[ 12/701] FAIL 405      https://arstechnica.com/gaming/2007/07/dark-alex-quits-the-custom-firmware-scene-psp-users-mourn/
+[ 13/701] FAIL 405      https://arstechnica.com/gaming/2010/03/it-no-longer-does-everything-no-more-linux-on-playstation-3/
+[ 17/701] FAIL 405      https://arstechnica.com/gaming/2018/04/the-unpatchable-exploit-that-makes-every-current-nintendo-switch-hackable/
+[ 18/701] FAIL 405      https://arstechnica.com/gaming/2018/06/switch-pirates-dont-want-you-to-pirate-their-piracy-enabling-firmware/
+[ 27/701] ok   200      https://beebom.com/gta-online-is-infected-with-modders-after-new-ps4-jailbreak/
+[ 19/701] FAIL 405      https://arstechnica.com/gaming/2020/11/how-to-turn-your-xbox-series-x-s-into-an-emulation-powerhouse/
+[ 26/701] ok   200      https://automaton-media.com/en/news/nintendo-switch-modder-handed-down-suspended-prison-sentence-in-japan-for-the-first-time/
+[ 20/701] FAIL 405      https://arstechnica.com/gaming/2023/04/microsoft-crackdown-disables-emulators-downloaded-to-xbox-consoles/
+[ 29/701] ok   200      https://blog.ihaveahax.net/2025/01/24/dont-get-your-hopes-up-for-nintendo-switch-2-homebrew/
+[ 25/701] ok   200      https://automata.penny-arcade.com/news/post/2005/06/22/kxsploit-for-psp-1.5
+[ 15/701] FAIL 405      https://arstechnica.com/gaming/2011/04/hotz-lawyer-ps3-hacking-case-over-dmca-and-ip-abuse-live-on/
+[ 31/701] ok   200      https://blog.ihaveahax.net/2025/05/14/nintendo-is-not-going-to-brick-your-switch-just-for-modding-it/
+[ 30/701] ok   200      https://blog.ihaveahax.net/2025/04/06/lets-correct-some-nintendo-switch-2-misinformation/
+[ 32/701] ok   200      https://blog.ihaveahax.net/2025/06/03/more-details-on-why-the-nintendo-switch-2-may-not-be-hacked/
+[ 34/701] ok   200      https://blog.xyz.is/2016/henkaku-offline-installer.html
+[ 33/701] ok   200      https://blog.playstation.com/2011/04/11/settlement-in-george-hotz-case/
+[ 22/701] FAIL 405      https://arstechnica.com/gaming/2024/02/after-14-5m-judgments-console-hacker-paid-nintendo-25-a-month-from-prison/
+[ 35/701] ok   200      https://blog.xyz.is/2016/webkit-360.html
+[ 21/701] FAIL 405      https://arstechnica.com/gaming/2023/05/nintendo-files-dmca-takedowns-on-switch-emulation-tools-just-before-tears-debut/
+[ 23/701] FAIL 405      https://arstechnica.com/gaming/2024/04/nintendo-targets-switch-emulation-chat-servers-decryption-tools-with-dmca/
+[ 24/701] FAIL 405      https://arstechnica.com/gaming/2025/09/switch-modder-who-acted-as-his-own-lawyer-now-owes-nintendo-2-million/
+[ 37/701] ok   200      https://bytesnbits.co.uk/ps4-webkit-13-52/
+[ 38/701] ok   200      https://caselaw.nationalarchives.gov.uk/ewhc/ch/2004/1738
+[ 43/701] FAIL TypeError: ECONNRESET https://consolemods.org/wiki/Xbox:Game_Save_Exploit
+[ 11/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://archive.org/stream/HackingTheXboxAnIntroductionToReverseEngineering/HackingTheXboxAnIntroductionToReverseEngineering_djvu.txt
+[ 10/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://archive.org/details/yuzu-lawsuit/
+[  9/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://archive.org/details/net-yaroze-documents
+[  2/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT http://news.bbc.co.uk/2/hi/business/1665566.stm
+[  5/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT http://web.archive.org/web/20220613000234if_/https://raw.githubusercontent.com/TheOfficialFloW/Presentations/master/2022-hardwear-io-bd-jb.pdf
+[ 41/701] FAIL TypeError: ECONNRESET https://consolemods.org/wiki/PS3:E3_Flasher
+[ 28/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://beta.rtbf.be/article/le-site-officiel-japonais-de-sony-confirme-la-fin-de-la-production-de-la-ps-vita-10149605
+[ 55/701] ok   200      https://copyright.gov/fair-use/summaries/sony-connectix-9thcir2000.pdf
+[ 36/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://bsky.app/profile/retr0.id/post/3lqtwrndzf22w
+[ 39/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/PS1:FreePSXBoot
+[ 40/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/PS1:Modchips
+[ 56/701] ok   200      https://cturt.github.io/freedvdboot.html
+[ 57/701] ok   200      https://cturt.github.io/ps2-yabasic.html
+[ 42/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/PS4:VueAfterFree
+[ 44/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox:PrometheOS
+[ 63/701] ok   200      https://digi.hsw.cn/system/2019/1216/130998.shtml
+[ 58/701] ok   200      https://cturt.github.io/ps4-3.html
+[ 59/701] ok   200      https://cturt.github.io/ps4.html
+[ 64/701] ok   200      https://digi.ithome.com/archiver/0/916/229.htm
+[ 66/701] ok   200      https://diy.zol.com.cn/1255/12552588.html
+[ 45/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox:Scene_History
+[ 46/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox:TSOP_Flashing
+[ 61/701] ok   200      https://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-8476
+[ 47/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox_360:Exploit_Chart
+[ 62/701] ok   200      https://cyberq.tw/2026/01/03/ps5-bootrom-hack-beat-saber/
+[ 67/701] ok   200      https://en.kocpc.com.tw/archives/3616
+[ 65/701] ok   200      https://digiex.net/attachments/slayers_evox_auto-installer_v2-7final-pdf.13926/
+[ 53/701] FAIL TypeError: DEPTH_ZERO_SELF_SIGNED_CERT https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=37332&oldid=23891
+[ 60/701] FAIL 403      https://curia.europa.eu/juris/liste.jsf?num=C-159/23
+[ 48/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox_360:RGH/RGH1.2
+[ 54/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=prev&oldid=52889
+[ 51/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/images/7/7c/Wasabi_360_Ultra_User_Guide_v1.3-0.pdf
+[ 50/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox_360:XK3Y_ODE
+[ 49/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/Xbox_360:Scene_History
+[ 52/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=37332&oldid=20010
+[ 68/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.m.wikipedia.org/wiki/Lik-sang.com
+[ 70/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Bleem!
+[ 71/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Bung_Enterprises_Ltd
+[ 69/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Andrew_Huang_(hacker)
+[ 72/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Free60
+[ 74/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Insignia_(Xbox)
+[ 73/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/George_Hotz
+[ 75/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Lik-sang
+[ 76/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Microsoft_Pluton
+[ 77/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Modchip
+[ 78/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Net_Yaroze
+[ 79/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Nintendo_Switch
+[ 80/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/OtherOS
+[ 81/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/PlayStation_3
+[ 82/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/PlayStation_4
+[ 83/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/PlayStation_4_system_software
+[ 98/701] ok   200      https://endlessparadigm.com/forum/showthread.php?mode=linear&tid=17010&pid=218883
+[100/701] ok   200      https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:62023CA0159
+[101/701] ok   200      https://events.ccc.de/congress/2010/wiki/Console_Hacking
+[ 99/701] ok   200      https://endlessparadigm.com/forum/showthread.php?mode=linear&tid=25447&pid=340685
+[102/701] ok   200      https://exputer.com/news/xbox/microsoft-confirms-no-plans-to-disable-dev-mode-on-xbox/
+[ 84/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/PlayStation_5
+[104/701] ok   200      https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7946.html
+[ 85/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/PlayStation_Jailbreak
+[ 86/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/PlayStation_Portable_homebrew
+[ 87/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Sega_v._Accolade
+[ 88/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Softmod
+[103/701] ok   200      https://exputer.com/news/xbox/microsoft-is-disabling-dev-mode-access-on-xbox/
+[ 89/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Sony_Computer_Entertainment,_Inc._v._Connectix_Corp.
+[ 90/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Sony_Computer_Entertainment_America_v._George_Hotz
+[ 91/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Stevens_v_Kabushiki_Kaisha_Sony_Computer_Entertainment
+[105/701] ok   200      https://fail0verflow.com/blog/2015/console-hacking-2015-liner-notes
+[106/701] ok   200      https://fail0verflow.com/blog/2016/console-hacking-2016-postscript
+[107/701] ok   200      https://fail0verflow.com/blog/2017/ps4-crashdump-dump
+[113/701] ok   200      https://fail0verflow.com/blog/2018/shofel2/
+[108/701] ok   200      https://fail0verflow.com/blog/2017/ps4-namedobj-exploit
+[110/701] ok   200      https://fail0verflow.com/blog/2018/ps4-cec
+[111/701] ok   200      https://fail0verflow.com/blog/2018/ps4-ds4
+[114/701] ok   200      https://fail0verflow.com/blog/2022/ps4-psvr
+[109/701] ok   200      https://fail0verflow.com/blog/2018/ps4-aeolia
+[117/701] ok   200      https://free60.org/
+[118/701] ok   200      https://free60.org/Hacks/Bad_Update_Hack/
+[ 92/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Team_Xecuter
+[121/701] ok   200      https://free60.org/Hacks/SMC_Hack/
+[115/701] FAIL 403      https://forums.xboxscene.org/index.php/topic,91113.msg761586.html
+[ 93/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Virtual_Game_Station
+[120/701] ok   200      https://free60.org/Hacks/Reset_Glitch_Hack/
+[119/701] ok   200      https://free60.org/Hacks/King_Kong_Hack/
+[122/701] ok   200      https://free60.org/Hardware/Fusesets/
+[123/701] ok   200      https://free60.org/Hardware/R6T3/
+[125/701] ok   200      https://free60.org/Timing_Attack/
+[116/701] FAIL 403      https://forums.xboxscene.org/index.php?topic=90159.msg743598.html
+[124/701] ok   200      https://free60.org/System-Software/849x_System_Update/
+[112/701] ok   200      https://fail0verflow.com/blog/2018/ps4-syscon
+[127/701] ok   200      https://gameinformer.com/b/news/archive/2011/01/27/the-saga-of-the-hacked-ps3-root-key-continues
+[131/701] FAIL 403      https://gbatemp.net/threads/496799/
+[130/701] FAIL 403      https://gbatemp.net/threads/3-71-m33-custom-firmware-released.61139/
+[132/701] FAIL 403      https://gbatemp.net/threads/541826/
+[135/701] FAIL 403      https://gbatemp.net/threads/cobra-ode-first-units-will-ship-to-resellers-this-week.352357/
+[126/701] ok   200      https://gamefa.com/1607164/bloodborne-60-fps-ps4-pro-jailbreak/
+[133/701] FAIL 403      https://gbatemp.net/threads/any-update-on-caffine-for-ipatched-switches.581678/
+[136/701] FAIL 403      https://gbatemp.net/threads/davees-infinity-cfw-permanent-6-61-cfw-on-all-3000-go-models.414948/
+[134/701] FAIL 403      https://gbatemp.net/threads/autorcm-with-the-nintendo-switch-101.515402/
+[137/701] FAIL 403      https://gbatemp.net/threads/error-2002-3539-when-attempting-to-boot-into-ofw-from-hekate-switch-boots-into-ofw-when-picofly-not-connected.676929/
+[138/701] FAIL 403      https://gbatemp.net/threads/freeboot-v0-02-and-xbreboot-v0-05-released.193887/
+[129/701] FAIL TypeError: UND_ERR_SOCKET https://gamerant.com/xbox-series-x-windows-98/
+[142/701] FAIL 403      https://gbatemp.net/threads/larping-more-false-claims-of-ns2-exploits.676854/
+[128/701] FAIL TypeError: UND_ERR_SOCKET https://gamerant.com/us-copyright-office-denies-petition-video-game-preservation-remote-access/
+[140/701] FAIL 403      https://gbatemp.net/threads/initial-mig-switch-flashcart-units-now-available-and-being-tested-by-reviewers.646656/
+[139/701] FAIL 403      https://gbatemp.net/threads/how-hard-is-it-to-install-an-e-flasher-on-a-fat-ps3.391273/
+[143/701] FAIL 403      https://gbatemp.net/threads/my-first-oled-hwfly-installation-and-a-few-thoughts.609301/
+[146/701] FAIL 403      https://gbatemp.net/threads/new-switch-2-userland-exploit-found.682996/
+[145/701] FAIL 403      https://gbatemp.net/threads/new-major-updates-made-in-the-3-pikofly-nintendo-switch-modchip-project.628960/
+[144/701] FAIL 403      https://gbatemp.net/threads/nereba-exploit-reboot-to-fusee-gelee-payload-from-stock-firmware.536409/
+[148/701] FAIL 403      https://gbatemp.net/threads/nintendo-reportedly-issues-dmca-takedown-for-switch-homebrew-projects-skyline-switch-emulator-development-ceased.632406/
+[147/701] FAIL 403      https://gbatemp.net/threads/nintendo-and-friends-win-1million-in-damages-against-r4-carts.350948/
+[141/701] FAIL 403      https://gbatemp.net/threads/ixtreme-lt-v3-0-to-be-released-after-december-6.314625/
+[149/701] FAIL 403      https://gbatemp.net/threads/no-more-old-hwfly-chip-new-rev-on-rp2040.632243/
+[151/701] FAIL 403      https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/
+[153/701] FAIL 403      https://gbatemp.net/threads/ps3xploit-4-82-ofw-to-cfw-hack-released.490263/
+[152/701] FAIL 403      https://gbatemp.net/threads/picofly-switch-error-code-2002-3539-in-ofw-17-0-0-and-17-0-1.646223/
+[150/701] FAIL 403      https://gbatemp.net/threads/official-team-xecuter-sx-pro-v1-1-review.508528/
+[155/701] FAIL 403      https://gbatemp.net/threads/rgh3-chipless-glitching.602237/
+[160/701] FAIL 403      https://gbatemp.net/threads/sx-core-mariko-list-of-non-compatible-tools.567803/
+[157/701] FAIL 403      https://gbatemp.net/threads/switch-2-data-gathering-for-possible-modchip-attack-vectors.668520/
+[154/701] FAIL 403      https://gbatemp.net/threads/ps3xploit-tools-v3-0-released.498797/
+[156/701] FAIL 403      https://gbatemp.net/threads/safety-and-future-proofness-of-sx-core.572522/
+[158/701] FAIL 403      https://gbatemp.net/threads/sx-core-and-sx-lite-being-shipped-to-reviewers-and-testers-retail-packaging-revealed.564514/
+[159/701] FAIL 403      https://gbatemp.net/threads/sx-core-and-sx-lite-test-units-received.565210/
+[168/701] ok   200      https://gigazine.net/gsc_news/en/20201118-microsoft-pluton-processor
+[161/701] FAIL 403      https://gbatemp.net/threads/the-switch-flashcart-thread-mig-switch-etc.651852/
+[169/701] ok   200      https://gigazine.net/gsc_news/en/20220620-ps4-ps5-vulnerabilities
+[170/701] ok   200      https://gigazine.net/gsc_news/en/20260318-xbox-one-hacked/
+[162/701] FAIL 403      https://gbatemp.net/threads/tonyhax-is-a-new-softmod-backup-loader-for-the-playstation-1.584717/
+[163/701] FAIL 403      https://gbatemp.net/threads/true-blue-jb2.313743/
+[164/701] FAIL 403      https://gbatemp.net/threads/video-shows-oled-nintendo-switch-using-hwfly-sx-clone-modchip-can-boot-hekate.601198/
+[165/701] FAIL 403      https://gbatemp.net/threads/whats-the-switch-2-modding-status.673852/page-3
+[172/701] ok   200      https://github.com/021bld/DIY_MX4SIO_Adapter
+[166/701] FAIL 403      https://gbatemp.net/threads/xbox-one-bliss-hack-open-source-modchip-in-development-by-gfl_tech.682365/
+[176/701] ok   200      https://github.com/Atmosphere-NX/Atmosphere/releases/tag/0.9.0
+[173/701] ok   200      https://github.com/ArizakiDev/PPPwn_12.00
+[178/701] ok   200      https://github.com/Byrom90/XeUnshackle
+[177/701] ok   200      https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.12.0
+[179/701] ok   200      https://github.com/CTCaer/hekate
+[175/701] ok   200      https://github.com/Atmosphere-NX/Atmosphere/releases
+[180/701] ok   200      https://github.com/CTurt/FreeDVDBoot
+[181/701] ok   200      https://github.com/CTurt/PS2-Yabasic-Exploit
+[182/701] ok   200      https://github.com/CTurt/PS4-SDK
+[183/701] ok   200      https://github.com/ChendoChap/pOOBs4
+[184/701] ok   200      https://github.com/Cryptogenic/PS4-4.05-Kernel-Exploit
+[167/701] FAIL 403      https://gbatemp.net/threads/xbox-series-s-x-software-hack-progress.675167/
+[186/701] ok   200      https://github.com/DaveeFTW/Infinity
+[188/701] ok   200      https://github.com/DerfJagged/xk3y
+[189/701] ok   200      https://github.com/EternalModz/PS3Xploit
+[191/701] ok   200      https://github.com/Gezine/Y2JB
+[192/701] ok   200      https://github.com/GoldHEN/GoldHEN
+[185/701] ok   200      https://github.com/Cryptogenic/PS5-4.03-Kernel-Exploit
+[194/701] ok   200      https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b17.3
+[190/701] ok   200      https://github.com/Free60Project/wiki
+[196/701] ok   200      https://github.com/GoldHEN/henloader_lp
+[195/701] ok   200      https://github.com/GoldHEN/GoldHEN/releases/tag/2.4b18
+[174/701] ok   200      https://github.com/Atmosphere-NX/Atmosphere
+[193/701] ok   200      https://github.com/GoldHEN/GoldHEN/releases
+[197/701] ok   200      https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1
+[200/701] ok   200      https://github.com/LightningMods/IPV6-BDJ-etaHEN
+[198/701] ok   200      https://github.com/JonathanDotCel/unirom8_bootdisc_and_firmware_for_ps1/releases
+[206/701] ok   200      https://github.com/PS3Xploit
+[187/701] ok   200      https://github.com/DaveeFTW/iplsdk
+[203/701] ok   200      https://github.com/MechaResearch/MechaPwn
+[207/701] ok   200      https://github.com/PS3Xploit/PS3HEN
+[199/701] ok   200      https://github.com/Kudayasu/Artifice/releases/latest
+[205/701] ok   200      https://github.com/MechaResearch/MechaPwn/releases/tag/1.00
+[204/701] ok   200      https://github.com/MechaResearch/MechaPwn/releases
+[208/701] ok   200      https://github.com/PS3Xploit/flash-writer/releases
+[202/701] ok   200      https://github.com/LxcyDr0p/BadStick
+[201/701] ok   200      https://github.com/LightningMods/PS5-IPV6-Kernel-Exploit
+[211/701] ok   200      https://github.com/PSP-Archive/ARK-4
+[212/701] ok   200      https://github.com/PSP-Archive/ARK-4/releases/tag/v42069r206
+[214/701] ok   200      https://github.com/RNTPX/GodmodeONE
+[213/701] ok   200      https://github.com/PSP-Archive/ARK-4/wiki/cIPL
+[210/701] ok   200      https://github.com/PS5Dev/PS5-UMTX-Jailbreak
+[215/701] ok   200      https://github.com/ReSwitched/PegaSwitch
+[209/701] ok   200      https://github.com/PS5Dev/Byepervisor
+[216/701] ok   200      https://github.com/Ryzee119/OpenXenium
+[ 94/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Xbox_(console)
+[218/701] ok   200      https://github.com/SKGleba/VitaDeploy/releases/tag/v1.2.3
+[217/701] ok   200      https://github.com/SKGleba/VitaDeploy
+[220/701] ok   200      https://github.com/Spacecraft-NX/firmware
+[219/701] ok   200      https://github.com/SeeMirra/ms-xb1-edge-exp
+[222/701] ok   200      https://github.com/Team-Resurgent/Modxo/releases/tag/V1.0.17
+[224/701] ok   200      https://github.com/Team-Resurgent/PrometheOS-Firmware/releases/tag/V1.6.0
+[225/701] ok   200      https://github.com/Team-Resurgent/RXDK
+[227/701] ok   200      https://github.com/TheOfficialFloW/Adrenaline
+[221/701] ok   200      https://github.com/Team-Resurgent/Modxo
+[229/701] ok   200      https://github.com/TheOfficialFloW/PPPwn
+[228/701] ok   200      https://github.com/TheOfficialFloW/HENlo
+[230/701] ok   200      https://github.com/TheOfficialFloW/Presentations
+[232/701] ok   200      https://github.com/TheOfficialFloW/VitaShell
+[234/701] ok   200      https://github.com/TheOfficialFloW/h-encore
+[235/701] ok   200      https://github.com/TheOfficialFloW/h-encore-2
+[236/701] ok   200      https://github.com/TheOfficialFloW/modoru
+[ 95/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Xbox_360
+[223/701] ok   200      https://github.com/Team-Resurgent/PrometheOS-Firmware
+[226/701] ok   200      https://github.com/TheOfficialFloW
+[237/701] ok   200      https://github.com/TheVisu/Xbox360BadUpdateUpdate
+[239/701] ok   200      https://github.com/Vuemony/vue-after-free
+[238/701] ok   200      https://github.com/TnA-Plastic/FreeMcBoot
+[233/701] ok   200      https://github.com/TheOfficialFloW/bd-jb
+[241/701] ok   200      https://github.com/XboxDev/nxdk
+[240/701] ok   200      https://github.com/Vuemony/vue-after-free/releases
+[242/701] ok   200      https://github.com/XeniumMods/XeniumFirmware
+[252/701] FAIL 429      https://github.com/brad-lin/FreePSXBoot/blob/master/exploit/EXPLOIT.md
+[231/701] ok   200      https://github.com/TheOfficialFloW/Trinity
+[243/701] ok   200      https://github.com/Xenomega/xsymlink
+[244/701] ok   200      https://github.com/Xnopyt/Spacecraft
+[246/701] ok   200      https://github.com/alex-free/tonyhax/releases/tag/v1.6.3i
+[249/701] ok   200      https://github.com/aomsin2526/Cobra-PS3-qCFW
+[247/701] ok   200      https://github.com/aomsin2526/BadWDSD
+[245/701] ok   200      https://github.com/alex-free/tonyhax
+[250/701] ok   200      https://github.com/balika011/DC-M33
+[251/701] ok   200      https://github.com/brad-lin/FreePSXBoot
+[248/701] ok   200      https://github.com/aomsin2526/BadWDSD/releases
+[262/701] FAIL 429      https://github.com/flipacholas/Architecture-of-consoles/blob/master/articles/xbox-360.Rmd.md
+[253/701] ok   200      https://github.com/brad-lin/FreePSXBoot/releases/tag/v1.0
+[256/701] ok   200      https://github.com/eliboa/TegraRcmGUI
+[257/701] ok   200      https://github.com/etaHEN/etaHEN
+[ 96/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Xbox_One
+[ 97/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S
+[254/701] ok   200      https://github.com/brad-lin/FreePSXBoot/releases/tag/v2.1
+[259/701] ok   200      https://github.com/fail0verflow/ps4-kexec
+[255/701] ok   200      https://github.com/dptug/BD-JB-1250-lapse
+[261/701] ok   200      https://github.com/fail0verflow/shofel2
+[264/701] ok   200      https://github.com/grimdoomer/Xbox360BadUpdate
+[258/701] ok   200      https://github.com/exploits-forsale/collateral-damage
+[263/701] ok   200      https://github.com/gligli/tools/blob/master/reset_glitch_hack/reset_glitch_hack.txt
+[265/701] ok   200      https://github.com/grimdoomer/Xbox360BadUpdate/releases/tag/BadUpdate-v1.3
+[266/701] ok   200      https://github.com/grumpycoders/pcsx-redux
+[269/701] ok   200      https://github.com/hwfly-nx/firmware
+[271/701] ok   200      https://github.com/hz128/pOOBs4
+[267/701] ok   200      https://github.com/henkaku/enso
+[260/701] ok   200      https://github.com/fail0verflow/ps4-linux
+[272/701] ok   200      https://github.com/iaceene/HENloader_Source
+[268/701] ok   200      https://github.com/henkaku/henkaku
+[273/701] ok   200      https://github.com/idlesauce/umtx2
+[275/701] ok   200      https://github.com/israpps/funtuna-fork
+[270/701] ok   200      https://github.com/hwfly-nx/firmware/releases
+[274/701] ok   200      https://github.com/israpps/Funtuna-Fork
+[278/701] ok   200      https://github.com/kalymos/PsNee/wiki/PlayStation-1-modchip-history
+[277/701] ok   200      https://github.com/kalymos/PsNee
+[280/701] ok   200      https://github.com/liuervehc/caffeine
+[279/701] ok   200      https://github.com/kalymos/PsNee/wiki/Wobbling-Mechanism-and-Evolution
+[282/701] ok   200      https://github.com/ntfargo/Relapse-Exploit
+[281/701] ok   200      https://github.com/lochotzke/picofly
+[276/701] ok   200      https://github.com/itsPLK/slopkit
+[284/701] ok   200      https://github.com/pcm720/protopwn
+[285/701] ok   200      https://github.com/pcm720/protopwn/releases/tag/v1.0.0
+[287/701] ok   200      https://github.com/ps2dev/ps2link
+[288/701] ok   200      https://github.com/ps2dev/ps2sdk
+[289/701] ok   200      https://github.com/ps2homebrew/Open-PS2-Loader
+[294/701] ok   200      https://github.com/ps5-linux/ps5-linux-loader
+[295/701] ok   200      https://github.com/ps5-linux/ps5-linux-loader/releases/tag/v2.4
+[286/701] ok   200      https://github.com/pixel-stuck/nereba
+[296/701] ok   200      https://github.com/ps5-payload-dev/bdj-ipv6-hen
+[290/701] ok   200      https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.0.0
+[292/701] ok   200      https://github.com/ps2homebrew/hdl-dump
+[297/701] ok   200      https://github.com/ps5-payload-dev/sdk
+[298/701] ok   200      https://github.com/ps5-payload-dev/websrv
+[293/701] ok   200      https://github.com/ps2homebrew/opentuna-payload
+[291/701] ok   200      https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.1.0
+[299/701] ok   200      https://github.com/rajkosto/ChoiDujour
+[301/701] ok   200      https://github.com/shutterbug2000/ABadAvatar
+[300/701] ok   200      https://github.com/reswitched/pegaswitch
+[302/701] ok   200      https://github.com/sleirsgoevy/ps4jb
+[312/701] ok   200      https://hackaday.com/2017/05/30/ps-vita-hacked-to-accept-micro-sd-instead-of-costly-memory-cards/
+[313/701] ok   200      https://hackaday.com/2021/03/15/playstation-unlocked-with-new-software-hack/
+[283/701] ok   200      https://github.com/orgs/xboxoneresearch/repositories
+[303/701] ok   200      https://github.com/socram8888/tonyhax
+[306/701] ok   200      https://github.com/switchbrew/nx-hbloader
+[305/701] ok   200      https://github.com/socram8888/tonyhax/releases/tag/v1.5
+[304/701] ok   200      https://github.com/socram8888/tonyhax/releases/tag/v1.4.6
+[307/701] ok   200      https://github.com/switchbrew/nx-hbmenu
+[309/701] ok   200      https://github.com/yifanlu/taiHEN
+[308/701] ok   200      https://github.com/wurthless-elektroniks/RGH1.3
+[311/701] ok   200      https://gueux-forum.net/topic/255610-multiman-11704/
+[315/701] ok   200      https://hardwear.io/talks/byepervisor-how-we-broke-the-ps5-hypervisor/
+[314/701] ok   200      https://hackinformer.com/the-original-playstation-1-gets-the-optical-drive-emulator-treatment/
+[318/701] ok   200      https://hwbusters.com/news/the-ps2-mechacon-is-dumped-after-four-years-and-the-dumps-still-cant-build-a-drive-emulator/
+[319/701] ok   200      https://ibotmodz.net/topic/17676-dash-launch-v001/
+[310/701] FAIL 403      https://godisageek.com/2026/08/nintendo-401-switch-emulator-repos-dmca/
+[316/701] ok   200      https://henkaku.xyz/
+[317/701] ok   200      https://hitmarker.net/news/xbox-is-reportedly-banning-players-who-run-emulators-in-the-consoles-retail-mode-519791
+[321/701] ok   200      https://icode4.coffee/?p=954
+[324/701] ok   200      https://itsfoss.com/news/ps5-linux-lead-quits/
+[322/701] ok   200      https://infinity.lolhax.org/
+[320/701] ok   200      https://icode4.coffee/?p=1081
+[333/701] FAIL TypeError: ECONNRESET https://kotaku.com/xbox-one-hack-jailbreak-2000679120
+[336/701] ok   200      https://learn.microsoft.com/en-us/previous-versions/windows/uwp/xbox-apps/devkit-activation
+[339/701] ok   200      https://m.ithome.com/html/1003894.htm
+[323/701] ok   200      https://insignia.live/
+[337/701] ok   200      https://learn.microsoft.com/en-us/windows/uwp/xbox-apps/devkit-activation
+[332/701] FAIL TypeError: ECONNRESET https://kotaku.com/nintendo-lawsuit-modding-switch-2-ryan-daly-2000623984
+[334/701] ok   200      https://kudayasu.github.io/an-autopsy-of-artifice/
+[335/701] ok   200      https://lacerta.es/tonyhax/
+[338/701] ok   200      https://lwn.net/Articles/27382/
+[328/701] FAIL 403      https://kodi.wiki/index.php?title=Kodi
+[345/701] ok   200      https://news.17173.com/content/07122026/080203117.shtml
+[329/701] FAIL 403      https://korben.info/en/ps5-linux-andy-nguyen-releases-hack.html
+[330/701] FAIL 403      https://korben.info/en/ps5-linux-slim-firmware-linux-support.html
+[326/701] ok   200      https://jolt.law.harvard.edu/digest/sony-computer-entmt-am-v-hotz
+[331/701] FAIL 403      https://korben.info/en/relapse-jailbreak-frees-almost-every-ps5.html
+[340/701] ok   200      https://mcvuk.com/business-news/japan-nintendo-ups-r4-battle/
+[325/701] ok   200      https://ixbt.games/news/2026/10/03/dlia-zapuska-gta-vi-potrebuetsia-svezaia-prosivka-playstation-5-datamainer-predupredil-ob-ogranicenii.html
+[344/701] FAIL 403      https://ncjolt.org/content/view/172/62/1/3/
+[341/701] ok   200      https://mcvuk.com/business-news/nesbox-emulator-blocked-on-xbox-one/
+[349/701] FAIL 403      https://news.xbox.com/en-us/2023/08/17/xbox-360-store-will-close-july-2024/
+[347/701] FAIL 403      https://news.xbox.com/en-us/2010/02/05/xbox-live-being-discontinued-for-original-xbox-consoles-and-games/
+[348/701] FAIL 403      https://news.xbox.com/en-us/2013/06/19/update/
+[327/701] FAIL 403      https://kodi.wiki/index.php?title=Archive:XBMC_1.0.0_point_release
+[350/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2005-3084
+[352/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2007-1221
+[353/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2009-2541
+[351/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2007-1220
+[355/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2010-4577
+[357/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2016-4657
+[358/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2016-7200
+[360/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2017-9417
+[354/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2010-1807
+[359/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2017-0785
+[363/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2020-7457
+[356/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2015-5675
+[370/701] ok   200      https://pk.ign.com/nintendo-switch-3/261647/nintendo-wins-45-million-from-reddit-mod-who-sold-pirated-switch-games
+[365/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2024-30088
+[368/701] ok   200      https://on.theverge.com/2016/3/30/11331366/xbox-one-dev-mode-windows-apps
+[362/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2020-0601
+[372/701] FAIL TypeError: ECONNRESET https://psx-place.com/resources/hen-alternate-installer-for-hfw-4-93.1689/
+[373/701] FAIL TypeError: ECONNRESET https://psx-place.com/threads/hfw-4-93-1-hybrid-firmware-official-release.49792/
+[374/701] FAIL TypeError: ECONNRESET https://psx-place.com/threads/pppwn-playstation-4-pppoe-rce-the-first-ps4-kernel-rce-supporting-upto-fw-11-00-by-theflow.43655/
+[367/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2025-64390
+[366/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2024-43102
+[375/701] ok   200      https://psxtools.de/forum/index.php?thread/82560-release-xstation-playstation-1-ode-by-rama/
+[364/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2021-43527
+[380/701] ok   200      https://sony.mediaroom.com/2001-05-16-Network-Adapter-for-Playstation-2-Planned-for-Release-In-North-America-This-Year
+[379/701] ok   200      https://siliconangle.com/2011/01/03/cryptography-fail-for-sony-playstation-3/
+[361/701] ok   200      https://nvd.nist.gov/vuln/detail/CVE-2018-6242
+[381/701] ok   200      https://sonyinteractive.com/en/news/press-releases/
+[371/701] ok   200      https://ps2homebrew.github.io/Open-PS2-Loader/
+[382/701] ok   200      https://sonyinteractive.com/en/press-releases/2007/pspplaystationportable-becomes-slimmer-and-lighter/
+[383/701] ok   200      https://sonyinteractive.com/en/press-releases/2008/sony-computer-entertainment-japan-to-introduce-new-psp-playstationportable-with-advanced-high-contrast-lcd-this-october-in-japan/
+[384/701] FAIL 403      https://sourceforge.net/p/xbox-linux/mailman/xbox-linux-user/thread/200412251948.18148.dmp%40davidmpye.dyndns.org/
+[385/701] FAIL 403      https://sourceforge.net/p/xbox-linux/mailman/xbox-linux-user/thread/brltcd%24ft3%241%40sea.gmane.org/
+[378/701] ok   200      https://semiengineering.com/breaking-the-unhackable-xbox-one/
+[390/701] ok   200      https://storage.courtlistener.com/recap/gov.uscourts.wawd.298468/gov.uscourts.wawd.298468.25.0.pdf
+[389/701] ok   200      https://storage.courtlistener.com/recap/gov.uscourts.cadc.39597/gov.uscourts.cadc.39597.01208523403.0.pdf
+[387/701] ok   200      https://stichtingbrein.nl/rechtbank-rotterdam-beveelt-blokkade-illegale-games-site/
+[386/701] FAIL 403      https://stevivor.com/news/nintendo-of-america-secures-4-5-million-default-judgment-against-reddit-piracy/
+[388/701] ok   200      https://stoneagegamer.com/blog/mode-comes-to-playstation/
+[398/701] ok   200      https://tarnkappe.info/artikel/gaming/nintendo-stoppt-switch-pirat-konzern-erzwingt-millionen-vergleich-320432.html
+[399/701] ok   200      https://tarnkappe.info/artikel/gaming/switch-modder-verhaftet-polizei-stoppt-verkauf-manipulierter-konsolen-in-japan-327604.html
+[395/701] ok   200      https://switchbrew.org/wiki/Switch_2:_Tegra_T239
+[392/701] ok   200      https://switchbrew.org/wiki/Fuses
+[397/701] ok   200      https://tarnkappe.info/artikel/gaming/nintendo-dmca-gegen-switch-emulatoren-github-im-visier-325943.html
+[171/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://gist.github.com/wviana/ff10323e6a3279ba0ac77b79aad196e7
+[394/701] ok   200      https://switchbrew.org/wiki/Switch_2:_Fuses
+[396/701] ok   200      https://switchbrew.org/wiki/Switch_System_Flaws
+[393/701] ok   200      https://switchbrew.org/wiki/Homebrew_Exploits
+[400/701] ok   200      https://tarnkappe.info/artikel/jailbreaks/gezine-entdeckt-userland-exploit-fuer-nintendo-switch-1-2-331326.html
+[391/701] FAIL TypeError: UNABLE_TO_GET_ISSUER_CERT_LOCALLY https://swarm.ptsecurity.com/xbox-360-security-in-details-the-long-way-to-rgh3/
+[409/701] ok   200      https://techcrunch.com/2020/01/30/microsoft-will-now-pay-up-to-20k-for-xbox-live-security-exploits/
+[408/701] ok   200      https://techcrunch.com/2007/11/07/the-random-endorsement-modchips/
+[403/701] ok   200      https://tarnkappe.info/artikel/rechtssachen/nintendo-piraterie-sperre-nxbrew-landet-auf-der-isp-blacklist-325857.html
+[405/701] ok   200      https://tarnkappe.info/artikel/softwareentwicklung/ryujinx-fork-des-switch-emulators-aktiv-322012.html
+[377/701] FAIL TypeError: UND_ERR_SOCKET https://screenrant.com/nintendo-switch-hacker-gary-bowser-guilty/
+[404/701] ok   200      https://tarnkappe.info/artikel/rechtssachen/switch-piraterie-mig-switch-hardware-gericht-333443.html
+[369/701] FAIL TypeError: ETIMEDOUT https://pcsx-redux.consoledev.net
+[412/701] ok   200      https://theofficialflow.github.io/2019/06/18/trinity.html
+[414/701] ok   200      https://torrentfreak.com/tag/team-xecuter/
+[411/701] ok   200      https://theofficialflow.github.io/2018/09/11/h-encore.html
+[406/701] FAIL 403      https://tech.yahoo.com/gaming/articles/nintendo-takes-down-over-400-100000167.html
+[401/701] ok   200      https://tarnkappe.info/artikel/rechtssachen/github-saeuberungsaktion-von-nintendo-400-repos-geloescht-332948.html
+[415/701] ok   200      https://torushyperv.github.io/reproducing-bliss-hack-part1/reproing_bliss_part_1.html
+[410/701] ok   200      https://thehackernews.com/2011/02/german-police-sony-raids-on-hackers.html
+[402/701] ok   200      https://tarnkappe.info/artikel/rechtssachen/nintendo-gegen-archbox-45-millionen-dollar-switch-piraterie-333842.html
+[413/701] ok   200      https://thexboxguide.com/xbox-gamers-may-soon-get-access-to-a-switch-emulator-nintendo-lawyers-wont-be-happy-to-see-ryujinx-on-series-xs/
+[421/701] ok   200      https://vulnerability.circl.lu/vuln/CVE-2026-82079
+[418/701] ok   206      https://videocardz.com/newz/hackers-crack-ps3-bootloader-opening-path-to-custom-firmware-on-slim-and-super-slim-consoles
+[423/701] FAIL 403      https://wccftech.com/microsoft-disabling-xbox-dev-mode-access/
+[420/701] ok   200      https://vita.hacks.guide/
+[417/701] FAIL 403      https://truthinadvertising.org/wp-content/uploads/2016/10/In-Re-Sony-PS3-renewed-motion-for-pref-app-of-new-settlement.pdf
+[419/701] ok   206      https://videocardz.com/newz/ps5-rom-keys-show-up-on-ps5-dev-wiki-but-this-is-not-yet-a-jailbreak
+[407/701] FAIL 403      https://techbriefly.com/2020/06/19/hacking-nintendo-switch-sx-core-and-sx-lite-review/
+[416/701] FAIL 403      https://truthinadvertising.org/wp-content/uploads/2016/10/In-Re-Sony-PS3-renewed-motion-for-pre-app-of-new-settlement.pdf
+[431/701] ok   200      https://wiki.hacks.guide/wiki/Nintendo_Switch
+[432/701] ok   200      https://wiki.henkaku.xyz/vita/Main_Page
+[429/701] FAIL 403      https://wiki.gamehacking.org/index.php?title=Action_Replay_(PlayStation)
+[433/701] ok   200      https://wiki.henkaku.xyz/vita/Vulnerabilities
+[430/701] FAIL 403      https://wiki.gbatemp.net/wiki/List_of_PS3_homebrew
+[422/701] ok   200      https://vuxml.freebsd.org/freebsd/74389f22-6007-11e6-a6c3-14dae9d210b8.html
+[434/701] FAIL 403      https://windowsreport.com/leak-exposes-amd-4800s-bios/
+[436/701] ok   200      https://wololo.net/2010/12/08/tn-hen-some-bumps-on-the-roa/
+[438/701] ok   200      https://wololo.net/2011/08/25/cfw-pro-b9-is-out-adds-6-60-compatibility/
+[435/701] FAIL 403      https://windowsreport.com/xbox-series-x-just-ran-ps5-games-thanks-to-an-experimental-kytyps5-emulator-port/
+[439/701] ok   200      https://wololo.net/2014/06/02/sony-playstation-portable-and-the-hacking-scene-9-years-of-development/
+[437/701] ok   200      https://wololo.net/2011/08/10/psp-official-firmware-6-60-patches-the-6-39-kernel-exploit/
+[440/701] ok   200      https://wololo.net/2015/06/21/vita-hack-rejuvenate-how-to-run-your-first-homebrew/
+[441/701] ok   200      https://wololo.net/2016/07/29/release-ps-vita-3-60-homebrew-enabler-henkaku/
+[444/701] ok   200      https://wololo.net/2017/11/27/tutorial-use-ps3xploit-hack-ps3-go-directly-rebug-4-81-2-noob-friendly/
+[442/701] ok   200      https://wololo.net/2016/08/09/manually-update-ps-vita-firmware-3-60/
+[445/701] ok   200      https://wololo.net/2018/03/12/release-3-65-updater-enables-henkaku-enso-custom-firmware-ps-vita-firmware-3-65/
+[443/701] ok   200      https://wololo.net/2017/07/20/sridents-sd2vita-adapters-available-order-ebay-batches-new-batches-daily/
+[446/701] ok   200      https://wololo.net/2018/03/14/ps3xploit-3-0-han-released-compatible-ps3s-firmwares-4-81-4-82/
+[447/701] ok   200      https://wololo.net/2018/05/28/ps4-specterdev-releases-ps4-5-05-kernel-exploit/
+[448/701] ok   200      https://wololo.net/2019/02/14/modoru-downgrading-utility-released/
+[449/701] ok   200      https://wololo.net/2019/05/06/trinity-exploit-by-theflow-released-you-can-now-hack-psvita-and-pstv-fw-3-69-3-70-and-run-all-the-homebrew-you-want/
+[450/701] ok   200      https://wololo.net/2019/08/26/psvita-news-theflow-releases-h-encore%c2%b2-with-support-for-fw-3-71-you-can-now-hack-the-latest-psvita-firmware-again-and-run-your-favourite-homebrew-on-every-vita-pstv/
+[452/701] ok   200      https://wololo.net/2020/07/07/ps4-hacker-theflow-releases-kernel-exploit-for-firmware-7-02/
+[451/701] ok   200      https://wololo.net/2020/06/30/playstation-2-freedvdboot-gets-support-for-dvd-player-3-04-3-11-the-final-dvd-player-version-is-now-supported/
+[453/701] ok   200      https://wololo.net/2020/07/17/ps4-6-72-jailbreak-released-by-sleirsgoevy/
+[454/701] ok   200      https://wololo.net/2021/03/15/release-mira-custom-firmware-for-ps4-7-55-updated-jailbreak/
+[455/701] ok   200      https://wololo.net/2021/03/22/release-goldhen-homebrew-enabler-1-0-ps4-for-fw-5-05-6-72-7-0x-7-55/
+[462/701] ok   200      https://www.163.com/dy/article/L7BL255H0526D8LR.html
+[456/701] ok   200      https://wololo.net/2021/11/14/psp-release-despertar-del-cementerio-9-01-psp-unbricker/
+[458/701] ok   200      https://wololo.net/2024/04/20/release-new-cipl-and-despertar-del-cementerio-v10-for-every-psp/
+[457/701] ok   200      https://wololo.net/2022/10/03/released-ps5-kernel-exploit-webkit-vulnerability-for-firmware-4-03/
+[464/701] ok   200      https://www.4gamers.com.tw/news/detail/82180/developer-put-ps5-simulatro-to-xbox-series-x
+[459/701] ok   200      https://wololo.net/2025/06/06/first-usermode-exploit-and-more-nintendo-switch-2-had-a-busy-hacking-week-for-its-launch/
+[460/701] ok   200      https://wololo.net/vita-cfw4dummies/
+[461/701] ok   200      https://wololo.net/vita-custom-firmware-and-hack-history/
+[470/701] ok   200      https://www.cdrinfo.com/Sections/News/Print.aspx?NewsId=5840
+[471/701] ok   200      https://www.cnet.com/news/privacy/after-raid-hacker-releases-bible-for-ps3-reverse-engineering/
+[472/701] ok   200      https://www.cnet.com/tech/gaming/hacker-cracks-xbox-challenge/
+[473/701] ok   200      https://www.cnet.com/tech/gaming/is-microsoft-using-halo-2-to-thwart-xbox-hackers/
+[463/701] ok   200      https://www.1emulation.com/forums/topic/34074-team-xecuter-presents-rgh-20/
+[468/701] ok   200      https://www.biteyourconsole.net/2025/09/29/scena-xbox-360-rilasciato-rgh1-3-per-xbox-360-fat-glitch-piu-rapidi-e-affidabili-per-console-difficili/
+[469/701] ok   200      https://www.biteyourconsole.net/2026/08/06/coldforest-il-misterioso-chip-glitch-per-xbox-one-che-potrebbe-riaccendere-la-scena-homebrew/
+[476/701] ok   200      https://www.copyright.gov/1201/2018/
+[474/701] ok   200      https://www.cnn.com/2025/04/02/tech/nintendo-switch-2-release-date-announced/index.html
+[475/701] ok   200      https://www.copyright.gov/1201/2015/
+[477/701] ok   200      https://www.copyright.gov/1201/2021/
+[478/701] ok   200      https://www.copyright.gov/1201/2024/
+[479/701] ok   200      https://www.copyright.gov/fair-use/summaries/sonycomputer-bleem-9thcir2000.pdf
+[480/701] ok   200      https://www.courtlistener.com/docket/16132336/nintendo-of-america-inc-v-uberchips-et-al/
+[481/701] ok   200      https://www.courtlistener.com/docket/59831145/25/nintendo-of-america-inc-v-bowser/
+[343/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://media.ccc.de/v/39c3-opening-pamdora-s-box-and-unleashing-a-thousand-paths-on-the-journey-to-play-beatsaber-custom-songs
+[342/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://media.ccc.de/v/27c3-4087-en-console_hacking_2010
+[483/701] ok   200      https://www.courtlistener.com/docket/68284505/nintendo-of-america-inc-v-tropic-haze-llc/
+[485/701] ok   200      https://www.courtlistener.com/docket/68901471/nintendo-of-america-inc-v-daly/
+[346/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://news.bbc.co.uk/2/hi/technology/3540186.stm
+[487/701] ok   202      https://www.courtlistener.com/opinion/586945/sega-enterprises-ltd-v-accolade-inc/
+[482/701] ok   200      https://www.courtlistener.com/docket/63116781/medical-imaging-technology-alliance-v-library-of-congress/
+[484/701] ok   200      https://www.courtlistener.com/docket/68901471/feed/
+[486/701] ok   202      https://www.courtlistener.com/opinion/2388295/sony-computer-entertainment-america-inc-v-divineo-inc/
+[489/701] ok   200      https://www.cve.org/CVERecord?id=CVE-2005-3084
+[490/701] ok   200      https://www.defectivebydesign.org/nintendo
+[495/701] ok   200      https://www.digitaltoday.co.kr/en/view/41710/xbox-one-security-compromised-unhackable-myth-collapses
+[491/701] ok   200      https://www.derstandard.at/consent/tcf/story/1373512653384/r4-cartridges-nintendo-erhaelt-eine-million-dollar-von-spielepiraten
+[494/701] FAIL 403      https://www.digitalfoundry.net/articles/digitalfoundry-opensource-psjailbreak-blog-entry
+[493/701] FAIL 403      https://www.destructoid.com/sony-sues-ps3-hacker-for-1000000-euros-hacker-defiant/
+[492/701] ok   200      https://www.deseret.com/2003/9/1/19745321/hong-kong-firm-settles-playstation-piracy-lawsuit/
+[501/701] FAIL 403      https://www.engadget.com/2004-11-14-more-on-xbox-live-bans.html
+[500/701] ok   200      https://www.elotrolado.net/hilo_rgh-1-2-por-15432_2090769
+[502/701] FAIL 403      https://www.engadget.com/2005-06-24-swapless-psp-homebrew-bootstrap.html
+[499/701] ok   200      https://www.eff.org/issues/dmca-1201-anti-circumvention-exemptions
+[488/701] ok   200      https://www.ctvnews.ca/sci-tech/article/canadian-facing-fraud-conspiracy-charges-in-us-for-alleged-role-in-video-game-piracy-ring/
+[503/701] FAIL 403      https://www.engadget.com/2005-09-28-working-2-0-to-1-5-psp-downgrader-completed-amp-released.html
+[504/701] FAIL 403      https://www.engadget.com/2006-09-06-new-psp-hack-gets-downgrader-e-loader.html
+[498/701] FAIL TypeError: UND_ERR_SOCKET https://www.dualshockers.com/nintendo-wins-dutch-lawsuit-against-mig-switch-cartridges/
+[496/701] FAIL 403      https://www.digitalworldz.co.uk/threads/c4evas-ixtreme-lt-released.227242/
+[506/701] FAIL 403      https://www.engadget.com/2007-08-23-pandoras-battery-unbricks-all-psp-systems.html
+[376/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://respawn.outlookindia.com/gaming/gaming-news/original-playstation-mod-unlocks-hidden-16mb-ram-support
+[508/701] FAIL 403      https://www.engadget.com/2011-01-29-ps3-firmware-3-56-hacked-in-less-than-a-day-sonys-lawyers-look.html
+[505/701] FAIL 403      https://www.engadget.com/2006-10-05-sony-busts-down-mod-chip-retailer-with-9-mil-lawsuit.html
+[509/701] FAIL 403      https://www.engadget.com/2014-08-14-xbox-one-dev-kit-retail.html
+[507/701] FAIL 403      https://www.engadget.com/2010-12-29-hackers-claim-discovery-of-ps3-private-key-enabling-unauthori.html
+[497/701] FAIL 403      https://www.digitalworldz.co.uk/threads/excellent-cobra-usb-tutorial-copied-text-not-made-by-me.287168/
+[510/701] FAIL 403      https://www.engadget.com/2017-03-02-xbox-live-creators-program.html
+[511/701] FAIL 403      https://www.engadget.com/nintendo-2-million-settlement-switch-hacking-lawsuit-212546195.html
+[514/701] ok   200      https://www.eurogamer.de/muenchener-olg-bestaetigt-dass-slot-1-karten-illegal-sind
+[516/701] ok   200      https://www.eurogamer.net/article-46838
+[518/701] ok   200      https://www.eurogamer.net/its-game-over-for-nintendo-switch-hacker-gary-bowser
+[515/701] ok   200      https://www.eurogamer.net/article-45462
+[512/701] ok   200      https://www.escapistmagazine.com/custom-firmware-3-55-bricking-ps3s/
+[521/701] ok   200      https://www.eurogamer.net/nintendo-archbox-reddit-switch-piracy-3-4-million
+[517/701] ok   200      https://www.eurogamer.net/gary-bowser-gets-more-than-three-years-in-jail
+[522/701] ok   200      https://www.eurogamer.net/nintendo-hacker-gary-bowser-agrees-to-pay-usd10m-fine
+[519/701] ok   200      https://www.eurogamer.net/microsoft-has-abandoned-plans-for-all-xbox-one-retail-units-to-double-as-dev-kits
+[523/701] ok   200      https://www.eurogamer.net/retail-xbox-ones-to-finally-double-as-dev-kits-this-summer
+[525/701] ok   200      https://www.eurogamer.net/the-history-of-bleem
+[526/701] ok   200      https://www.eurogamer.net/xbox-live-for-xbox-1-officially-killed
+[524/701] ok   200      https://www.eurogamer.net/sonys-ps3-gets-new-system-software-update-19-years-after-release
+[513/701] ok   200      https://www.escapistmagazine.com/judge-awards-sony-with-visitor-ids-of-ps3-hackers-website/
+[520/701] ok   200      https://www.eurogamer.net/news210704modchips
+[529/701] ok   200      https://www.exploit-db.com/exploits/43397
+[528/701] ok   200      https://www.exploit-db.com/exploits/28081
+[527/701] FAIL 403      https://www.exophase.com/11340/chickhen-for-firmware-503-r2/
+[530/701] ok   200      https://www.exploit-db.com/exploits/45045
+[532/701] ok   200      https://www.exploit-db.com/raw/47499
+[531/701] ok   200      https://www.exploit-db.com/exploits/9160
+[537/701] ok   200      https://www.freebsd.org/security/advisories/FreeBSD-SA-15:21.amd64.asc
+[539/701] FAIL 403      https://www.gamedeveloper.com/game-platforms/hong-kong-exporter-lik-sang-closes-citing-sony-litigation
+[541/701] FAIL 403      https://www.gamedeveloper.com/game-platforms/report-sony-granted-right-to-subpoena-hotz-web-provider-in-ps3-jailbreaking-case
+[540/701] FAIL 403      https://www.gamedeveloper.com/game-platforms/playstation-portable-2-50-firmware-released
+[542/701] FAIL 403      https://www.gamedeveloper.com/production/any-retail-xbox-one-can-be-used-as-dev-kit-starting-now
+[534/701] ok   200      https://www.federalregister.gov/documents/2018/10/26/2018-23241/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+[533/701] ok   200      https://www.federalregister.gov/documents/2015/10/28/2015-27212/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+[538/701] ok   200      https://www.fsf.org/bulletin/2025/winter/new-nintendo-drm-bans-consoles-makes-users-beg-for-forgiveness
+[535/701] ok   200      https://www.federalregister.gov/documents/2021/10/28/2021-23311/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+[544/701] ok   200      https://www.gamesindustry.biz/gary-bowser-pleads-guilty-in-team-xecuter-piracy-case
+[536/701] ok   200      https://www.federalregister.gov/documents/2024/10/28/2024-24563/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+[543/701] ok   200      https://www.gamerevolution.com/news/504241-ps-vita-production-ended-japan
+[545/701] ok   200      https://www.gamesindustry.biz/microsoft-build-2016-yes-your-xbox-one-is-a-dev-kit
+[549/701] ok   200      https://www.gamesindustry.biz/playstation-japan-signals-imminent-end-to-ps-vita-shipments
+[546/701] ok   200      https://www.gamesindustry.biz/nintendo-of-america-awarded-45m-in-lawsuit-from-redditor-for-pirating-switch-hardware-and-software
+[550/701] FAIL 403      https://www.gamespot.com/articles/nintendo-hacker-gary-bowser-released-from-prison-but-he-still-owes-a-lot-of-money/1100-6513332/
+[547/701] ok   200      https://www.gamesindustry.biz/nintendo-reportedly-bans-players-using-mig-cartridges-for-pirated-games-on-switch-2
+[548/701] ok   200      https://www.gamesindustry.biz/nintendo-wins-2-million-settlement-and-permanent-injunction-against-switch-pirate
+[424/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://web.archive.org/web/20051215000000/http://en.wikipedia.org/wiki/Bung_Enterprises_Ltd
+[551/701] FAIL 403      https://www.gamespot.com/articles/the-og-xbox-live-is-back-from-the-dead-this-is-the-team-making-it-happen/1100-6515605/
+[552/701] ok   200      https://www.generationamiga.com/2026/08/06/xbox-360-bad-update-1-3-delivers-an-instant-exploit-and-recovery-mode/
+[554/701] ok   200      https://www.govinfo.gov/content/pkg/FR-2024-10-28/html/2024-24563.htm
+[425/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://web.archive.org/web/2015/http://www.extreme-mods.com/
+[426/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://web.archive.org/web/20240903175016/https://icode4.coffee/?p=954
+[556/701] ok   200      https://www.hklii.org/en/cases/hkcfi/2003/217
+[562/701] ok   200      https://www.infobae.com/tecno/2026/09/12/nintendo-gana-una-batalla-legal-en-europa-contra-los-dispositivos-que-permiten-piratear-juegos-de-switch/
+[565/701] ok   200      https://www.ithome.com/0/754/159.htm
+[564/701] ok   200      https://www.ithome.com/0/708/968.htm
+[566/701] ok   200      https://www.ithome.com/0/861/665.htm
+[567/701] ok   200      https://www.ithome.com/0/880/984.htm
+[568/701] ok   200      https://www.ithome.com/0/999/210.htm
+[553/701] ok   200      https://www.generationamiga.com/2026/08/07/coldforest-could-bring-a-new-hardware-exploit-to-xbox-one/
+[557/701] ok   200      https://www.ice.gov/news/releases/ice-investigation-leads-arrest-2-members-notorious-team-xecuter-videogame-piracy
+[555/701] ok   200      https://www.hcourt.gov.au/cases-and-judgments/judgments/judgments-1998-current/stevens-v-kabushiki-kaisha-sony-computer-entertainment
+[427/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://web.archive.org/web/20250518234909/https://romhack.io/wp-content/uploads/sites/2/2024/10/Andy-Nguyen-PlayStation-4-Remote-Kernel-Exploitation-RomHack-2024.pdf
+[428/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://web.archive.org/web/20260201053851/https://archive.nytimes.com/www.nytimes.com/library/cyber/week/082997yarouze.html
+[563/701] ok   200      https://www.instructables.com/How-to-Disc-Swap-on-PS1-or-PSX/
+[559/701] ok   200      https://www.ign.com/articles/nintendo-secures-legal-victory-against-sale-of-switch-game-piracy-devices
+[560/701] ok   200      https://www.ign.com/articles/nintendo-switch-2-day-1-update-required-for-backwards-compatibility-nintendo-switch-online-virtual-game-cards-eshop-more
+[558/701] ok   200      https://www.ign.com/articles/1997/06/11/interact-baits-gamers-with-gameshark
+[561/701] ok   200      https://www.ign.com/articles/playstation-5-review
+[580/701] ok   200      https://www.nintendo.co.jp/corporate/release/en/2025/250402.html
+[579/701] ok   200      https://www.nintendo.co.jp/corporate/release/2019/190710.html
+[576/701] ok   200      https://www.logic-sunrise.com/forums/topic/109363-ps3-ps3hen-v360-disponible-le-qcfw-emmc-et-de-nouveaux-outils-de-developpement-arrivent-sur-ps3/
+[575/701] ok   200      https://www.logic-sunrise.com/forums/topic/109197-xbo-coldforest-le-projet-de-glitch-chip-open-source-pourrait-ouvrir-la-voie-au-hack-de-la-xbox-one/
+[574/701] ok   200      https://www.logic-sunrise.com/forums/topic/107543-xb360-rgh13-pour-xbox-360-fat-plus-rapide-et-plus-fiable/
+[577/701] ok   200      https://www.logic-sunrise.com/forums/topic/109415-xo-prometheos-v160-le-nouvel-os-des-modchips-xbox-s%E2%80%99enrichit-de-nombreuses-fonctions/
+[573/701] ok   200      https://www.levelup.com/noticias/nintendo-banea-los-primeros-nintendo-switch-2-en-un-intento-mas-por-frenar-la-pirateria/
+[569/701] ok   200      https://www.itprotoday.com/microsoft-windows/microsoft-uses-halo-2-to-catch-xbox-pirates
+[582/701] ok   200      https://www.nintendo.com/au/support/articles/nintendo-switch-2-game-key-card-overview/
+[583/701] ok   200      https://www.nintendo.com/en-gb/Legal-information/Nintendo-s-Intellectual-Property-Enforcement-Program/Hardware-Piracy/Circumvention-Products/Circumvention-Products-732247.html
+[584/701] ok   200      https://www.nintendo.com/en-za/Support/Nintendo-Switch-2/System-Update-History-for-Nintendo-Switch-2-2856139.html
+[585/701] ok   200      https://www.nintendo.com/security-advisories/en/index.html
+[586/701] FAIL 403      https://www.nintendolife.com/news/2013/07/nintendo_wins_another_court_battle_with_r4_cartridge_manufacturers
+[588/701] FAIL 403      https://www.nintendolife.com/news/2019/07/new_standard_nintendo_switch_revision_offers_significantly_improved_battery_life
+[589/701] FAIL 403      https://www.nintendolife.com/news/2022/02/nintendo-hacker-gary-bowser-sentenced-to-three-years-in-jail
+[581/701] ok   200      https://www.nintendo.com.hk/support/information/2021/210706/index_sc.html
+[587/701] FAIL 403      https://www.nintendolife.com/news/2016/09/microsoft_blocks_nesbox_emulator_on_xbox_one
+[591/701] FAIL 403      https://www.nintendolife.com/news/2025/09/nintendo-wins-usd2-million-lawsuit-against-mig-switch-distributor
+[590/701] FAIL 403      https://www.nintendolife.com/news/2025/04/japans-first-switch-modder-court-ruling-ends-with-a-fraction-of-nintendos-full-wrath
+[592/701] FAIL 403      https://www.nintendolife.com/news/2026/09/nintendo-wins-court-case-ruling-the-sale-of-switch-circumvention-devices-unlawful
+[598/701] ok   200      https://www.noticias3d.com/noticia/92506/xbox-series-x-series-s-emuladores-suspension-cuenta.html
+[599/701] FAIL 403      https://www.pcmag.com/news/microsoft-disables-game-emulators-downloaded-on-xbox
+[466/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.bbc.com/news/technology-11176441
+[465/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.bbc.co.uk/news/technology-36097461
+[467/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.bbc.com/news/technology-54386985
+[602/701] ok   200      https://www.playground.ru/misc/news/aktivatsiya_rezhima_razrabotchika_na_xbox_series_x_s_stala_besplatnoj-1803964
+[601/701] ok   200      https://www.pinsentmasons.com/out-law/news/nintendo-wins-hong-kong-anti-piracy-case
+[603/701] ok   200      https://www.playground.ru/misc/news/novyj_eksplojt_dlya_vzloma_nintendo_switch_i_switch_2_mozhet_byt_v_razrabotke-1785439
+[600/701] ok   200      https://www.pinsentmasons.com/out-law/news/mod-chips-illegal-in-uk-says-court
+[609/701] ok   200      https://www.ps2savetools.com/downloads/ps2-independence-exploit/
+[608/701] ok   200      https://www.ppe.pl/news/400555/mario-kart-na-xboxie-w-4k-gracz-rzuca-wyzwanie-nintendo.html
+[604/701] FAIL TypeError: UND_ERR_SOCKET https://www.polygon.com/2014/7/9/5884689/microsoft-xbox-one-retail-developer-consoles-plans-dropped/
+[605/701] FAIL TypeError: UND_ERR_SOCKET https://www.polygon.com/2016/3/30/11318568/xbox-one-dev-kit/
+[614/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/official-firmware-4-81-exploit-software-downgrader-more-incoming-could-superslim-be-hacked.15389/
+[613/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/6-61-pro-c-f3-psp-custom-firmware-released.1143/
+[615/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/ps3-firmware-4-92-update-is-live.46825/
+[616/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/ps3hen-3-4-0-hfw-4-92-officially-released-by-esc0rtd3w-of-team-ps3xploit.46959/
+[606/701] FAIL TypeError: UND_ERR_SOCKET https://www.polygon.com/linux/2018/3/18/17135994/playstation-3-otheros-settlement-lawsuit-linux/
+[611/701] FAIL 403      https://www.psdevwiki.com/ps5/index.php?title=Vulnerabilities
+[607/701] FAIL TypeError: UND_ERR_SOCKET https://www.polygon.com/news/558268/japan-conviction-switch-modifying-hacking-prison-sentence-fine/
+[610/701] FAIL 403      https://www.psdevwiki.com/ps5/Keys
+[617/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/ps4-webkitty-v2-offline-jailbreak-server-esp32-s3-ported-by-vegueta1-supported-ps4-firmware-6-7x-up-to-13-52-goldhen-v2-4b18-12-aio-fix.51012/
+[618/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/psp-custom-firmware-updates-out-includes-6-61-pro-c2.1170/
+[619/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/qcfw-arrives-to-slim-2500-3000-superslim-4000-nor-playstation-3-models.49533/
+[620/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/update-v1-8b-etahen-aio-homebrew-enabler-for-the-ps5.42050/
+[612/701] FAIL 403      https://www.psdevwiki.com/psp/index.php?title=JigKick_Battery
+[625/701] FAIL TypeError: ECONNRESET https://www.reddit.com/r/SwitchHacks/comments/7rq0cu/jamais_vu_a_100_trustzone_code_execution_exploit/
+[621/701] FAIL TypeError: ECONNRESET https://www.psx-place.com/threads/who-created-first-psx-modchip.36239/
+[629/701] ok   200      https://www.slashgear.com/2137390/sony-playstation-3-update-march-2026/
+[630/701] ok   200      https://www.slashgear.com/ps3-otheros-settlement-claims-end-next-month-18523535/
+[623/701] FAIL 403      https://www.purexbox.com/tags/insignia
+[622/701] ok   200      https://www.purepc.pl/playstation-3-zlamane-jailbreak-na-systemie-w-wersji-4-84-mozliwy
+[624/701] ok   200      https://www.readkong.com/page/ps4-ragnarok-flex-modchip-installation-instructions-8720204
+[631/701] ok   200      https://www.sourcetrail.com/software/andy-nguyen-leaves-ps5-linux-project-after-premature-exploit-report/
+[627/701] FAIL 403      https://www.resetera.com/threads/xstation-an-optical-drive-emulator-for-the-ps1.261774/
+[634/701] ok   200      https://www.thelab.gr/news/gaming/%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%AD%CF%82-%CE%B1%CF%80%CE%BF%CE%BA%CF%81%CF%85%CF%80%CF%84%CE%BF%CE%B3%CF%81%CE%AC%CF%86%CE%B7%CF%83%CE%B1%CE%BD-%CF%84%CE%BF-%CE%BA%CE%BB%CE%B5%CE%B9%CE%B4%CE%AF-%CF%84%CE%BF%CF%85-bootloader-%CF%84%CE%BF%CF%85-ps3-%CE%AD%CF%80%CE%B5%CE%B9%CF%84%CE%B1-%CE%B1%CF%80%CF%8C-%CF%83%CF%87%CE%B5%CE%B4%CF%8C%CE%BD-20-%CF%87%CF%81%CF%8C%CE%BD%CE%B9%CE%B1-r12398/
+[628/701] FAIL 403      https://www.shacknews.com/article/138989/yuzu-tropic-haze-nintendo-2-million-settlement-copyright
+[636/701] ok   200      https://www.theregister.com/1999/01/05/playstation_emulator_launched_for_mac/
+[635/701] FAIL 403      https://www.thenews.com.pk/amp/1415205-nintendo-switch-2-bans-lifted-after-mass-false-ban-incident
+[637/701] ok   200      https://www.theregister.com/2011/02/28/jailbreaker_defies_sony/
+[638/701] ok   200      https://www.theregister.com/software/2003/01/02/xbox-linux-donor-extends-prize-offer/1067944
+[639/701] ok   200      https://www.theverge.com/2012/3/27/2907416/sony-ps-vita-security-exploits-psp-title-removal
+[640/701] ok   200      https://www.theverge.com/2020/1/31/21114887/microsoft-xbox-bounty-bug-security-rewards
+[632/701] ok   200      https://www.techpowerup.com/352777/modder-finally-cracks-ps2s-mechacon-security-chip-after-four-years-of-reverse-engineering
+[641/701] ok   200      https://www.theverge.com/2020/10/2/21499297/team-xecuter-selling-nintendo-hacks-arrested-charged-fraud
+[642/701] ok   200      https://www.theverge.com/2020/11/17/21571069/microsoft-pluton-processor-security-windows-pc
+[643/701] ok   200      https://www.theverge.com/2021/12/14/22834264/ps4-ps5-jailbreak-playstation-poobs4
+[644/701] ok   200      https://www.theverge.com/2021/4/19/22392126/sony-ps3-ps-vita-stores-open-backtrack-psp-july-2nd-mistake
+[645/701] ok   200      https://www.theverge.com/2022/2/10/22927827/gary-bowser-sentenced-nintendo-switch-hacks-team-xecuter
+[646/701] ok   200      https://www.theverge.com/2022/7/11/23203906/xbox-series-consoles-windows-98-gaming-retro
+[647/701] ok   200      https://www.theverge.com/2023/4/7/23674707/microsoft-xbox-emulators-ban-nintendo
+[648/701] ok   200      https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level
+[652/701] FAIL 403      https://www.tweaktown.com/news/113593/developer-abandons-ps5-linux-project-after-people-found-a-hypervisor-bug-and-reported-it-to-sony/index.html
+[651/701] FAIL 403      https://www.tweaktown.com/news/112846/modders-turn-the-ps-vita-into-a-modern-gaming-handheld-through-xbox-cloud-gaming/index.html
+[649/701] FAIL 403      https://www.tweaktown.com/news/107659/mig-switch-seller-who-took-on-nintendo-without-a-lawyer-loses-case-will-settle-for-dollars2-million/index.html
+[650/701] FAIL 403      https://www.tweaktown.com/news/112589/modders-upgrade-the-original-playstations-ram-from-2mb-to-16mb/index.html
+[656/701] ok   200      https://www.vice.com/en/article/sony-reintroduced-a-ps4-bug-on-ps5-which-could-have-led-to-a-jailbreak/
+[657/701] ok   200      https://www.videogamer.com/news/ps3-exploit-published/
+[653/701] FAIL 403      https://www.tweaktown.com/news/113598/after-26-years-sonys-playstation-2-security-chip-has-finally-been-cracked/index.html
+[654/701] FAIL 403      https://www.tweaktown.com/news/113841/new-ps5-jailbreak-means-almost-every-console-can-now-be-unlocked-with-one-catch/index.html
+[658/701] FAIL 403      https://www.videogameschronicle.com/news/58-year-old-man-is-first-in-japan-to-get-suspended-prison-sentence-for-selling-modded-switch-consoles/
+[593/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.notebookcheck.net/An-updated-PS3-hardware-mod-unlocks-CELL-and-RSX-overclocking-on-the-Super-Slim-using-a-Raspberry-Pi-Pico.1211940.0.html
+[660/701] FAIL 403      https://www.videogameschronicle.com/news/jailed-nintendo-hacker-gary-bowser-denies-link-to-new-switch-flash-cart/
+[659/701] FAIL 403      https://www.videogameschronicle.com/news/a-rom-site-owner-decided-to-fight-nintendo-in-court-and-lost-2-1-million/
+[655/701] FAIL 403      https://www.usatoday.com/story/tech/gaming/2024/10/01/nintendo-switch-emulator-ryujinx/75472985007/
+[594/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.notebookcheck.net/GTA-6-blocks-PS5-jailbreak-and-piracy-on-release-date-requiring-14-10-00-firmware.1414828.0.html
+[667/701] ok   200      https://www.wired.it/gadget/videogiochi/2021/08/16/xbox-giochi-playstation-rom-duckstation/
+[665/701] ok   200      https://www.windowscentral.com/gaming/xbox/xbox-gamers-may-soon-get-ryujinx-switch-emulator
+[666/701] ok   200      https://www.wired.com/1999/03/sony-snubbed-again-by-sf-court/
+[661/701] FAIL 403      https://www.videogameschronicle.com/news/nintendo-wins-2-million-in-damages-from-switch-hacking-device-seller/
+[626/701] FAIL TypeError: ECONNRESET https://www.reddit.com/r/xbox/comments/1ous1mo/i_can_confirm_dev_mode_is_free_now/
+[663/701] FAIL 403      https://www.videogameschronicle.com/news/nintendo-wipes-out-400-more-switch-emulator-repositories-on-github-as-it-continues-its-fight-on-piracy/
+[662/701] FAIL 403      https://www.videogameschronicle.com/news/nintendo-wins-2-million-settlement-against-switch-modchip-seller-who-previously-denied-wrongdoing/
+[669/701] ok   200      https://www.xboxland.net/forum/topic/173905-perevesti-xbox-series-x-s-v-rezhim-razrabotchika-teper-mozhno-besplatno/
+[674/701] ok   200      https://www.zdnet.com/article/black-market-tool-for-xbox-mod-squad/
+[664/701] FAIL 403      https://www.videogameschronicle.com/news/sued-switch-modchip-seller-denies-claims-will-seemingly-take-on-nintendo-without-a-lawyer/
+[668/701] ok   200      https://www.xbox-scene.info/articles/prometheos-v100-released-a-replacement-open-source-os-for-xenium-based-mods-r31
+[676/701] ok   200      https://www.zdnet.com/article/microsoft-launches-xbox-bug-bounty-program-with-rewards-of-up-to-20000/
+[675/701] ok   200      https://www.zdnet.com/article/lindows-ceo-funds-hacking-contest/
+[677/701] ok   200      https://www.zdnet.com/article/mod-squad-hacks-away-at-xbox/
+[678/701] ok   200      https://www.zdnet.com/article/sony-cracks-down-on-playstation2-chipping/
+[670/701] FAIL TypeError: UND_ERR_SOCKET https://www.xda-developers.com/hackers-revived-this-sony-portable-as-an-xbox-and-its-not-the-psp/
+[672/701] FAIL TypeError: UND_ERR_SOCKET https://www.xda-developers.com/playstation-4-jailbreak-firmware-9-00/
+[680/701] FAIL 403      https://www7.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2005/58.html
+[681/701] FAIL 403      https://www8.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2005/58.html
+[597/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.notebookcheck.net/The-PlayStation-5-has-been-successfully-jailbroken-firmware-version-4-03-or-lower-required.659204.0.html
+[570/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3
+[572/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.kyoto-np.co.jp/articles/-/1679695
+[571/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.justice.gov/usao-wdwa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody
+[671/701] FAIL TypeError: UND_ERR_SOCKET https://www.xda-developers.com/how-paperclip-enabled-piracy-original-playstation/
+[679/701] ok   200      https://www1.folha.uol.com.br/folha/informatica/ult124u12590.shtml
+[578/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.muycomputer.com/2011/12/26/ixtreme-lt-v3-0-nueo-firmware-para-lectores-xbox-360/
+[686/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/Edge-Browser-File-System-Exposure/
+[690/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/devmode-systemxvd-read-write/
+[595/701] FAIL TypeError: ECONNRESET https://www.notebookcheck.net/PlayStation-5-jailbreak-seems-inevitable-as-double-hack-reveals-PS5-root-keys-and-debug-settings.577947.0.html
+[691/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/devmode-unattended-utilities/
+[688/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/bliss/
+[687/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/artifice-devmode-elevation/
+[692/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/ecc-curveball-cve-2020-0601/
+[689/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/devmode-priv-escalation-vsprofiling/
+[693/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/external-vbi-loading/
+[694/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/file-explorer-symbolic-links/
+[695/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/game-script-code-exec/
+[696/701] ok   200      https://xboxoneresearch.github.io/wiki/exploits/ms-edge-exploit-cve-2016-7200/
+[697/701] ok   200      https://xboxoneresearch.github.io/wiki/faq/
+[700/701] ok   200      https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/
+[698/701] ok   200      https://yifan.lu/
+[699/701] ok   200      https://yifan.lu/2015/06/21/hacking-the-ps-vita/
+[701/701] ok   200      https://yifan.lu/2017/08/22/psvsd-custom-vita-microsd-card-adapter/
+[596/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.notebookcheck.net/Switch-2-Developer-unveils-a-universal-exploit-that-works-entirely-offline.1347373.0.html
+[633/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.theguardian.com/games/2024/feb/01/the-man-who-owes-nintendo-14m-gary-bowser-and-gamings-most-infamous-piracy-case
+[673/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://www.youtube.com/watch?v=FTFn4UZsA5U
+[682/701] FAIL TypeError: UND_ERR_CONNECT_TIMEOUT https://x.com/gezine_dev/status/2074894225460822503
+[683/701] FAIL TIMEOUT  https://xboxdevwiki.net/Insignia
+[684/701] FAIL TIMEOUT  https://xboxdevwiki.net/index.php?title=Hardware_Revisions
+[685/701] FAIL TIMEOUT  https://xboxdevwiki.net/index.php?title=Historical_Xbox_Linux
+
+==============================================================================
+总计 701 | 可达 460 | 异常 241 | 重定向 30
+==============================================================================
+
+### 需要人工确认的链接
+
+-- 403 (116) --
+   https://curia.europa.eu/juris/liste.jsf?num=C-159/23
+      引用: PlayStation 5 / 欧盟法院裁定修改软件不侵权
+   https://forums.xboxscene.org/index.php/topic,91113.msg761586.html
+      引用: Xbox（初代） / Ndure 一键软破安装器
+   https://forums.xboxscene.org/index.php?topic=90159.msg743598.html
+      引用: Xbox（初代） / UDE 利用仪表盘更新提权
+   https://gbatemp.net/threads/3-71-m33-custom-firmware-released.61139/
+      引用: PlayStation Portable (PSP) / PSP-2000 上市与 3.71 M33
+   https://gbatemp.net/threads/496799/
+      引用: Nintendo Switch（V1 / Erista） / Déjà Vu 解禁：TrustZone warmboot 漏洞公开
+   https://gbatemp.net/threads/541826/
+      引用: Nintendo Switch（V1 / Erista） / Caffeine：延续到 4.1.0 的 warmboot 利用链
+   https://gbatemp.net/threads/any-update-on-caffine-for-ipatched-switches.581678/
+      引用: Nintendo Switch（V1 / Erista） / Caffeine：延续到 4.1.0 的 warmboot 利用链
+   https://gbatemp.net/threads/autorcm-with-the-nintendo-switch-101.515402/
+      引用: Nintendo Switch（V1 / Erista） / AutoRCM：不烧熔断丝的常驻 RCM 方案
+   https://gbatemp.net/threads/cobra-ode-first-units-will-ship-to-resellers-this-week.352357/
+      引用: PlayStation 3 / Cobra ODE 光驱模拟器登场
+   https://gbatemp.net/threads/davees-infinity-cfw-permanent-6-61-cfw-on-all-3000-go-models.414948/
+      引用: PlayStation Portable (PSP) / Davee 发布 Infinity 永久破解
+   https://gbatemp.net/threads/error-2002-3539-when-attempting-to-boot-into-ofw-from-hekate-switch-boots-into-ofw-when-picofly-not-connected.676929/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 固件 17.0.0 打乱 modchip 时序
+   https://gbatemp.net/threads/freeboot-v0-02-and-xbreboot-v0-05-released.193887/
+      引用: Xbox 360 / XBReboot 与 freeBOOT 出现
+   https://gbatemp.net/threads/how-hard-is-it-to-install-an-e-flasher-on-a-fat-ps3.391273/
+      引用: PlayStation 3 / Progskeet / E3 Flasher 硬降级工具
+   https://gbatemp.net/threads/initial-mig-switch-flashcart-units-now-available-and-being-tested-by-reviewers.646656/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / MIG Switch 烧录卡首批出货
+   https://gbatemp.net/threads/ixtreme-lt-v3-0-to-be-released-after-december-6.314625/
+      引用: Xbox 360 / iXtreme LT+ 3.0 应对 XGD3
+   https://gbatemp.net/threads/larping-more-false-claims-of-ns2-exploits.676854/
+      引用: Nintendo Switch 2 / 假破解视频与 BlueNX 骗局被社区揭穿
+   https://gbatemp.net/threads/my-first-oled-hwfly-installation-and-a-few-thoughts.609301/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / HWFLY 克隆芯片接棒，成为主流 modchip
+   https://gbatemp.net/threads/nereba-exploit-reboot-to-fusee-gelee-payload-from-stock-firmware.536409/
+      引用: Nintendo Switch（V1 / Erista） / Nereba：免短接从官方系统重启进 payload
+   https://gbatemp.net/threads/new-major-updates-made-in-the-3-pikofly-nintendo-switch-modchip-project.628960/
+      引用: Nintendo Switch（V1 / Erista） / HWFLY / Picofly：开源芯片把硬破成本压到极低
+   https://gbatemp.net/threads/new-switch-2-userland-exploit-found.682996/
+      引用: Nintendo Switch 2 / Gezine 公开通用的离线 userland 漏洞：不靠 WebKit、不靠存档
+   https://gbatemp.net/threads/nintendo-and-friends-win-1million-in-damages-against-r4-carts.350948/
+      引用: 破解产业与法律战（横向专题） / 任天堂在英、德连赢 R4 烧录卡民事诉讼
+   https://gbatemp.net/threads/nintendo-reportedly-issues-dmca-takedown-for-switch-homebrew-projects-skyline-switch-emulator-development-ceased.632406/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂 DMCA 集中打击解密工具
+   https://gbatemp.net/threads/no-more-old-hwfly-chip-new-rev-on-rp2040.632243/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / HWFLY 转向 RP2040，Picofly 路线成型
+   https://gbatemp.net/threads/official-team-xecuter-sx-pro-v1-1-review.508528/
+      引用: Nintendo Switch（V1 / Erista） / SX OS / SX Pro：首个商业化硬破方案
+   https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / HWFLY 转向 RP2040，Picofly 路线成型 | Switch 续航版 / Lite / OLED（Mariko） / Picofly 走红：RP2040 低价 modchip 普及 | Switch 续航版 / Lite / OLED（Mariko） / 现状：只靠硬破，生态与法务双线并行
+   https://gbatemp.net/threads/picofly-switch-error-code-2002-3539-in-ofw-17-0-0-and-17-0-1.646223/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 固件 17.0.0 打乱 modchip 时序
+   https://gbatemp.net/threads/ps3xploit-4-82-ofw-to-cfw-hack-released.490263/
+      引用: PlayStation 3 / PS3Xploit 实现免硬改破解
+   https://gbatemp.net/threads/ps3xploit-tools-v3-0-released.498797/
+      引用: PlayStation 3 / PS3Xploit 3.0 / HAN 覆盖全机型
+   https://gbatemp.net/threads/rgh3-chipless-glitching.602237/
+      引用: Xbox 360 / RGH 3.0：无需脉冲芯片
+   https://gbatemp.net/threads/safety-and-future-proofness-of-sx-core.572522/
+      引用: Nintendo Switch（V1 / Erista） / SX Core / SX Lite：针对封堵机型的注入芯片
+   https://gbatemp.net/threads/switch-2-data-gathering-for-possible-modchip-attack-vectors.668520/
+      引用: Nintendo Switch 2 / 现状：仍未被破解，内核与 hypervisor 零突破，成果全部停在 userland
+   https://gbatemp.net/threads/sx-core-and-sx-lite-being-shipped-to-reviewers-and-testers-retail-packaging-revealed.564514/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / SX Core / SX Lite 送测：首款 Mariko 硬破芯片
+   https://gbatemp.net/threads/sx-core-and-sx-lite-test-units-received.565210/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / SX Core / SX Lite 送测：首款 Mariko 硬破芯片
+   https://gbatemp.net/threads/sx-core-mariko-list-of-non-compatible-tools.567803/
+      引用: Nintendo Switch（V1 / Erista） / SX Core / SX Lite：针对封堵机型的注入芯片
+   https://gbatemp.net/threads/the-switch-flashcart-thread-mig-switch-etc.651852/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / MIG Switch 烧录卡首批出货 | Switch 续航版 / Lite / OLED（Mariko） / 任天堂起诉 MIG Switch 相关改机卖家
+   https://gbatemp.net/threads/tonyhax-is-a-new-softmod-backup-loader-for-the-playstation-1.584717/
+      引用: PlayStation (PS1) / tonyhax 存档漏洞实现免改机启动
+   https://gbatemp.net/threads/true-blue-jb2.313743/
+      引用: PlayStation 3 / True Blue / Cobra USB 加密狗时代
+   https://gbatemp.net/threads/video-shows-oled-nintendo-switch-using-hwfly-sx-clone-modchip-can-boot-hekate.601198/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / Switch OLED 发售，硬件结构与 Mariko 同源 | Switch 续航版 / Lite / OLED（Mariko） / HWFLY 克隆芯片接棒，成为主流 modchip
+   https://gbatemp.net/threads/whats-the-switch-2-modding-status.673852/page-3
+      引用: Nintendo Switch 2 / SciresM 确认内核无发现，且不为 Switch 2 做 CFW
+   https://gbatemp.net/threads/xbox-one-bliss-hack-open-source-modchip-in-development-by-gfl_tech.682365/
+      引用: Xbox One / BLISS 复现研究与开源 modchip 立项
+   https://gbatemp.net/threads/xbox-series-s-x-software-hack-progress.675167/
+      引用: Xbox Series X|S / 五年无 modchip / ODE / 光驱方案 | Xbox Series X|S / Series 内核与 hypervisor 无公开漏洞
+   https://godisageek.com/2026/08/nintendo-401-switch-emulator-repos-dmca/
+      引用: 破解产业与法律战（横向专题） / 任天堂一次下架 400 余个模拟器仓库
+   https://kodi.wiki/index.php?title=Archive:XBMC_1.0.0_point_release
+      引用: Xbox（初代） / XBMC 2.0.1 媒体中心成熟
+   https://kodi.wiki/index.php?title=Kodi
+      引用: Xbox（初代） / XBMC 2.0.1 媒体中心成熟
+   https://korben.info/en/ps5-linux-andy-nguyen-releases-hack.html
+      引用: PlayStation 5 / PS5-Linux loader 开源，hypervisor 漏洞跑起 Linux
+   https://korben.info/en/ps5-linux-slim-firmware-linux-support.html
+      引用: PlayStation 5 / ps5-linux-loader 加入 PS5 Slim 与内置蓝牙支持
+   https://korben.info/en/relapse-jailbreak-frees-almost-every-ps5.html
+      引用: PlayStation 5 / Relapse 越狱把内核读写扩展到 13.60
+   https://ncjolt.org/content/view/172/62/1/3/
+      引用: 破解产业与法律战（横向专题） / Sony 诉 Divineo 缺席判决
+   https://news.xbox.com/en-us/2010/02/05/xbox-live-being-discontinued-for-original-xbox-consoles-and-games/
+      引用: Xbox（初代） / Xbox Live 1.0 关停
+   https://news.xbox.com/en-us/2013/06/19/update/
+      引用: Xbox One / 微软撤销 Xbox One 强制联网与二手限制
+   https://news.xbox.com/en-us/2023/08/17/xbox-360-store-will-close-july-2024/
+      引用: Xbox 360 / Xbox 360 商店关闭
+   https://sourceforge.net/p/xbox-linux/mailman/xbox-linux-user/thread/200412251948.18148.dmp%40davidmpye.dyndns.org/
+      引用: Xbox（初代） / ATA 硬盘锁与 hotswap
+   https://sourceforge.net/p/xbox-linux/mailman/xbox-linux-user/thread/brltcd%24ft3%241%40sea.gmane.org/
+      引用: Xbox（初代） / MechAssault 存档软破扩散
+   https://stevivor.com/news/nintendo-of-america-secures-4-5-million-default-judgment-against-reddit-piracy/
+      引用: 破解产业与法律战（横向专题） / 任天堂获 Archbox 判决
+   https://tech.yahoo.com/gaming/articles/nintendo-takes-down-over-400-100000167.html
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂一次性下架 400 余个 Switch 模拟器仓库
+   https://techbriefly.com/2020/06/19/hacking-nintendo-switch-sx-core-and-sx-lite-review/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / SX Core / SX Lite 送测：首款 Mariko 硬破芯片
+   https://truthinadvertising.org/wp-content/uploads/2016/10/In-Re-Sony-PS3-renewed-motion-for-pre-app-of-new-settlement.pdf
+      引用: PlayStation 3 / OtherOS 集体诉讼提起
+   https://truthinadvertising.org/wp-content/uploads/2016/10/In-Re-Sony-PS3-renewed-motion-for-pref-app-of-new-settlement.pdf
+      引用: 破解产业与法律战（横向专题） / OtherOS 集体诉讼起诉索尼
+   https://wccftech.com/microsoft-disabling-xbox-dev-mode-access/
+      引用: Xbox Series X|S / 微软停用不活跃 Dev Mode 账号
+   https://wiki.gamehacking.org/index.php?title=Action_Replay_(PlayStation)
+      引用: PlayStation (PS1) / GameShark / Action Replay 金手指与引导卡
+   https://wiki.gbatemp.net/wiki/List_of_PS3_homebrew
+      引用: PlayStation 3 / 备份管理器生态：multiMAN 与 webMAN
+   https://windowsreport.com/leak-exposes-amd-4800s-bios/
+      引用: Xbox Series X|S / AMD 4800S BIOS 转储泄漏
+   https://windowsreport.com/xbox-series-x-just-ran-ps5-games-thanks-to-an-experimental-kytyps5-emulator-port/
+      引用: Xbox Series X|S / PS5 模拟器 Kyty 移植到 Series X
+   https://www.destructoid.com/sony-sues-ps3-hacker-for-1000000-euros-hacker-defiant/
+      引用: PlayStation 3 / graf_chokolo 遭搜查与百万欧元索赔
+   https://www.digitalfoundry.net/articles/digitalfoundry-opensource-psjailbreak-blog-entry
+      引用: PlayStation 3 / PSGroove / PSFreedom 开源复刻
+   https://www.digitalworldz.co.uk/threads/c4evas-ixtreme-lt-released.227242/
+      引用: Xbox 360 / iXtreme LT 光驱固件发布
+   https://www.digitalworldz.co.uk/threads/excellent-cobra-usb-tutorial-copied-text-not-made-by-me.287168/
+      引用: PlayStation 3 / True Blue / Cobra USB 加密狗时代
+   https://www.engadget.com/2004-11-14-more-on-xbox-live-bans.html
+      引用: Xbox（初代） / 微软封禁改机主机上 Live
+   https://www.engadget.com/2005-06-24-swapless-psp-homebrew-bootstrap.html
+      引用: PlayStation Portable (PSP) / 1.50与KXploit多程序方案
+   https://www.engadget.com/2005-09-28-working-2-0-to-1-5-psp-downgrader-completed-amp-released.html
+      引用: PlayStation Portable (PSP) / 首个2.0降级到1.50工具发布
+   https://www.engadget.com/2006-09-06-new-psp-hack-gets-downgrader-e-loader.html
+      引用: PlayStation Portable (PSP) / Devhook 与 2.71 SE-A 自制系统
+   https://www.engadget.com/2006-10-05-sony-busts-down-mod-chip-retailer-with-9-mil-lawsuit.html
+      引用: 破解产业与法律战（横向专题） / Sony 诉 Divineo 缺席判决
+   https://www.engadget.com/2007-08-23-pandoras-battery-unbricks-all-psp-systems.html
+      引用: PlayStation Portable (PSP) / Pandora 神奇电池发布
+   https://www.engadget.com/2010-12-29-hackers-claim-discovery-of-ps3-private-key-enabling-unauthori.html
+      引用: PlayStation 3 / fail0verflow 在 27C3 还原签名私钥
+   https://www.engadget.com/2011-01-29-ps3-firmware-3-56-hacked-in-less-than-a-day-sonys-lawyers-look.html
+      引用: PlayStation 3 / CFW 3.55 爆发与刷砖事件 | PlayStation 3 / 启动链根密钥不可撤销的设计缺陷
+   https://www.engadget.com/2014-08-14-xbox-one-dev-kit-retail.html
+      引用: Xbox One / 微软反复：零售机充当开发机计划先否后认
+   https://www.engadget.com/2017-03-02-xbox-live-creators-program.html
+      引用: Xbox One / Xbox Live Creators Program 上线
+   https://www.engadget.com/nintendo-2-million-settlement-switch-hacking-lawsuit-212546195.html
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Uberchips：200 万美元和解
+   https://www.exophase.com/11340/chickhen-for-firmware-503-r2/
+      引用: PlayStation Portable (PSP) / ChickHEN 破解 PSP-3000
+   https://www.gamedeveloper.com/game-platforms/hong-kong-exporter-lik-sang-closes-citing-sony-litigation
+      引用: PlayStation (PS1) / Sony 在香港起诉 Lik-Sang 销售改机芯片 | PlayStation (PS1) / Lik-Sang 因 Sony 诉讼结业
+   https://www.gamedeveloper.com/game-platforms/playstation-portable-2-50-firmware-released
+      引用: PlayStation Portable (PSP) / 固件2.01封堵TIFF漏洞，猫鼠游戏开启
+   https://www.gamedeveloper.com/game-platforms/report-sony-granted-right-to-subpoena-hotz-web-provider-in-ps3-jailbreaking-case
+      引用: PlayStation 3 / 索尼索取 geohot.com 访客 IP
+   https://www.gamedeveloper.com/production/any-retail-xbox-one-can-be-used-as-dev-kit-starting-now
+      引用: Xbox Series X|S / Dev Mode 让零售机变开发机
+   https://www.gamespot.com/articles/nintendo-hacker-gary-bowser-released-from-prison-but-he-still-owes-a-lot-of-money/1100-6513332/
+      引用: Nintendo Switch（V1 / Erista） / Bowser 提前出狱，赔偿义务继续
+   https://www.gamespot.com/articles/the-og-xbox-live-is-back-from-the-dead-this-is-the-team-making-it-happen/1100-6515605/
+      引用: Xbox（初代） / Insignia 复活官方联机
+   https://www.nintendolife.com/news/2013/07/nintendo_wins_another_court_battle_with_r4_cartridge_manufacturers
+      引用: 破解产业与法律战（横向专题） / 任天堂在英、德连赢 R4 烧录卡民事诉讼
+   https://www.nintendolife.com/news/2016/09/microsoft_blocks_nesbox_emulator_on_xbox_one
+      引用: Xbox One / Nesbox 模拟器被微软封禁
+   https://www.nintendolife.com/news/2019/07/new_standard_nintendo_switch_revision_offers_significantly_improved_battery_life
+      引用: Nintendo Switch（V1 / Erista） / 官方硬件封堵：2018 年年中起出厂机器已修 BootROM
+   https://www.nintendolife.com/news/2022/02/nintendo-hacker-gary-bowser-sentenced-to-three-years-in-jail
+      引用: 破解产业与法律战（横向专题） / Bowser 获刑 40 个月 | Xbox 360 / Gary Bowser 获刑 40 个月 | Xbox（初代） / Bowser 案判刑 40 个月
+   https://www.nintendolife.com/news/2025/04/japans-first-switch-modder-court-ruling-ends-with-a-fraction-of-nintendos-full-wrath
+      引用: 破解产业与法律战（横向专题） / 日本首判 Switch 改机有罪 | Nintendo Switch 2 / 日本首例改机销售者获刑：2 年缓刑
+   https://www.nintendolife.com/news/2025/09/nintendo-wins-usd2-million-lawsuit-against-mig-switch-distributor
+      引用: 破解产业与法律战（横向专题） / MIG Switch 案 200 万
+   https://www.nintendolife.com/news/2026/09/nintendo-wins-court-case-ruling-the-sale-of-switch-circumvention-devices-unlawful
+      引用: 破解产业与法律战（横向专题） / 海牙禁 MIG 规避硬件 | Nintendo Switch 2 / 现状：仍未被破解，内核与 hypervisor 零突破，成果全部停在 userland | Switch 续航版 / Lite / OLED（Mariko） / 海牙地方法院裁定：面向欧洲销售 MIG Switch 违法
+   https://www.pcmag.com/news/microsoft-disables-game-emulators-downloaded-on-xbox
+      引用: Xbox One / 微软封禁用零售模式运行的模拟器 | Xbox Series X|S / 微软下架商店模拟器
+   https://www.psdevwiki.com/ps5/Keys
+      引用: PlayStation 5 / PS5 ROM Keys 外泄，硬件信任根曝光
+   https://www.psdevwiki.com/ps5/index.php?title=Vulnerabilities
+      引用: PlayStation 5 / IPv6 UAF 被用作 3.00-4.51 的内核原语 | PlayStation 5 / TheFloW 公开 BD-J 蓝光沙箱逃逸 | PlayStation 5 / TheFloW 获 Sony 1 万美元漏洞赏金
+   https://www.psdevwiki.com/psp/index.php?title=JigKick_Battery
+      引用: PlayStation Portable (PSP) / Pandora 神奇电池发布
+   https://www.purexbox.com/tags/insignia
+      引用: Xbox（初代） / Insignia 复活官方联机
+   https://www.resetera.com/threads/xstation-an-optical-drive-emulator-for-the-ps1.261774/
+      引用: PlayStation (PS1) / xStation 等新一代 ODE 上市
+   https://www.shacknews.com/article/138989/yuzu-tropic-haze-nintendo-2-million-settlement-copyright
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Tropic Haze
+   https://www.thenews.com.pk/amp/1415205-nintendo-switch-2-bans-lifted-after-mass-false-ban-incident
+      引用: Nintendo Switch 2 / 大规模“误封机”事件：任天堂称系系统临时故障并自动解封
+   https://www.tweaktown.com/news/107659/mig-switch-seller-who-took-on-nintendo-without-a-lawyer-loses-case-will-settle-for-dollars2-million/index.html
+      引用: Switch 续航版 / Lite / OLED（Mariko） / MIG Switch/modchip 卖家被判赔 200 万美元
+   https://www.tweaktown.com/news/112589/modders-upgrade-the-original-playstations-ram-from-2mb-to-16mb/index.html
+      引用: PlayStation (PS1) / PS1 内存改造：从 2MB 解锁到 16MB
+   https://www.tweaktown.com/news/112846/modders-turn-the-ps-vita-into-a-modern-gaming-handheld-through-xbox-cloud-gaming/index.html
+      引用: PlayStation Vita / GreenVita 让破解版 Vita 串流 Xbox Cloud Gaming
+   https://www.tweaktown.com/news/113593/developer-abandons-ps5-linux-project-after-people-found-a-hypervisor-bug-and-reported-it-to-sony/index.html
+      引用: PlayStation 5 / TheFloW 因 hypervisor 漏洞被提前上报 Sony 而退出 PS5 社区
+   https://www.tweaktown.com/news/113598/after-26-years-sonys-playstation-2-security-chip-has-finally-been-cracked/index.html
+      引用: PlayStation 2 / MechaCon 安全芯片被完整逆向并 dump
+   https://www.tweaktown.com/news/113841/new-ps5-jailbreak-means-almost-every-console-can-now-be-unlocked-with-one-catch/index.html
+      引用: PlayStation 5 / Relapse 越狱把内核读写扩展到 13.60
+   https://www.usatoday.com/story/tech/gaming/2024/10/01/nintendo-switch-emulator-ryujinx/75472985007/
+      引用: 破解产业与法律战（横向专题） / Ryujinx 被要求停运
+   https://www.videogameschronicle.com/news/58-year-old-man-is-first-in-japan-to-get-suspended-prison-sentence-for-selling-modded-switch-consoles/
+      引用: 破解产业与法律战（横向专题） / 日本首判 Switch 改机有罪
+   https://www.videogameschronicle.com/news/a-rom-site-owner-decided-to-fight-nintendo-in-court-and-lost-2-1-million/
+      引用: Nintendo Switch（V1 / Erista） / 任天堂胜诉 RomUniverse：判赔 210 万美元
+   https://www.videogameschronicle.com/news/jailed-nintendo-hacker-gary-bowser-denies-link-to-new-switch-flash-cart/
+      引用: Nintendo Switch（V1 / Erista） / MiG Switch 烧录卡：绕过一切漏洞的硬件路线
+   https://www.videogameschronicle.com/news/nintendo-wins-2-million-in-damages-from-switch-hacking-device-seller/
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Uberchips：200 万美元和解
+   https://www.videogameschronicle.com/news/nintendo-wins-2-million-settlement-against-switch-modchip-seller-who-previously-denied-wrongdoing/
+      引用: 破解产业与法律战（横向专题） / MIG Switch 案 200 万
+   https://www.videogameschronicle.com/news/nintendo-wipes-out-400-more-switch-emulator-repositories-on-github-as-it-continues-its-fight-on-piracy/
+      引用: 破解产业与法律战（横向专题） / GitHub 模拟器仓库下架 | 破解产业与法律战（横向专题） / 任天堂一次下架 400 余个模拟器仓库 | Switch 续航版 / Lite / OLED（Mariko） / 任天堂一次性下架 400 余个 Switch 模拟器仓库
+   https://www.videogameschronicle.com/news/sued-switch-modchip-seller-denies-claims-will-seemingly-take-on-nintendo-without-a-lawyer/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂起诉 MIG Switch 相关改机卖家
+   https://www7.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2005/58.html
+      引用: PlayStation (PS1) / 澳大利亚高等法院：直读芯片不违法
+   https://www8.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2005/58.html
+      引用: 破解产业与法律战（横向专题） / 澳高院判 Stevens 改机败诉
+-- 405 (13) --
+   https://arstechnica.com/gaming/2007/07/dark-alex-quits-the-custom-firmware-scene-psp-users-mourn/
+      引用: PlayStation Portable (PSP) / Dark_AleX 退出PSP自制社区
+   https://arstechnica.com/gaming/2010/03/it-no-longer-does-everything-no-more-linux-on-playstation-3/
+      引用: PlayStation 3 / PS3 发售，内置 OtherOS 可装 Linux | PlayStation 3 / 索尼固件 3.21 移除 OtherOS
+   https://arstechnica.com/gaming/2010/08/court-halts-ps-jailbreak-sales-gives-sony-control-of-inventory/
+      引用: PlayStation 3 / PS Jailbreak USB 狗问世
+   https://arstechnica.com/gaming/2011/04/hotz-lawyer-ps3-hacking-case-over-dmca-and-ip-abuse-live-on/
+      引用: PlayStation 3 / 索尼起诉 GeoHot（SCEA v. Hotz） | PlayStation 3 / Sony 与 Hotz 达成和解
+   https://arstechnica.com/gaming/2017/04/microsoft-formally-bans-emulators-on-xbox-windows-10-download-shops/
+      引用: Xbox One / 微软正式禁止商店上架模拟器
+   https://arstechnica.com/gaming/2018/04/the-unpatchable-exploit-that-makes-every-current-nintendo-switch-hackable/
+      引用: Nintendo Switch（V1 / Erista） / Fusée Gelée（CVE-2018-6242）公开：不可修补的 RCM 软破
+   https://arstechnica.com/gaming/2018/06/switch-pirates-dont-want-you-to-pirate-their-piracy-enabling-firmware/
+      引用: Nintendo Switch（V1 / Erista） / SX OS / SX Pro：首个商业化硬破方案
+   https://arstechnica.com/gaming/2020/11/how-to-turn-your-xbox-series-x-s-into-an-emulation-powerhouse/
+      引用: Xbox One / Xbox Series X|S 发售：Dev Mode 成为模拟器主阵地
+   https://arstechnica.com/gaming/2023/04/microsoft-crackdown-disables-emulators-downloaded-to-xbox-consoles/
+      引用: Xbox One / 微软封禁用零售模式运行的模拟器
+   https://arstechnica.com/gaming/2023/05/nintendo-files-dmca-takedowns-on-switch-emulation-tools-just-before-tears-debut/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂 DMCA 集中打击解密工具
+   https://arstechnica.com/gaming/2024/02/after-14-5m-judgments-console-hacker-paid-nintendo-25-a-month-from-prison/
+      引用: 破解产业与法律战（横向专题） / Bowser 终身赔偿追偿
+   https://arstechnica.com/gaming/2024/04/nintendo-targets-switch-emulation-chat-servers-decryption-tools-with-dmca/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂 DMCA 集中打击解密工具
+   https://arstechnica.com/gaming/2025/09/switch-modder-who-acted-as-his-own-lawyer-now-owes-nintendo-2-million/
+      引用: Switch 续航版 / Lite / OLED（Mariko） / MIG Switch/modchip 卖家被判赔 200 万美元
+-- 429 (2) --
+   https://github.com/brad-lin/FreePSXBoot/blob/master/exploit/EXPLOIT.md
+      引用: PlayStation (PS1) / PS1 BIOS 记忆卡解析缺陷被公开
+   https://github.com/flipacholas/Architecture-of-consoles/blob/master/articles/xbox-360.Rmd.md
+      引用: Xbox 360 / Xbox 360 发售与安全启动链 | Xbox 360 / Xtreme 光驱固件：首个破解
+-- TIMEOUT (3) --
+   https://xboxdevwiki.net/Insignia
+      引用: Xbox（初代） / Insignia 支持游戏增至 204 款
+   https://xboxdevwiki.net/index.php?title=Hardware_Revisions
+      引用: Xbox（初代） / Xbox 发售与 MCPX 安全链 | Xbox（初代） / TSOP 写保护短路刷 BIOS
+   https://xboxdevwiki.net/index.php?title=Historical_Xbox_Linux
+      引用: Xbox（初代） / nxdk 开源开发套件启动
+-- TypeError: DEPTH_ZERO_SELF_SIGNED_CERT (1) --
+   https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=37332&oldid=23891
+      引用: Xbox（初代） / 007 存档溢出拿下悬赏
+-- TypeError: ECONNRESET (19) --
+   https://consolemods.org/wiki/PS3:E3_Flasher
+      引用: PlayStation 3 / Progskeet / E3 Flasher 硬降级工具
+   https://consolemods.org/wiki/Xbox:Game_Save_Exploit
+      引用: Xbox（初代） / MechAssault 存档软破扩散 | Xbox（初代） / Mega X-Key 降低软破门槛 | Xbox（初代） / Ndure 一键软破安装器
+   https://kotaku.com/nintendo-lawsuit-modding-switch-2-ryan-daly-2000623984
+      引用: 破解产业与法律战（横向专题） / 任天堂起诉 Ryan Daly
+   https://kotaku.com/xbox-one-hack-jailbreak-2000679120
+      引用: Xbox Series X|S / Bliss 被确认不影响 Series X|S
+   https://psx-place.com/resources/hen-alternate-installer-for-hfw-4-93.1689/
+      引用: PlayStation 3 / 固件 4.93 与 HFW 4.93.1、PS3HEN 跟进
+   https://psx-place.com/threads/hfw-4-93-1-hybrid-firmware-official-release.49792/
+      引用: PlayStation 3 / 固件 4.93 与 HFW 4.93.1、PS3HEN 跟进
+   https://psx-place.com/threads/pppwn-playstation-4-pppoe-rce-the-first-ps4-kernel-rce-supporting-upto-fw-11-00-by-theflow.43655/
+      引用: PlayStation 4 / PPPwn 发布：网络侧 PPPoE 内核 RCE
+   https://www.notebookcheck.net/PlayStation-5-jailbreak-seems-inevitable-as-double-hack-reveals-PS5-root-keys-and-debug-settings.577947.0.html
+      引用: PlayStation 5 / TheFloW 私密披露 PS5 内核漏洞 | PlayStation 5 / PS5 root keys 与调试设置被公开
+   https://www.psx-place.com/threads/6-61-pro-c-f3-psp-custom-firmware-released.1143/
+      引用: PlayStation Portable (PSP) / PRO-C2 支持6.61固件
+   https://www.psx-place.com/threads/official-firmware-4-81-exploit-software-downgrader-more-incoming-could-superslim-be-hacked.15389/
+      引用: PlayStation 3 / PS3Xploit 实现免硬改破解
+   https://www.psx-place.com/threads/ps3-firmware-4-92-update-is-live.46825/
+      引用: PlayStation 3 / 固件 4.92 与 PS3HEN 3.4.0 跟进
+   https://www.psx-place.com/threads/ps3hen-3-4-0-hfw-4-92-officially-released-by-esc0rtd3w-of-team-ps3xploit.46959/
+      引用: PlayStation 3 / 固件 4.92 与 PS3HEN 3.4.0 跟进
+   https://www.psx-place.com/threads/ps4-webkitty-v2-offline-jailbreak-server-esp32-s3-ported-by-vegueta1-supported-ps4-firmware-6-7x-up-to-13-52-goldhen-v2-4b18-12-aio-fix.51012/
+      引用: PlayStation 4 / Syimy 的 WebKit 链把纯浏览器越狱推到 13.52
+   https://www.psx-place.com/threads/psp-custom-firmware-updates-out-includes-6-61-pro-c2.1170/
+      引用: PlayStation Portable (PSP) / 索尼发布6.61固件，PSP系统更新终结 | PlayStation Portable (PSP) / PRO-C2 支持6.61固件
+   https://www.psx-place.com/threads/qcfw-arrives-to-slim-2500-3000-superslim-4000-nor-playstation-3-models.49533/
+      引用: PlayStation 3 / qCFW 进入稳定迭代，社区补齐 Super Slim 工作流
+   https://www.psx-place.com/threads/update-v1-8b-etahen-aio-homebrew-enabler-for-the-ps5.42050/
+      引用: PlayStation 5 / etaHEN 一体化 Homebrew Enabler 出现
+   https://www.psx-place.com/threads/who-created-first-psx-modchip.36239/
+      引用: PlayStation (PS1) / 首批 PlayStation 直读芯片 (modchip) 出现
+   https://www.reddit.com/r/SwitchHacks/comments/7rq0cu/jamais_vu_a_100_trustzone_code_execution_exploit/
+      引用: Nintendo Switch（V1 / Erista） / Jamais vu：1.0.0 的 TrustZone 代码执行漏洞
+   https://www.reddit.com/r/xbox/comments/1ous1mo/i_can_confirm_dev_mode_is_free_now/
+      引用: Xbox Series X|S / Dev Mode 激活转免费
+-- TypeError: ETIMEDOUT (1) --
+   https://pcsx-redux.consoledev.net
+      引用: PlayStation (PS1) / PCSX-Redux 成为 PS1 逆向与自制平台
+-- TypeError: UNABLE_TO_GET_ISSUER_CERT_LOCALLY (1) --
+   https://swarm.ptsecurity.com/xbox-360-security-in-details-the-long-way-to-rgh3/
+      引用: Xbox 360 / RGH 3.0：无需脉冲芯片
+-- TypeError: UND_ERR_CONNECT_TIMEOUT (74) --
+   http://news.bbc.co.uk/2/hi/business/1665566.stm
+      引用: PlayStation (PS1) / Bleem! 在诉讼消耗战中停运
+   http://web.archive.org/web/20220613000234if_/https://raw.githubusercontent.com/TheOfficialFloW/Presentations/master/2022-hardwear-io-bd-jb.pdf
+      引用: PlayStation 5 / TheFloW 公开 BD-J 蓝光沙箱逃逸
+   https://archive.org/details/net-yaroze-documents
+      引用: PlayStation (PS1) / Sony 官方自制套件 Net Yaroze 发售
+   https://archive.org/details/yuzu-lawsuit/
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Tropic Haze
+   https://archive.org/stream/HackingTheXboxAnIntroductionToReverseEngineering/HackingTheXboxAnIntroductionToReverseEngineering_djvu.txt
+      引用: Xbox（初代） / Xbox 发售与 MCPX 安全链 | Xbox（初代） / 《Hacking the Xbox》出版
+   https://beta.rtbf.be/article/le-site-officiel-japonais-de-sony-confirme-la-fin-de-la-production-de-la-ps-vita-10149605
+      引用: PlayStation Vita / PS Vita 停产，官方支持周期结束
+   https://bsky.app/profile/retr0.id/post/3lqtwrndzf22w
+      引用: Nintendo Switch 2 / 首发日演示：把 Switch 1 存档漏洞搬上 Switch 2
+   https://consolemods.org/wiki/PS1:FreePSXBoot
+      引用: PlayStation (PS1) / FreePSXBoot：只用一张记忆卡启动代码
+   https://consolemods.org/wiki/PS1:Modchips
+      引用: PlayStation (PS1) / PS1 防拷机制 SCEX 摆动信号被逆向
+   https://consolemods.org/wiki/PS4:VueAfterFree
+      引用: PlayStation 4 / Vue After Free：借 PlayStation Vue 应用拿下 7.00-13.00
+   https://consolemods.org/wiki/Xbox:PrometheOS
+      引用: Xbox（初代） / PrometheOS 1.0 发布
+   https://consolemods.org/wiki/Xbox:Scene_History
+      引用: Xbox（初代） / 首批 LPC 直读芯片问世 | Xbox（初代） / EvolutionX 仪表盘建立生态 | Xbox（初代） / TSOP 写保护短路刷 BIOS
+   https://consolemods.org/wiki/Xbox:TSOP_Flashing
+      引用: Xbox（初代） / TSOP 写保护短路刷 BIOS
+   https://consolemods.org/wiki/Xbox_360:Exploit_Chart
+      引用: Xbox 360 / JTAG/SMC hack 取得自制启动
+   https://consolemods.org/wiki/Xbox_360:RGH/RGH1.2
+      引用: Xbox 360 / RGH 1.2 提升稳定性
+   https://consolemods.org/wiki/Xbox_360:Scene_History
+      引用: Xbox 360 / Xtreme 光驱固件：首个破解 | Xbox 360 / XBReboot 与 freeBOOT 出现 | Xbox 360 / iXtreme LT 光驱固件发布
+   https://consolemods.org/wiki/Xbox_360:XK3Y_ODE
+      引用: Xbox 360 / xk3y 光驱模拟器（ODE）上市
+   https://consolemods.org/wiki/images/7/7c/Wasabi_360_Ultra_User_Guide_v1.3-0.pdf
+      引用: Xbox 360 / AP25 反盗版与 LT+ 固件 | Xbox 360 / xk3y 光驱模拟器（ODE）上市
+   https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=37332&oldid=20010
+      引用: Xbox（初代） / Mega X-Key 降低软破门槛
+   https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=prev&oldid=52889
+      引用: Xbox（初代） / UDE 利用仪表盘更新提权
+   https://en.m.wikipedia.org/wiki/Lik-sang.com
+      引用: 破解产业与法律战（横向专题） / 任天堂围剿 Lik Sang 和解
+   https://en.wikipedia.org/wiki/Andrew_Huang_(hacker)
+      引用: Xbox（初代） / 《Hacking the Xbox》出版
+   https://en.wikipedia.org/wiki/Bleem!
+      引用: 破解产业与法律战（横向专题） / Sony 诉 Bleem! 模拟器案 | PlayStation (PS1) / Bleem! 在诉讼消耗战中停运
+   https://en.wikipedia.org/wiki/Bung_Enterprises_Ltd
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Bung：备份设备违法
+   https://en.wikipedia.org/wiki/Free60
+      引用: Xbox 360 / free60 成立与 XeLL 生态
+   https://en.wikipedia.org/wiki/George_Hotz
+      引用: PlayStation 3 / GeoHot 公布 OtherOS hypervisor 漏洞
+   https://en.wikipedia.org/wiki/Insignia_(Xbox)
+      引用: Xbox（初代） / Insignia 复活官方联机 | Xbox（初代） / Insignia 支持游戏增至 204 款
+   https://en.wikipedia.org/wiki/Lik-sang
+      引用: PlayStation (PS1) / Sony 在香港起诉 Lik-Sang 销售改机芯片 | PlayStation (PS1) / Lik-Sang 因 Sony 诉讼结业
+   https://en.wikipedia.org/wiki/Microsoft_Pluton
+      引用: Xbox Series X|S / Pluton：Xbox 安全处理器进 PC
+   https://en.wikipedia.org/wiki/Modchip
+      引用: 破解产业与法律战（横向专题） / 英国 Sony v. Ball 改机案
+   https://en.wikipedia.org/wiki/Net_Yaroze
+      引用: PlayStation (PS1) / Sony 官方自制套件 Net Yaroze 发售
+   https://en.wikipedia.org/wiki/Nintendo_Switch
+      引用: Nintendo Switch（V1 / Erista） / Switch V1（Erista）发售，Tegra X1 埋下伏笔
+   https://en.wikipedia.org/wiki/OtherOS
+      引用: 破解产业与法律战（横向专题） / OtherOS 集体诉讼起诉索尼 | PlayStation 3 / PS3 发售，内置 OtherOS 可装 Linux | PlayStation 3 / 索尼固件 3.21 移除 OtherOS
+   https://en.wikipedia.org/wiki/PlayStation_3
+      引用: PlayStation 3 / PS3 发售，内置 OtherOS 可装 Linux
+   https://en.wikipedia.org/wiki/PlayStation_4
+      引用: PlayStation 4 / PS4 发售：Orbis OS 基于 FreeBSD 9.0
+   https://en.wikipedia.org/wiki/PlayStation_4_system_software
+      引用: PlayStation 4 / PS4 发售：Orbis OS 基于 FreeBSD 9.0
+   https://en.wikipedia.org/wiki/PlayStation_5
+      引用: PlayStation 5 / PlayStation 5 正式发售
+   https://en.wikipedia.org/wiki/PlayStation_Jailbreak
+      引用: PlayStation 3 / 索尼固件 3.21 移除 OtherOS | PlayStation 3 / PS Jailbreak USB 狗问世 | PlayStation 3 / PSGroove / PSFreedom 开源复刻
+   https://en.wikipedia.org/wiki/PlayStation_Portable_homebrew
+      引用: PlayStation Portable (PSP) / Dark_AleX 发布 3.03 OE-A 自制系统
+   https://en.wikipedia.org/wiki/Sega_v._Accolade
+      引用: 破解产业与法律战（横向专题） / Sega v. Accolade 抗辩
+   https://en.wikipedia.org/wiki/Softmod
+      引用: Xbox（初代） / MechAssault 存档软破扩散 | Xbox（初代） / Mega X-Key 降低软破门槛 | Xbox（初代） / Ndure 一键软破安装器
+   https://en.wikipedia.org/wiki/Sony_Computer_Entertainment,_Inc._v._Connectix_Corp.
+      引用: 破解产业与法律战（横向专题） / Sony 诉 Connectix 案
+   https://en.wikipedia.org/wiki/Sony_Computer_Entertainment_America_v._George_Hotz
+      引用: 破解产业与法律战（横向专题） / SCEA 诉 Hotz（GeoHot） | PlayStation 3 / GeoHot 公布 OtherOS hypervisor 漏洞 | PlayStation 3 / 索尼起诉 GeoHot（SCEA v. Hotz）
+   https://en.wikipedia.org/wiki/Stevens_v_Kabushiki_Kaisha_Sony_Computer_Entertainment
+      引用: PlayStation (PS1) / 澳大利亚高等法院：直读芯片不违法
+   https://en.wikipedia.org/wiki/Team_Xecuter
+      引用: Xbox（初代） / Team Xecuter 成员被捕 | Xbox Series X|S / Team Xecuter 两名负责人被捕 | Xbox Series X|S / Bowser 获刑 40 个月
+   https://en.wikipedia.org/wiki/Virtual_Game_Station
+      引用: 破解产业与法律战（横向专题） / Sony 诉 Connectix 案
+   https://en.wikipedia.org/wiki/Xbox_(console)
+      引用: Xbox（初代） / Xbox 发售与 MCPX 安全链
+   https://en.wikipedia.org/wiki/Xbox_360
+      引用: Xbox 360 / Xbox 360 发售与安全启动链
+   https://en.wikipedia.org/wiki/Xbox_One
+      引用: Xbox One / 微软撤销 Xbox One 强制联网与二手限制 | Xbox One / Xbox One 发售：三 OS 虚拟化安全架构 | Xbox One / Xbox One X 发售并延续 Dev Mode
+   https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S
+      引用: Xbox Series X|S / Series X|S 发售，无可用软破
+   https://gist.github.com/wviana/ff10323e6a3279ba0ac77b79aad196e7
+      引用: Xbox Series X|S / Dev Mode 跑通 PS1 4K 模拟
+   https://media.ccc.de/v/27c3-4087-en-console_hacking_2010
+      引用: PlayStation 3 / fail0verflow 在 27C3 还原签名私钥
+   https://media.ccc.de/v/39c3-opening-pamdora-s-box-and-unleashing-a-thousand-paths-on-the-journey-to-play-beatsaber-custom-songs
+      引用: PlayStation 5 / 39C3 公开 AMD PSP/BootROM 电压毛刺攻击
+   https://news.bbc.co.uk/2/hi/technology/3540186.stm
+      引用: 破解产业与法律战（横向专题） / 英国 Sony v. Ball 改机案
+   https://respawn.outlookindia.com/gaming/gaming-news/original-playstation-mod-unlocks-hidden-16mb-ram-support
+      引用: PlayStation (PS1) / PS1 内存改造：从 2MB 解锁到 16MB
+   https://web.archive.org/web/20051215000000/http://en.wikipedia.org/wiki/Bung_Enterprises_Ltd
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Bung：备份设备违法
+   https://web.archive.org/web/2015/http://www.extreme-mods.com/
+      引用: PlayStation 4 / 焊接式 DualShock 4 改装芯片出现
+   https://web.archive.org/web/20240903175016/https://icode4.coffee/?p=954
+      引用: Xbox 360 / Tony Hawk's Pro Strcpy 漏洞
+   https://web.archive.org/web/20250518234909/https://romhack.io/wp-content/uploads/sites/2/2024/10/Andy-Nguyen-PlayStation-4-Remote-Kernel-Exploitation-RomHack-2024.pdf
+      引用: PlayStation 4 / PPPwn 发布：网络侧 PPPoE 内核 RCE
+   https://web.archive.org/web/20260201053851/https://archive.nytimes.com/www.nytimes.com/library/cyber/week/082997yarouze.html
+      引用: PlayStation (PS1) / Sony 官方自制套件 Net Yaroze 发售
+   https://www.bbc.co.uk/news/technology-36097461
+      引用: Xbox 360 / 微软停产 Xbox 360
+   https://www.bbc.com/news/technology-11176441
+      引用: PlayStation 3 / PS Jailbreak USB 狗问世 | PlayStation 3 / PSGroove / PSFreedom 开源复刻 | PlayStation Portable (PSP) / PSJailbreak 案：索尼诉破解设备销售商
+   https://www.bbc.com/news/technology-54386985
+      引用: 破解产业与法律战（横向专题） / 任天堂诉 Uberchips：200 万美元和解
+   https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3
+      引用: 破解产业与法律战（横向专题） / Bowser 获刑 40 个月 | PlayStation 4 / Gary Bowser 因改机盗版案被判 40 个月 | Switch 续航版 / Lite / OLED（Mariko） / Gary Bowser 被判 40 个月并赔款
+   https://www.justice.gov/usao-wdwa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody
+      引用: 破解产业与法律战（横向专题） / 美国司法部起诉 Team Xecuter | PlayStation 4 / 美国 DOJ 起诉 Team Xecuter 核心成员 | Switch 续航版 / Lite / OLED（Mariko） / Team Xecuter 成员被捕并被起诉
+   https://www.kyoto-np.co.jp/articles/-/1679695
+      引用: 破解产业与法律战（横向专题） / 日本警方查处 Switch 改机
+   https://www.muycomputer.com/2011/12/26/ixtreme-lt-v3-0-nueo-firmware-para-lectores-xbox-360/
+      引用: Xbox 360 / iXtreme LT+ 3.0 应对 XGD3
+   https://www.notebookcheck.net/An-updated-PS3-hardware-mod-unlocks-CELL-and-RSX-overclocking-on-the-Super-Slim-using-a-Raspberry-Pi-Pico.1211940.0.html
+      引用: PlayStation 3 / BadWDSD 硬件模块搭配 qCFW 攻破 Super Slim
+   https://www.notebookcheck.net/GTA-6-blocks-PS5-jailbreak-and-piracy-on-release-date-requiring-14-10-00-firmware.1414828.0.html
+      引用: PlayStation 5 / 14.10.00 固件与《GTA 6》的强制更新门槛
+   https://www.notebookcheck.net/Switch-2-Developer-unveils-a-universal-exploit-that-works-entirely-offline.1347373.0.html
+      引用: 破解产业与法律战（横向专题） / Gezine 公布通用漏洞 | Nintendo Switch 2 / Gezine 公开通用的离线 userland 漏洞：不靠 WebKit、不靠存档 | Nintendo Switch 2 / 现状：仍未被破解，内核与 hypervisor 零突破，成果全部停在 userland
+   https://www.notebookcheck.net/The-PlayStation-5-has-been-successfully-jailbroken-firmware-version-4-03-or-lower-required.659204.0.html
+      引用: PlayStation 5 / PS5 首个公开 4.03 内核漏洞利用
+   https://www.theguardian.com/games/2024/feb/01/the-man-who-owes-nintendo-14m-gary-bowser-and-gamings-most-infamous-piracy-case
+      引用: 破解产业与法律战（横向专题） / Bowser 终身赔偿追偿
+   https://www.youtube.com/watch?v=FTFn4UZsA5U
+      引用: Xbox One / BLISS：电压毛刺攻破初代机安全处理器 | Xbox Series X|S / Bliss 电压毛刺攻破 Xbox One
+   https://x.com/gezine_dev/status/2074894225460822503
+      引用: 破解产业与法律战（横向专题） / Gezine 公布通用漏洞 | Nintendo Switch 2 / Gezine 公开通用的离线 userland 漏洞：不靠 WebKit、不靠存档 | Nintendo Switch 2 / HDMI 采集卡当信道：把 Switch 2 游戏运行内存搬出主机
+-- TypeError: UND_ERR_SOCKET (11) --
+   https://gamerant.com/us-copyright-office-denies-petition-video-game-preservation-remote-access/
+      引用: 破解产业与法律战（横向专题） / DMCA 2024：维修豁免续期
+   https://gamerant.com/xbox-series-x-windows-98/
+      引用: Xbox Series X|S / Dev Mode 里跑起 Windows 98
+   https://screenrant.com/nintendo-switch-hacker-gary-bowser-guilty/
+      引用: 破解产业与法律战（横向专题） / Gary Bowser 认罪认罚
+   https://www.dualshockers.com/nintendo-wins-dutch-lawsuit-against-mig-switch-cartridges/
+      引用: Nintendo Switch（V1 / Erista） / MiG Switch 烧录卡：绕过一切漏洞的硬件路线
+   https://www.polygon.com/2014/7/9/5884689/microsoft-xbox-one-retail-developer-consoles-plans-dropped/
+      引用: Xbox One / 微软反复：零售机充当开发机计划先否后认
+   https://www.polygon.com/2016/3/30/11318568/xbox-one-dev-kit/
+      引用: Xbox One / 微软开放 Dev Mode 开发者模式预览
+   https://www.polygon.com/linux/2018/3/18/17135994/playstation-3-otheros-settlement-lawsuit-linux/
+      引用: PlayStation 3 / OtherOS 集体诉讼和解与索赔截止
+   https://www.polygon.com/news/558268/japan-conviction-switch-modifying-hacking-prison-sentence-fine/
+      引用: Nintendo Switch 2 / 日本首例改机销售者获刑：2 年缓刑
+   https://www.xda-developers.com/hackers-revived-this-sony-portable-as-an-xbox-and-its-not-the-psp/
+      引用: PlayStation Vita / GreenVita 让破解版 Vita 串流 Xbox Cloud Gaming
+   https://www.xda-developers.com/how-paperclip-enabled-piracy-original-playstation/
+      引用: PlayStation (PS1) / 换盘法 (swap trick) 被发现
+   https://www.xda-developers.com/playstation-4-jailbreak-firmware-9-00/
+      引用: PlayStation 4 / pOOBs4 公开，9.00 越狱落地
+
+### 发生跳转（建议更新为新地址）
+
+   http://packetstormsecurity.com/files/123088/
+    -> https://packetstorm.news/_pow?return=/files/123088/
+   https://cve.mitre.org/cgi-bin/cvename.cgi?name=2014-8476
+    -> https://www.cve.org/CVERecord?id=2014-8476
+   https://github.com/Cryptogenic/PS5-4.03-Kernel-Exploit
+    -> https://github.com/Cryptogenic/PS5-IPV6-Kernel-Exploit
+   https://github.com/Kudayasu/Artifice/releases/latest
+    -> https://github.com/Kudayasu/Artifice/releases/tag/v1.2.0
+   https://nvd.nist.gov/vuln/detail/CVE-2005-3084
+    -> https://nvd.nist.gov/vuln/detail/cve-2005-3084
+   https://nvd.nist.gov/vuln/detail/CVE-2007-1220
+    -> https://nvd.nist.gov/vuln/detail/cve-2007-1220
+   https://nvd.nist.gov/vuln/detail/CVE-2007-1221
+    -> https://nvd.nist.gov/vuln/detail/cve-2007-1221
+   https://nvd.nist.gov/vuln/detail/CVE-2009-2541
+    -> https://nvd.nist.gov/vuln/detail/cve-2009-2541
+   https://nvd.nist.gov/vuln/detail/CVE-2010-1807
+    -> https://nvd.nist.gov/vuln/detail/cve-2010-1807
+   https://nvd.nist.gov/vuln/detail/CVE-2010-4577
+    -> https://nvd.nist.gov/vuln/detail/cve-2010-4577
+   https://nvd.nist.gov/vuln/detail/CVE-2015-5675
+    -> https://nvd.nist.gov/vuln/detail/cve-2015-5675
+   https://nvd.nist.gov/vuln/detail/CVE-2016-4657
+    -> https://nvd.nist.gov/vuln/detail/cve-2016-4657
+   https://nvd.nist.gov/vuln/detail/CVE-2016-7200
+    -> https://nvd.nist.gov/vuln/detail/cve-2016-7200
+   https://nvd.nist.gov/vuln/detail/CVE-2017-0785
+    -> https://nvd.nist.gov/vuln/detail/cve-2017-0785
+   https://nvd.nist.gov/vuln/detail/CVE-2017-9417
+    -> https://nvd.nist.gov/vuln/detail/cve-2017-9417
+   https://nvd.nist.gov/vuln/detail/CVE-2018-6242
+    -> https://nvd.nist.gov/vuln/detail/cve-2018-6242
+   https://nvd.nist.gov/vuln/detail/CVE-2020-0601
+    -> https://nvd.nist.gov/vuln/detail/cve-2020-0601
+   https://nvd.nist.gov/vuln/detail/CVE-2020-7457
+    -> https://nvd.nist.gov/vuln/detail/cve-2020-7457
+   https://nvd.nist.gov/vuln/detail/CVE-2021-43527
+    -> https://nvd.nist.gov/vuln/detail/cve-2021-43527
+   https://nvd.nist.gov/vuln/detail/CVE-2024-30088
+    -> https://nvd.nist.gov/vuln/detail/cve-2024-30088
+   https://nvd.nist.gov/vuln/detail/CVE-2024-43102
+    -> https://nvd.nist.gov/vuln/detail/cve-2024-43102
+   https://nvd.nist.gov/vuln/detail/CVE-2025-64390
+    -> https://nvd.nist.gov/vuln/detail/cve-2025-64390
+   https://ps2homebrew.github.io/Open-PS2-Loader/
+    -> http://www.ps2homebrew.org/Open-PS2-Loader/
+   https://www.cnn.com/2025/04/02/tech/nintendo-switch-2-release-date-announced/index.html
+    -> https://edition.cnn.com/2025/04/02/tech/nintendo-switch-2-release-date-announced/index.html
+   https://www.federalregister.gov/documents/2015/10/28/2015-27212/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+    -> https://www.federalregister.gov/documents/2015/10/28/2015-27212/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control
+   https://www.federalregister.gov/documents/2018/10/26/2018-23241/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+    -> https://www.federalregister.gov/documents/2018/10/26/2018-23241/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control
+   https://www.federalregister.gov/documents/2021/10/28/2021-23311/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+    -> https://www.federalregister.gov/documents/2021/10/28/2021-23311/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control
+   https://www.federalregister.gov/documents/2024/10/28/2024-24563/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control-technologies
+    -> https://www.federalregister.gov/documents/2024/10/28/2024-24563/exemption-to-prohibition-on-circumvention-of-copyright-protection-systems-for-access-control
+   https://www.itprotoday.com/microsoft-windows/microsoft-uses-halo-2-to-catch-xbox-pirates
+    -> https://www.techtarget.com/it-strategy/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget
+   https://www.nintendo.com.hk/support/information/2021/210706/index_sc.html
+    -> https://support.nintendo.com/hk/information/2021/210706/index_sc.html
+
+完整报告: tools/link-report.json

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xbox One 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="Xbox One 破解史时间轴：Xbox One 是微软把「可改机」需求官方化的主机：Hyper-V 派生的三虚拟机架构（HostOS/SystemOS/ERA）、安全启动与代码签名让零售机在整个世代内没有出现可用的软破或硬破。破解生态几乎全部转入官方">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="xbox-one" data-single="1" style="--accent:var(--xbox)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html" class="active">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../xbox.html">Xbox 家族</a> ／
+    <span style="color:var(--text-dim)">Xbox One</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">Xbox One<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2013-11</b>发售</div>
+      <div><b>23</b>收录事件</div>
+      <div><b>2013–2026</b>时间跨度</div>
+      <div><b>48</b>条原文链接</div>
+      <div><b>3</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">Xbox</p>
+      <p class="ch-summary">Xbox One 是微软把「可改机」需求官方化的主机：Hyper-V 派生的三虚拟机架构（HostOS/SystemOS/ERA）、安全启动与代码签名让零售机在整个世代内没有出现可用的软破或硬破。破解生态几乎全部转入官方 Dev Mode 与 UWP 侧载，微软则通过商店政策与封禁持续收紧（尤其针对模拟器）。技术研究长期停留在 Edge/Chakra、File Explorer 符号链接、内核竞态等孤立漏洞，直到 2026 年 3 月 Markus &quot;doom&quot; Gaasedelen 以 BLISS 电压故障注入攻破初代机的 AMD 安全处理器 BootROM，才第一次证明零售机也能运行任意未签名代码。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，Xbox One 零售机的安全第一次被真正打破，但仍停留在研究者层面：2026 年 3 月 Markus &quot;doom&quot; Gaasedelen 公开 BLISS 电压毛刺攻击，首次在初代 Xbox One（Greybull 主板）的安全处理器 BootROM 上取得任意代码执行，可在各级别运行未签名代码，且因属出厂固化的硅片缺陷无法靠补丁修复。2026 年 8 月又出现 Coldforest 这类开源毛刺硬件项目（双微控制器 + XOCore 引导环境，估算成本约 40–60 美元），但至今没有可复现的完整攻击链，也没有量产 modchip。One S、One X 与 Series X|S 不在 BLISS 影响范围内，普通用户改机仍然只能走官方 Dev Mode。</span></div>
+      <div class="stat-row"><span class="stat-pill">法律与产业 <b>4</b></span><span class="stat-pill">工具与生态 <b>7</b></span><span class="stat-pill">软件漏洞 <b>5</b></span><span class="stat-pill">软破 <b>5</b></span><span class="stat-pill">硬件漏洞 <b>1</b></span><span class="stat-pill">硬破 <b>1</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">Xbox 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="xbox-original.html"><span class="cc-name">Xbox（初代）</span><span class="cc-count">25 条</span></a><a class="console-chip" href="xbox-360.html"><span class="cc-name">Xbox 360</span><span class="cc-count">27 条</span></a><a class="console-chip cc-active" href="xbox-one.html"><span class="cc-name">Xbox One</span><span class="cc-count">23 条</span></a><a class="console-chip" href="xbox-series.html"><span class="cc-name">Xbox Series X|S</span><span class="cc-count">21 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="xbox-360.html"><span>← 上一台</span><b>Xbox 360</b></a><a class="pn pn-next" href="xbox-series.html"><span>下一台 →</span><b>Xbox Series X|S</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 Xbox One 的破解史时间轴，共 23 个事件、48 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/xbox-one.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

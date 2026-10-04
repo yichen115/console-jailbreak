@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nintendo Switch 2 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="Nintendo Switch 2 破解史时间轴：Switch 2 是游戏机史上安全设计最保守的一代首发机型：它沿用 Switch 1 那套被反复审计、公认没有可利用漏洞的 Horizon 微内核，SoC（NVIDIA T239）又加入 Pointer Authenti">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="switch-2" data-single="1" style="--accent:var(--switch)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html">Xbox 家族</a>
+      <a href="../switch.html" class="active">Switch 家族</a>
+      <a href="../playstation.html">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../switch.html">Nintendo Switch 家族</a> ／
+    <span style="color:var(--text-dim)">Nintendo Switch 2</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">Nintendo Switch 2<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2025-06</b>发售</div>
+      <div><b>26</b>收录事件</div>
+      <div><b>2018–2026</b>时间跨度</div>
+      <div><b>51</b>条原文链接</div>
+      <div><b>1</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">Switch</p>
+      <p class="ch-summary">Switch 2 是游戏机史上安全设计最保守的一代首发机型：它沿用 Switch 1 那套被反复审计、公认没有可利用漏洞的 Horizon 微内核，SoC（NVIDIA T239）又加入 Pointer Authentication、内存加密、熔丝防降级与抗毛刺（anti-glitching）设计。首发当天 retr0id 展示的“破解”其实是把 Switch 1 的存档漏洞搬过来，只能拿到受限的 userland 权限；2025 年 8 月 comex 又在浏览器 WebKit 中拿到任意读写，但内核与 hypervisor 始终没有人攻破，Atmosphère 主开发者 SciresM 更公开表示即使 Switch 2 被破解也不会为其开发自制固件。2026 年的进展全部集中在这条 userland 线上：7 月 Gezine 公开了不依赖 WebKit 与存档漏洞、可完全离线触发且兼容所有固件的通用漏洞，9 月又用 HDMI 采集卡把游戏运行内存编码成画面帧外带出来，两者都不构成越狱。因此这一代的主线不是破解技术突破，而是任天堂的封禁与诉讼：MIG 烧录卡用户被大规模 Ban 机、MIG 厂商以 200 万美元和解并被永久禁售、日本首次对改机销售者作出有罪判决，2026 年又叠加了荷兰法院对 MIG Switch 欧洲销售的违法认定、一次性下架 400 余个 Switch 模拟器仓库，以及对盗版社区运营者 Archbox 的 450 万美元缺席判决。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，Switch 2 依然没有被破解：没有任何公开可用的软破、硬破、自制固件或引导器，官方固件已从首发的 19.x 推进到 23.x，而内核与 hypervisor 依旧零突破——Atmosphère 1.12.0（2026 年 9 月 27 日）只跟进 Switch 1 的 23.0.0，明确不为 Switch 2 提供支持。全部公开成果都停在 userland 层面：2025 年首发日的 Switch 1 存档漏洞与 comex 的 WebKit 任意读写，2026 年 7 月 Gezine 公开的不依赖 WebKit 与存档、可完全离线触发的通用 userland 漏洞，以及 9 月用 HDMI 采集卡把游戏运行内存编码成画面外带的方法；这些都无法访问 SD 卡或提权，不能盗版也不能跑自制系统。硬件防护同样没有被攻破，任天堂一侧则继续以封禁与诉讼施压，包括 9 月的大规模误封事件（官方称为系统临时故障）、荷兰法院对 MIG Switch 欧洲销售的违法认定与 450 万美元级的盗版判决。</span></div>
+      <div class="stat-row"><span class="stat-pill">软破 <b>3</b></span><span class="stat-pill">硬件漏洞 <b>5</b></span><span class="stat-pill">工具与生态 <b>7</b></span><span class="stat-pill">法律与产业 <b>7</b></span><span class="stat-pill">硬破 <b>2</b></span><span class="stat-pill">软件漏洞 <b>2</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">Nintendo Switch 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="switch-v1.html"><span class="cc-name">Nintendo Switch（V1 / Erista）</span><span class="cc-count">28 条</span></a><a class="console-chip" href="switch-mariko.html"><span class="cc-name">Switch 续航版 / Lite / OLED（Mariko）</span><span class="cc-count">26 条</span></a><a class="console-chip cc-active" href="switch-2.html"><span class="cc-name">Nintendo Switch 2</span><span class="cc-count">26 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="switch-mariko.html"><span>← 上一台</span><b>Switch 续航版 / Lite / OLED（Mariko）</b></a><span class="pn pn-off"></span></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 Nintendo Switch 2 的破解史时间轴，共 26 个事件、51 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/switch-2.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

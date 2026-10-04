@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayStation 家族破解史时间轴 | PS1 · PS2 · PSP · PS3 · Vita · PS4 · PS5</title>
+<meta name="description" content="PlayStation 全系列破解史：PS1 直读芯片与 FreePSXBoot、PS2 的 Free McBoot、PSP 神奇电池、PS3 签名私钥泄露、Vita 的 HENkaku、PS4 的 PPPwn、PS5 固件拉锯战，附原文链接。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-consoles="ps1,ps2,psp,ps3,ps-vita,ps4,ps5" style="--accent:var(--ps)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="index.html">总览</a>
+      <a href="xbox.html">Xbox 家族</a>
+      <a href="switch.html">Switch 家族</a>
+      <a href="playstation.html" class="active">PlayStation 家族</a>
+      <a href="cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1 style="background:linear-gradient(120deg,#a5d8ff 5%,#0070d1 95%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">PlayStation 家族破解史</h1>
+    <p class="lede">
+      索尼这条线是主机破解史的完整标本，三十余年没有断过：1990 年代中期的直读芯片（第一颗 modchip 就是为 PS1 而生的）、
+      PS2 的记忆卡引导、PSP 的 Pandora 神奇电池、2010 年 fail0verflow 在 CCC 上因为一个重复的 ECDSA 随机数
+      直接还原出 PS3 的签名私钥、Vita 的 HENkaku、PS4 的 WebKit 内核链与 PPPwn，以及 PS5 上仍在进行的固件版本拉锯。
+      每一代索尼主机都能被破，区别只在于「破到哪一版固件」和「要不要动烙铁」——而 2025 年底公开的
+      AMD 安全处理器电压毛刺研究，第一次把战场从可修补的软件层推到了无法修补的硅片层。
+    </p>
+    <div class="hero-meta">
+      <div><b data-stat="events">—</b>收录事件</div>
+      <div><b data-stat="span">—</b>时间跨度</div>
+      <div><b data-stat="domains">—</b>来源站点</div>
+      <div><b data-stat="cves">—</b>个 CVE 编号</div>
+      <div><b>7</b>个机型</div>
+    </div>
+  </header>
+
+  <h2 class="section-title">本页机型</h2>
+  <div id="console-index" class="console-index"></div>
+
+  <div class="toolbar" style="margin-top:26px">
+    <input id="search" type="search" placeholder="搜索漏洞名 / 工具 / CVE / 年份…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:280px;flex:1;max-width:420px">
+  </div>
+
+  <div class="legend" style="margin-bottom:24px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <footer class="footer">
+    <p><b>关于本站</b>：本站为技术史整理，所有条目均以公开报道、官方公告、CVE 数据库与开源项目页面为来源，链接直接指向原文。</p>
+    <p>破解主机可能违反厂商服务条款、当地法律（如 DMCA 第 1201 条反规避条款）并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+  </footer>
+</div>
+
+<script src="data/ps1.js"></script>
+<script src="data/ps2.js"></script>
+<script src="data/psp.js"></script>
+<script src="data/ps3.js"></script>
+<script src="data/ps-vita.js"></script>
+<script src="data/ps4.js"></script>
+<script src="data/ps5.js"></script>
+<script src="assets/timeline.js"></script>
+</body>
+</html>

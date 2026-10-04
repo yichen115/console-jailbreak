@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xbox Series X|S 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="Xbox Series X|S 破解史时间轴：Xbox Series X|S 沿用 Xbox One 的 PSP 硬件信任根与 Hyper-V 虚拟化，发售后既没有公开的软件漏洞与固件降级路径，也没有出现直读芯片或 ODE，硬破领域至今空白。它的破解史几乎等同于 D">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="xbox-series" data-single="1" style="--accent:var(--xbox)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html" class="active">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../xbox.html">Xbox 家族</a> ／
+    <span style="color:var(--text-dim)">Xbox Series X|S</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">Xbox Series X|S<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2020-11</b>发售</div>
+      <div><b>21</b>收录事件</div>
+      <div><b>2013–2026</b>时间跨度</div>
+      <div><b>57</b>条原文链接</div>
+      
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">Xbox</p>
+      <p class="ch-summary">Xbox Series X|S 沿用 Xbox One 的 PSP 硬件信任根与 Hyper-V 虚拟化，发售后既没有公开的软件漏洞与固件降级路径，也没有出现直读芯片或 ODE，硬破领域至今空白。它的破解史几乎等同于 Dev Mode 生态史：模拟器与自制软件全部依赖官方开发者模式侧载，也因此先后被商店下架与封号政策整肃。2026-03 的 Bliss 用双重电压毛刺首次攻破 2013 款 Xbox One 的 Boot ROM，但 One S、One X 与 Series X|S 被明确排除在影响范围之外，本世代信任根仍然完好。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，Series X|S 零售机依旧未被攻破：没有任何公开的软破、固件降级或 modchip/ODE 方案，本世代 SoC 与 PSP 信任根也没有出现类似 BLISS 的硅片缺陷（该攻击仅适用于 2013 款初代 Xbox One）。官方 Dev Mode 是唯一的免硬改通道，2025 年取消开发者注册费后门槛进一步降低，2026 年社区继续借它把 Switch 模拟器 Ryujinx、4K60 的 Mario Kart Wii 以及 PS5 模拟器 KytyPS5 的移植版搬上主机。代价是这条路完全受微软政策与账号体系约束，且只能停留在用户态沙箱内，无法触及内核、hypervisor 或安全处理器。</span></div>
+      <div class="stat-row"><span class="stat-pill">硬件漏洞 <b>6</b></span><span class="stat-pill">工具与生态 <b>5</b></span><span class="stat-pill">软件漏洞 <b>2</b></span><span class="stat-pill">法律与产业 <b>4</b></span><span class="stat-pill">软破 <b>3</b></span><span class="stat-pill">硬破 <b>1</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">Xbox 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="xbox-original.html"><span class="cc-name">Xbox（初代）</span><span class="cc-count">25 条</span></a><a class="console-chip" href="xbox-360.html"><span class="cc-name">Xbox 360</span><span class="cc-count">27 条</span></a><a class="console-chip" href="xbox-one.html"><span class="cc-name">Xbox One</span><span class="cc-count">23 条</span></a><a class="console-chip cc-active" href="xbox-series.html"><span class="cc-name">Xbox Series X|S</span><span class="cc-count">21 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="xbox-one.html"><span>← 上一台</span><b>Xbox One</b></a><span class="pn pn-off"></span></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 Xbox Series X|S 的破解史时间轴，共 21 个事件、57 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/xbox-series.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

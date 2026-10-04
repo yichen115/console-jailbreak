@@ -1,0 +1,3 @@
+GitHub Pages 用：显式关闭 Jekyll 构建。
+本仓库是纯静态站点（HTML + CSS + 原生 JS 数据文件），不需要 Jekyll 处理；
+关闭后可以避免 Jekyll 忽略下划线开头的文件、以及对无关文件做 Liquid 解析带来的构建风险。

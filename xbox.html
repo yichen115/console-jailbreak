@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xbox 家族破解史时间轴 | 初代 · Xbox 360 · One · Series X|S</title>
+<meta name="description" content="Xbox 全系列破解史：初代直读芯片与存档溢出、Xbox 360 的 JTAG 与 RGH 脉冲破解、2025 年 BadUpdate 纯软破，附原文链接。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-consoles="xbox-original,xbox-360,xbox-one,xbox-series" style="--accent:var(--xbox)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="index.html">总览</a>
+      <a href="xbox.html" class="active">Xbox 家族</a>
+      <a href="switch.html">Switch 家族</a>
+      <a href="playstation.html">PlayStation 家族</a>
+      <a href="cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1 style="background:linear-gradient(120deg,#8ce99a 5%,#4dabf7 95%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Xbox 家族破解史</h1>
+    <p class="lede">
+      微软的四代主机呈现出最戏剧化的反差：初代 Xbox 因为内置硬盘和 PC 级架构，成了史上最适合折腾的一台主机，
+      但它的破解始终需要动烙铁或利用游戏存档；Xbox 360 走完了「光驱固件 → JTAG → RGH 脉冲」的完整技术演进，
+      并在 2025 年靠 <b>BadUpdate</b> 实现了迟到二十年的纯软破。Xbox One 与 Series X|S 则长期被视为
+      「攻不破的一代」——整个世代没有出现可用的软破或硬破，直到 2026 年 3 月的 <b>BLISS</b> 电压毛刺攻击，
+      才第一次在初代 Xbox One 上跑起未签名代码，而 One S、One X 与 Series X|S 至今仍在影响范围之外。
+    </p>
+    <div class="hero-meta">
+      <div><b data-stat="events">—</b>收录事件</div>
+      <div><b data-stat="span">—</b>时间跨度</div>
+      <div><b data-stat="domains">—</b>来源站点</div>
+      <div><b data-stat="cves">—</b>个 CVE 编号</div>
+      <div><b>4</b>个机型</div>
+    </div>
+  </header>
+
+  <h2 class="section-title">本页机型</h2>
+  <div id="console-index" class="console-index"></div>
+
+  <div class="toolbar" style="margin-top:26px">
+    <input id="search" type="search" placeholder="搜索漏洞名 / 工具 / CVE / 年份…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:280px;flex:1;max-width:420px">
+  </div>
+
+  <div class="legend" style="margin-bottom:24px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <footer class="footer">
+    <p><b>关于本站</b>：本站为技术史整理，所有条目均以公开报道、官方公告、CVE 数据库与开源项目页面为来源，链接直接指向原文。</p>
+    <p>破解主机可能违反厂商服务条款、当地法律（如 DMCA 第 1201 条反规避条款）并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+  </footer>
+</div>
+
+<script src="data/xbox-original.js"></script>
+<script src="data/xbox-360.js"></script>
+<script src="data/xbox-one.js"></script>
+<script src="data/xbox-series.js"></script>
+<script src="assets/timeline.js"></script>
+</body>
+</html>

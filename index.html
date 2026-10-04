@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>游戏机破解史 · 全景时间轴 | Xbox · Switch · PlayStation</title>
+<meta name="description" content="Xbox、Nintendo Switch、PlayStation 全系列主机破解史：软破、硬破、软硬件漏洞与 CVE 全景时间轴，1994 年至今，附原文链接。">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .terms { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); }
+  .term {
+    background: var(--bg-card); border: 1px solid var(--border-soft);
+    border-left: 2px solid var(--cat); border-radius: 10px; padding: 16px 18px;
+  }
+  .term h4 { margin: 0 0 8px; font-size: 15px; color: var(--cat); }
+  .term p { margin: 0 0 8px; color: var(--text-dim); font-size: 13.5px; }
+  .term .examples { font-family: var(--mono); font-size: 11.5px; color: var(--text-faint); line-height: 1.8; margin: 0; }
+  .term .examples b { color: var(--text-dim); font-weight: 500; }
+  .hint { color: var(--text-faint); font-size: 12px; margin: -10px 0 20px; }
+</style>
+</head>
+<body data-consoles="master,industry-legal">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="index.html" class="active">总览</a>
+      <a href="xbox.html">Xbox 家族</a>
+      <a href="switch.html">Switch 家族</a>
+      <a href="playstation.html">PlayStation 家族</a>
+      <a href="cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1>从换盘法到内核漏洞<br>三十余年主机破解史</h1>
+    <p class="lede">
+      1994 年发售的 PlayStation 很快被一颗直读芯片撬开，2026 年的 PS5 还在为「公开可破的固件上限」反复拉锯。
+      三十余年间，「破解」从一个焊接手艺活，演变成了横跨 BootROM、超管理器、浏览器引擎、密码学实现与法庭的完整产业链。
+      这个站点把 Xbox、Nintendo Switch、PlayStation 三大阵营全系列机型的破解脉络按时间轴逐条梳理，每条都附上可核查的原文链接。
+    </p>
+    <div class="hero-meta">
+      <div><b data-stat="events">—</b>收录事件</div>
+      <div><b data-stat="span">—</b>时间跨度</div>
+      <div><b data-stat="domains">—</b>来源站点</div>
+      <div><b data-stat="cves">—</b>个 CVE 编号</div>
+      <div><b>14</b>个机型 </div>
+    </div>
+  </header>
+
+  <h2 class="section-title">按阵营浏览</h2>
+  <div class="family-grid">
+    <a class="family-card" href="xbox.html" style="--accent:var(--xbox)">
+      <h3>Xbox 家族</h3>
+      <p class="fc-sub">2001 → 2026</p>
+      <p>初代的 Xecuter 直读芯片与《机甲先锋》存档溢出、360 的 JTAG 与 RGH 脉冲破解、2025 年 BadUpdate 的纯软破；One 与 Series X|S 直到 2026 年才被电压毛刺攻击首次撬动 BootROM。</p>
+      <div class="fc-models">
+        <span>Xbox 初代 <b data-count="xbox-original"></b></span>
+        <span>Xbox 360 <b data-count="xbox-360"></b></span>
+        <span>Xbox One <b data-count="xbox-one"></b></span>
+        <span>Series X|S <b data-count="xbox-series"></b></span>
+      </div>
+    </a>
+
+    <a class="family-card" href="switch.html" style="--accent:var(--switch)">
+      <h3>Nintendo Switch 家族</h3>
+      <p class="fc-sub">2017 → 2026</p>
+      <p>英伟达 Tegra X1 的一处 USB 栈溢出（Fusée Gelée）让首发出厂的每一台 Switch 都能软破；2018 年中之后的机器只能靠 SX Core、HWFLY、Picofly 这类焊接改机，Switch 2 至今未被攻破内核。</p>
+      <div class="fc-models">
+        <span>V1 / Erista <b data-count="switch-v1"></b></span>
+        <span>续航版 / Lite / OLED <b data-count="switch-mariko"></b></span>
+        <span>Switch 2 <b data-count="switch-2"></b></span>
+      </div>
+    </a>
+
+    <a class="family-card" href="playstation.html" style="--accent:var(--ps)">
+      <h3>PlayStation 家族</h3>
+      <p class="fc-sub">1994 → 2026</p>
+      <p>史上最长的一条线：PS1 的直读芯片与记忆卡漏洞、PS2 的 Free McBoot、PSP 的神奇电池、PS3 的签名私钥泄露、Vita 的 HENkaku、PS4 的 PPPwn，到 PS5 的固件拉锯战。</p>
+      <div class="fc-models">
+        <span>PS1 <b data-count="ps1"></b></span>
+        <span>PS2 <b data-count="ps2"></b></span>
+        <span>PSP <b data-count="psp"></b></span>
+        <span>PS3 <b data-count="ps3"></b></span>
+        <span>PS Vita <b data-count="ps-vita"></b></span>
+        <span>PS4 <b data-count="ps4"></b></span>
+        <span>PS5 <b data-count="ps5"></b></span>
+      </div>
+    </a>
+  </div>
+
+  <h2 class="section-title">机型速查表 · 截至 2026 年 10 月</h2>
+  <div class="table-wrap">
+    <table class="quick">
+      <thead>
+        <tr>
+          <th>机型</th><th>发售</th><th>主要破解手段</th><th>需拆机</th><th>当前可破范围</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="fam-row"><td colspan="5">Xbox 家族</td></tr>
+        <tr>
+          <td>Xbox（初代）</td><td>2001-11</td>
+          <td>直读芯片（ModXO / OpenXenium）；游戏存档溢出软破（MechAssault、007 等）</td>
+          <td><span class="no">软破不必</span> / <span class="yes">硬破需要</span></td>
+          <td>全机型。漏洞位于掩膜 ROM 与 LPC 调试总线，官方无从封堵</td>
+        </tr>
+        <tr>
+          <td>Xbox 360</td><td>2005-11</td>
+          <td>光驱固件刷写（Xtreme → iXtreme LT/LT+）；JTAG（SMC 缺陷）；RGH 脉冲 1.2/2.0/3.0/1.3；BadUpdate 纯软破</td>
+          <td><span class="yes">RGH 需要</span> / BadUpdate 不必</td>
+          <td>BadUpdate 仅限系统版本 17559 且重启即失效；RGH 覆盖绝大多数主板</td>
+        </tr>
+        <tr>
+          <td>Xbox One</td><td>2013-11</td>
+          <td>官方 Dev Mode；2026 年 3 月 BLISS 电压毛刺（仅研究阶段，无完整攻击链）</td>
+          <td><span class="part">初代机需毛刺硬件</span></td>
+          <td>无零售机可用方案；仅初代 Greybull 主板被攻破，One S / One X 不受影响</td>
+        </tr>
+        <tr>
+          <td>Xbox Series X|S</td><td>2020-11</td>
+          <td>仅官方 Dev Mode（用户态沙箱，受账号与商店政策约束）</td>
+          <td><span class="no">不需要</span></td>
+          <td>无任何公开软破、降级或 modchip/ODE 方案</td>
+        </tr>
+
+        <tr class="fam-row"><td colspan="5">Nintendo Switch 家族</td></tr>
+        <tr>
+          <td>Switch V1 / Erista</td><td>2017-03</td>
+          <td>RCM + Fusée Gelée（CVE-2018-6242，Tegra X1 BootROM 栈溢出）；Atmosphère + Hekate + emuMMC</td>
+          <td><span class="no">不需要</span>（短接 RCM 触点 + 注入器）</td>
+          <td>与系统固件版本无关、永久有效；仅限 2018 年年中前未 ipatch 的机器</td>
+        </tr>
+        <tr>
+          <td>Switch 续航版 / Lite / OLED</td><td>2019-08 起</td>
+          <td>焊接 modchip：Team Xecuter SX Core / SX Lite、HWFLY、Picofly（RP2040）</td>
+          <td><span class="yes">需要</span></td>
+          <td>全部固件版本，但必须硬破；无任何公开软破路线</td>
+        </tr>
+        <tr>
+          <td>Switch 2</td><td>2025-06</td>
+          <td>仅用户态研究：WebKit 任意读写、存档漏洞、2026 年 7 月 Gezine 离线通用 userland 漏洞</td>
+          <td>—</td>
+          <td>无可用破解。内核与 hypervisor 零突破，成果无法访问 SD 卡或提权</td>
+        </tr>
+
+        <tr class="fam-row"><td colspan="5">PlayStation 家族</td></tr>
+        <tr>
+          <td>PS1</td><td>1994-12</td>
+          <td>直读芯片（modchip 的起点）；TonyHax / TonyHax International 存档漏洞；FreePSXBoot 记忆卡；PSIO / xStation 光驱模拟器</td>
+          <td><span class="no">软破不必</span> / <span class="yes">直读与 ODE 需要</span></td>
+          <td>全部机型。漏洞位于不可更新的 BIOS 掩膜 ROM，永久有效</td>
+        </tr>
+        <tr>
+          <td>PS2</td><td>2000-03</td>
+          <td>直读芯片；Independence；Free McBoot / FreeHDBoot 记忆卡引导；FreeDVDBoot（DVD 播放器）；MechaPwn；ProtoPwn</td>
+          <td><span class="no">软破不必</span> / <span class="yes">直读需要</span></td>
+          <td>全型号，含最末代 SCPH-90000；MechaCon 安全芯片也已于 2026 年被逆向</td>
+        </tr>
+        <tr>
+          <td>PSP</td><td>2004-12</td>
+          <td>TIFF 漏洞 / KXploit；Devhook 与 M33 自制系统；Pandora 神奇电池；ChickHEN；6.xx PRO；Infinity / cIPL 永久化；ARK-4</td>
+          <td><span class="yes">1000/2000 可用电池</span> / <span class="no">3000/Go 不必</span></td>
+          <td>6.60 / 6.61 上全系永久破解（含 PSP-3000、Go、E1000）</td>
+        </tr>
+        <tr>
+          <td>PS3</td><td>2006-11</td>
+          <td>OtherOS + hypervisor 越权；PS Jailbreak / PSGroove USB 狗；签名私钥泄露后的 CFW 3.55；E3 Flasher / Progskeet 硬降级；HFW + PS3HEN；BadWDSD + qCFW</td>
+          <td><span class="no">早期机型不必</span> / <span class="yes">Slim 2500+ 与 Super Slim 需要</span></td>
+          <td>最新固件 4.93；NOR 与 eMMC 机型均可运行准自制固件</td>
+        </tr>
+        <tr>
+          <td>PS Vita</td><td>2011-12</td>
+          <td>VHBL / ARK（PSP 模拟器内）；Rejuvenate；HENkaku（WebKit + 内核）；Enso 永久化；h-encore² / HENlo；modoru 降级；SD2Vita 卡套</td>
+          <td><span class="no">不需要</span></td>
+          <td>全版本固件，含最后的 3.74；3.65 及以下可 Enso 永久破解</td>
+        </tr>
+        <tr>
+          <td>PS4</td><td>2013-11</td>
+          <td>浏览器 / WebKit + 内核链（4.05 / 5.05 / 6.72 / 7.55 / 9.00）；BD-JB 蓝光 Java；PPPwn（PPPoE 内核 RCE）；Vue After Free；GoldHEN</td>
+          <td><span class="no">不需要</span></td>
+          <td>至 13.52（Syimy WebKit 链）；14.00 固件已封堵</td>
+        </tr>
+        <tr>
+          <td>PS5</td><td>2020-11</td>
+          <td>WebKit 用户态 + 内核链（4.03 / 4.50）；BD-J 沙箱逃逸；Relapse 链（WebKit + aio_multi_wait UAF）；ps5-linux</td>
+          <td><span class="no">不需要</span></td>
+          <td>至 13.60（同时覆盖 PS5 Pro）；14.00 / 26.06 固件已封堵</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="hint" style="margin-top:12px">
+    「可破范围」指截至 2026 年 10 月**公开可用**的最新固件上限。实际能否破解还取决于主板批次、出厂固件与是否被官方更新过；
+    同一款机型的不同硬件修订版（如 Switch 的 Erista / Mariko、Xbox One 的 Greybull 与后续主板）结论可能完全不同。
+  </p>
+
+  <h2 class="section-title">术语：软破、硬破与漏洞类型</h2>
+  <div class="terms">
+    <div class="term cat-软破">
+      <h4>软破 · Softmod</h4>
+      <p>不拆机、不焊接，仅靠数据层面的漏洞拿到代码执行。常见入口是存档文件、游戏内资源解析、浏览器引擎、光盘与网络协议栈，以及官方提供的降级或服务模式。</p>
+      <p class="examples"><b>典型：</b>MechAssault 存档溢出 · Fusée Gelée (RCM) · Free McBoot · ChickHEN · PPPwn · BadUpdate</p>
+    </div>
+    <div class="term cat-硬破">
+      <h4>硬破 · Hardmod</h4>
+      <p>必须拆机、焊接或加装额外硬件。包括直读芯片、脉冲/毛刺注入板、光驱固件刷写器、光驱模拟器（ODE）、烧录卡，以及用编程器直接改写主板闪存。</p>
+      <p class="examples"><b>典型：</b>PS1 modchip · Xecuter 直读 · RGH 脉冲芯片 · Pandora 神奇电池 · E3 Flasher · SX Core / Picofly · MIG Switch</p>
+    </div>
+    <div class="term cat-硬件漏洞">
+      <h4>硬件漏洞 · Hardware</h4>
+      <p>刻在硅片、BootROM 或板级设计里的缺陷。因为无法通过固件更新修补，只能在新批次硬件里改掉——这类漏洞决定了「哪一批机器永久可破」。</p>
+      <p class="examples"><b>典型：</b>Tegra X1 BootROM 栈溢出 · Xbox 360 SMC/JTAG 时序 · 电压毛刺与故障注入 · eFuse 熔断丝与防降级策略</p>
+    </div>
+    <div class="term cat-软件漏洞">
+      <h4>软件漏洞 · Software</h4>
+      <p>内核、超管理器（hypervisor）、WebKit/浏览器、驱动与游戏运行时中的实现缺陷。官方能用一次固件更新封堵，于是破解社区与厂商之间形成了长期的「版本拉锯」。</p>
+      <p class="examples"><b>典型：</b>PS3 hypervisor 越权 · PS4 4.05/5.05/9.00 内核漏洞 · PS5 WebKit 链 · Switch 浏览器漏洞 · BD-J 蓝光 Java 漏洞</p>
+    </div>
+    <div class="term cat-工具与生态">
+      <h4>工具与生态</h4>
+      <p>漏洞只是入口，真正让破解可用的是自制固件、引导器与加载器。它们决定一台已破解的机器能做什么：跑备份、装 Homebrew、开模拟器、解锁区域与超频。</p>
+      <p class="examples"><b>典型：</b>Atmosphère / Hekate · Free McBoot + OPL · M33 / PRO 自制系统 · CFW 3.55 / Rebug · HENkaku / Enso · GoldHEN</p>
+    </div>
+    <div class="term cat-法律与产业">
+      <h4>法律与产业</h4>
+      <p>破解从来不只是技术问题。索尼诉 Connectix 与 GeoHot、任天堂对 Team Xecuter 的刑事追诉、Yuzu 与 Ryujinx 的关停，以及 DMCA 第 1201 条的豁免之争，共同划定了今天的技术边界。</p>
+      <p class="examples"><b>典型：</b>Sony v. Connectix · SCEA v. Hotz · 美国诉 Bowser · Nintendo v. Tropic Haze · DMCA 1201 豁免</p>
+    </div>
+  </div>
+
+  <h2 class="section-title" style="margin-top:56px">全景时间轴 <span style="text-transform:none;letter-spacing:0;color:var(--text-faint);font-weight:400">— 三大阵营全部事件合并去重后排序</span></h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="搜索漏洞名 / 工具 / CVE / 机型 / 年份…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:280px;flex:1;max-width:440px">
+  </div>
+  <p class="hint">提示：直接输入年份（如 <code>2026</code>）或漏洞名（如 <code>Fusée</code>、<code>RGH</code>、<code>PPPwn</code>）即可筛选。</p>
+
+  <div class="legend" style="margin-bottom:24px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="console-index" class="console-index"></div>
+  <div id="consoles"></div>
+
+  <footer class="footer">
+    <p><b>关于本站</b>：本站为技术史整理，条目均以公开报道、法院新闻稿、官方公告、CVE 数据库与开源项目页面为来源，链接直接指向原文。数据口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p>时间线为纯静态页面，可离线打开。数据文件位于 <code>data/</code>，每条事件的来源链接均可在页面上直接点击核查。</p>
+  </footer>
+</div>
+
+<!-- ===================== 数据 ===================== -->
+<script src="data/xbox-original.js"></script>
+<script src="data/xbox-360.js"></script>
+<script src="data/xbox-one.js"></script>
+<script src="data/xbox-series.js"></script>
+<script src="data/switch-v1.js"></script>
+<script src="data/switch-mariko.js"></script>
+<script src="data/switch-2.js"></script>
+<script src="data/ps1.js"></script>
+<script src="data/ps2.js"></script>
+<script src="data/psp.js"></script>
+<script src="data/ps3.js"></script>
+<script src="data/ps-vita.js"></script>
+<script src="data/ps4.js"></script>
+<script src="data/ps5.js"></script>
+<script src="data/industry-legal.js"></script>
+
+<script>
+/* 合并全部机型事件为一条「全景时间轴」：
+   同一时间段内标题高度相似的跨机型事件（如 Team Xecuter 案、BLISS 攻击）会被合并，
+   并把涉及机型写进 origin 标签。同时填充家族卡片的计数。 */
+(function () {
+  var raw = window.CJ_DATA || [];
+  var byId = {};
+  raw.forEach(function (c) { byId[c.id] = c; });
+
+  document.querySelectorAll("[data-count]").forEach(function (n) {
+    var c = byId[n.getAttribute("data-count")];
+    n.textContent = c ? (c.events || []).length : "?";
+  });
+
+  // ---- 标题归一化 + 二元组相似度 ----
+  function norm(s) {
+    return String(s || "").toLowerCase()
+      .replace(/[\s\-_·・:：,，。.、；;!！?？'"“”‘’()（）\[\]【】《》<>/\\|+*&#@%$~^`]/g, "");
+  }
+  function bigrams(s) {
+    var out = {}, i;
+    for (i = 0; i < s.length - 1; i++) out[s.substr(i, 2)] = 1;
+    return out;
+  }
+  function dice(a, b) {
+    if (!a.length || !b.length) return 0;
+    var A = bigrams(a), B = bigrams(b), inter = 0, k;
+    for (k in A) if (B[k]) inter++;
+    var na = Object.keys(A).length, nb = Object.keys(B).length;
+    return (2 * inter) / (na + nb);
+  }
+
+  /* 跨机型「同一件大事」聚类表。
+     同一条事件在多个机型的页面里都会出现（例如 Team Xecuter 案被 6 个机型各记一次），
+     在全景时间轴上应合并为一条，并把涉及的机型都列进 origin 标签。
+     只对明确可判定为同一事件的特征做聚类，避免把相关但不同的事件（如某产品发布与其后续诉讼）误并。 */
+  var CLUSTERS = [
+    { key: "xecuter-arrest-2020", year: "2020", re: /xecuter|司法部|DOJ|Louarn|陈元宁/i },
+    { key: "bowser-sentence-2022", year: "2022", re: /bowser/i },
+    { key: "bdjb-2022", year: "2022", re: /bd-?j|蓝光/i },
+    { key: "mig-launch-2024", year: "2024", re: /mig\s*switch|miG\s*switch/i },
+    { key: "mig-settle-2025", year: "2025", re: /mig\s*switch|miG\s*switch/i },
+    { key: "bliss-2026", year: "2026", re: /bliss/i },
+    { key: "fusee-2018", year: "2018", re: /fus[ée]e\s*gel[ée]e/i },
+    { key: "devmode-2016", year: "2016", re: /dev\s*mode|开发者模式/i },
+    { key: "series-launch-2020", year: "2020", re: /series\s*x/i, dateRe: /^2020-11/ },
+    { key: "switch-gezine-2026", year: "2026", re: /gezine|通用\s*userland/i }
+  ];
+  function clusterKey(title, year, date) {
+    for (var i = 0; i < CLUSTERS.length; i++) {
+      var c = CLUSTERS[i];
+      if (c.year !== year) continue;
+      if (c.dateRe && !c.dateRe.test(date)) continue;
+      if (c.re.test(title)) return c.key;
+    }
+    return null;
+  }
+
+  var merged = [];
+  raw.forEach(function (c) {
+    if (c.id === "industry-legal") return;   // 横向专题单独成块
+    (c.events || []).forEach(function (e) {
+      // 跳过各机型自己的「现状」小结条目：它们属于机型页的收尾，不是历史事件
+      if (/^\s*(现状|现况)/.test(String(e.title || ""))) return;
+      var copy = {};
+      for (var k in e) if (Object.prototype.hasOwnProperty.call(e, k)) copy[k] = e[k];
+      copy.__origin = c.name;
+      copy.__month = String(copy.date || "").slice(0, 7);
+      copy.__year = String(copy.date || "").slice(0, 4);
+      copy.__norm = norm(copy.title);
+      copy.__cluster = clusterKey(copy.title, copy.__year, copy.date);
+      merged.push(copy);
+    });
+  });
+
+  merged.sort(function (a, b) {
+    var ka = a.date || "", kb = b.date || "";
+    return ka < kb ? -1 : ka > kb ? 1 : 0;
+  });
+
+  var kept = [], byCluster = {}, byMonth = {};  merged.forEach(function (e) {
+    // 1) 特征事件聚类：同一跨机型大事只保留一条，机型名叠加到 origin
+    if (e.__cluster) {
+      var hitC = byCluster[e.__cluster];
+      if (hitC) { absorb(hitC, e); return; }
+    }
+    // 2) 兜底：同月且标题高度相似
+    var bucket = byMonth[e.__month] || (byMonth[e.__month] = []);
+    for (var i = 0; i < bucket.length; i++) {
+      if (dice(e.__norm, bucket[i].__norm) >= 0.75) { absorb(bucket[i], e); return; }
+    }
+    e.__origins = [e.__origin];
+    kept.push(e);
+    bucket.push(e);
+    if (e.__cluster) byCluster[e.__cluster] = e;
+  });
+
+  function absorb(hit, e) {
+    if (hit.__origins.indexOf(e.__origin) < 0) hit.__origins.push(e.__origin);
+    if ((e.description || "").length > (hit.description || "").length) hit.description = e.description;
+    // CVE 取并集，避免合并时丢编号
+    var have = String(hit.cve || "").split(/[,\s]+/).filter(Boolean);
+    String(e.cve || "").split(/[,\s]+/).filter(Boolean).forEach(function (x) {
+      if (have.indexOf(x) < 0) have.push(x);
+    });
+    hit.cve = have.join(", ");
+    if (!hit.exploit && e.exploit) hit.exploit = e.exploit;
+  }
+
+  var finalEvents = kept.map(function (e) {
+    var o = {};
+    for (var k in e) if (Object.prototype.hasOwnProperty.call(e, k) && k.indexOf("__") !== 0) o[k] = e[k];
+    o.origin = e.__origins.join(" · ");
+    return o;
+  });
+
+  var master = {
+    id: "master",
+    name: "全景时间轴",
+    family: "Xbox + Nintendo Switch + PlayStation",
+    released: "1994-12",
+    summary: "把三大阵营 14 个机型的全部事件合并、按时间排序并去掉跨机型重复后，可以看到一条清晰的主线：1990 年代靠焊接直读芯片与换盘技巧；2000 年代中期转向光驱固件刷写与游戏存档溢出；2010 年前后出现 BootROM 与 hypervisor 级漏洞；2015 年之后浏览器引擎与内核漏洞成为主流；2020 年代进入「固件版本拉锯」与「纯软件免拆破解」并行的阶段，同时故障注入（电压毛刺）开始啃食那些从未被软件攻破的信任根。",
+    status: "截至 2026 年 10 月：Switch 2 与 Xbox Series X|S 零售机仍无公开可用破解；Xbox One 仅在 2026 年由 BLISS 电压毛刺在初代机型上实现未签名代码执行；PS5 与 PS4 的可破上限已分别推进到 13.60 与 13.52（14.00 固件封堵）；PS3 靠 BadWDSD + qCFW 让原本永远装不了自制系统的 Slim / Super Slim 也能运行；而 PS1、PS2、PSP、PS Vita、Switch V1、Xbox 360 这些平台都已完全攻破，只剩社区在做维护性更新。",
+    events: finalEvents
+  };
+
+  window.CJ_ALL = raw;   // 合并前的完整数据，供统计（CVE 数、来源站点数）使用
+  window.CJ_DATA = [master, byId["industry-legal"]].filter(Boolean);
+  window.CJ_DEDUP = { before: merged.length, after: finalEvents.length };
+})();
+</script>
+<script src="assets/timeline.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xbox 360 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="Xbox 360 破解史时间轴：Xbox 360 是“软件极难、硬件极脆”的典型：128KB hypervisor 加逐级签名启动链把纯软件攻击面压到几乎为零，二十年里只有 CVE-2007-1220 这一个真正被广泛利用的 hypervisor 缺陷">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="xbox-360" data-single="1" style="--accent:var(--xbox)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html" class="active">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../xbox.html">Xbox 家族</a> ／
+    <span style="color:var(--text-dim)">Xbox 360</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">Xbox 360<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2005-11</b>发售</div>
+      <div><b>27</b>收录事件</div>
+      <div><b>2005–2026</b>时间跨度</div>
+      <div><b>65</b>条原文链接</div>
+      <div><b>2</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">Xbox</p>
+      <p class="ch-summary">Xbox 360 是“软件极难、硬件极脆”的典型：128KB hypervisor 加逐级签名启动链把纯软件攻击面压到几乎为零，二十年里只有 CVE-2007-1220 这一个真正被广泛利用的 hypervisor 缺陷，以及 2025 年 BadUpdate 找到的加密内存设计缺陷。破解史因此呈现三条主线——光驱固件刷写（Xtreme 到 iXtreme LT/LT+）绕开光盘校验、硬件故障注入（2009 年 JTAG/SMC、2011 年 Reset Glitch Hack 及其 RGH 1.2/2.0/3.0）直接让启动链的哈希校验失效、游戏与存档漏洞（King Kong、Tony Hawk's Pro Strcpy）提供软件入口。关键转折是 2009 年微软用 eFuse 熔断封杀 JTAG，以及 2011 年 RGH 证明 CB_A 不检查撤销熔丝、官方再也无法通过更新封堵。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，Xbox 360 的两条破解路线都已稳定：硬破仍是 RGH 3.0（2021，无需脉冲芯片），2025-09 又出现面向难改 Phat 主机的 RGH 1.3；软破则是 2025 年 BadUpdate 的持续打磨，2026-08-05 的 1.3 版把漏洞触发改进到近乎瞬时、理论上 100% 成功，并加入启动动画恢复模式。代价是最新版只保留 Rock Band Blitz 一个入口，且依然重启即失效、只支持 17559 这一个系统版本。微软已停产（2016）并关闭 Xbox 360 商店（2024），官方封堵完全停止，社区维护与几美元级改装是当前的全部内容。</span></div>
+      <div class="stat-row"><span class="stat-pill">法律与产业 <b>5</b></span><span class="stat-pill">硬破 <b>11</b></span><span class="stat-pill">工具与生态 <b>4</b></span><span class="stat-pill">软件漏洞 <b>2</b></span><span class="stat-pill">软破 <b>3</b></span><span class="stat-pill">硬件漏洞 <b>2</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">Xbox 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="xbox-original.html"><span class="cc-name">Xbox（初代）</span><span class="cc-count">25 条</span></a><a class="console-chip cc-active" href="xbox-360.html"><span class="cc-name">Xbox 360</span><span class="cc-count">27 条</span></a><a class="console-chip" href="xbox-one.html"><span class="cc-name">Xbox One</span><span class="cc-count">23 条</span></a><a class="console-chip" href="xbox-series.html"><span class="cc-name">Xbox Series X|S</span><span class="cc-count">21 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="xbox-original.html"><span>← 上一台</span><b>Xbox（初代）</b></a><a class="pn pn-next" href="xbox-one.html"><span>下一台 →</span><b>Xbox One</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 Xbox 360 的破解史时间轴，共 27 个事件、65 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/xbox-360.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

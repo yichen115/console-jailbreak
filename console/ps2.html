@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayStation 2 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="PlayStation 2 破解史时间轴：PS2 的破解史呈现出&quot;先硬后软、最后全线回归软件&quot;的罕见曲线：2001-2005 年靠直读芯片与 DVD-R 刻录盘，2003 年 Independence 漏洞首次让记忆卡成为入口，2008 年 Free McBoo">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="ps2" data-single="1" style="--accent:var(--ps)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html" class="active">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../playstation.html">PlayStation 家族</a> ／
+    <span style="color:var(--text-dim)">PlayStation 2</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">PlayStation 2<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2000-03</b>发售</div>
+      <div><b>20</b>收录事件</div>
+      <div><b>2000–2026</b>时间跨度</div>
+      <div><b>41</b>条原文链接</div>
+      
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">PlayStation</p>
+      <p class="ch-summary">PS2 的破解史呈现出&quot;先硬后软、最后全线回归软件&quot;的罕见曲线：2001-2005 年靠直读芯片与 DVD-R 刻录盘，2003 年 Independence 漏洞首次让记忆卡成为入口，2008 年 Free McBoot 把软破带入主流。真正的转折出现在 2019-2020 年，CTurt 用 Yabasic 与 DVD 播放器漏洞证明连刻录光盘都能触发任意代码执行；2021 年的 MechaPwn 从 MechaCon 安全协处理器侧改写区域，2021-2022 年的 Fortuna/FunTuna 补上 SCPH-90000 这块最后的空白，2025 年的 ProtoPwn 则让最早期原型机也能从记忆卡引导。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，PS2 在软件层面早已完全攻破：FreeDVDBoot + MechaPwn + ProtoPwn 覆盖了从初代 SCPH-10000 到末代 SCPH-90000 的全部型号，多数机器无需焊接即可运行 Open PS2 Loader 并从 USB、HDD、MX4SIO 或 SMB 加载游戏，OPL 官方仓库仍在活跃更新（滚动 latest 版本于 2026 年 10 月 3 日刷新）。最后一块硬件空白也在 2026 年 9 月被补上：研究者耗时四年完成了 MechaCon（CXP102064）安全芯片的固件 dump 与逆向，为低层模拟、故障机修复与未来的 MechaCon 替代模块打开大门，但可直接替换光驱的 ODE 仍缺关键信息。</span></div>
+      <div class="stat-row"><span class="stat-pill">工具与生态 <b>5</b></span><span class="stat-pill">硬破 <b>3</b></span><span class="stat-pill">软破 <b>7</b></span><span class="stat-pill">法律与产业 <b>2</b></span><span class="stat-pill">硬件漏洞 <b>3</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">PlayStation 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="ps1.html"><span class="cc-name">PlayStation (PS1)</span><span class="cc-count">26 条</span></a><a class="console-chip cc-active" href="ps2.html"><span class="cc-name">PlayStation 2</span><span class="cc-count">20 条</span></a><a class="console-chip" href="psp.html"><span class="cc-name">PlayStation Portable (PSP)</span><span class="cc-count">23 条</span></a><a class="console-chip" href="ps3.html"><span class="cc-name">PlayStation 3</span><span class="cc-count">29 条</span></a><a class="console-chip" href="ps-vita.html"><span class="cc-name">PlayStation Vita</span><span class="cc-count">27 条</span></a><a class="console-chip" href="ps4.html"><span class="cc-name">PlayStation 4</span><span class="cc-count">33 条</span></a><a class="console-chip" href="ps5.html"><span class="cc-name">PlayStation 5</span><span class="cc-count">24 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="ps1.html"><span>← 上一台</span><b>PlayStation (PS1)</b></a><a class="pn pn-next" href="psp.html"><span>下一台 →</span><b>PlayStation Portable (PSP)</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 PlayStation 2 的破解史时间轴，共 20 个事件、41 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/ps2.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

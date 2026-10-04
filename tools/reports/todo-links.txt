@@ -1,0 +1,105 @@
+=== 404 死链（必须修） (0) ===
+
+=== 405 Method Not Allowed（需确认） (13) ===
+  405  https://arstechnica.com/gaming/2007/07/dark-alex-quits-the-custom-firmware-scene-psp-users-mourn/
+       引用: PlayStation Portable (PSP) / Dark_AleX 退出PSP自制社区
+  405  https://arstechnica.com/gaming/2010/03/it-no-longer-does-everything-no-more-linux-on-playstation-3/
+       引用: PlayStation 3 / PS3 发售，内置 OtherOS 可装 Linux | PlayStation 3 / 索尼固件 3.21 移除 OtherOS
+  405  https://arstechnica.com/gaming/2010/08/court-halts-ps-jailbreak-sales-gives-sony-control-of-inventory/
+       引用: PlayStation 3 / PS Jailbreak USB 狗问世
+  405  https://arstechnica.com/gaming/2011/04/hotz-lawyer-ps3-hacking-case-over-dmca-and-ip-abuse-live-on/
+       引用: PlayStation 3 / 索尼起诉 GeoHot（SCEA v. Hotz） | PlayStation 3 / Sony 与 Hotz 达成和解
+  405  https://arstechnica.com/gaming/2017/04/microsoft-formally-bans-emulators-on-xbox-windows-10-download-shops/
+       引用: Xbox One / 微软正式禁止商店上架模拟器
+  405  https://arstechnica.com/gaming/2018/04/the-unpatchable-exploit-that-makes-every-current-nintendo-switch-hackable/
+       引用: Nintendo Switch（V1 / Erista） / Fusée Gelée（CVE-2018-6242）公开：不可修补的 RCM 软破
+  405  https://arstechnica.com/gaming/2018/06/switch-pirates-dont-want-you-to-pirate-their-piracy-enabling-firmware/
+       引用: Nintendo Switch（V1 / Erista） / SX OS / SX Pro：首个商业化硬破方案
+  405  https://arstechnica.com/gaming/2020/11/how-to-turn-your-xbox-series-x-s-into-an-emulation-powerhouse/
+       引用: Xbox One / Xbox Series X|S 发售：Dev Mode 成为模拟器主阵地
+  405  https://arstechnica.com/gaming/2023/04/microsoft-crackdown-disables-emulators-downloaded-to-xbox-consoles/
+       引用: Xbox One / 微软封禁用零售模式运行的模拟器
+  405  https://arstechnica.com/gaming/2023/05/nintendo-files-dmca-takedowns-on-switch-emulation-tools-just-before-tears-debut/
+       引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂 DMCA 集中打击解密工具
+  405  https://arstechnica.com/gaming/2024/02/after-14-5m-judgments-console-hacker-paid-nintendo-25-a-month-from-prison/
+       引用: 破解产业与法律战（横向专题） / Bowser 终身赔偿追偿
+  405  https://arstechnica.com/gaming/2024/04/nintendo-targets-switch-emulation-chat-servers-decryption-tools-with-dmca/
+       引用: Switch 续航版 / Lite / OLED（Mariko） / 任天堂 DMCA 集中打击解密工具
+  405  https://arstechnica.com/gaming/2025/09/switch-modder-who-acted-as-his-own-lawyer-now-owes-nintendo-2-million/
+       引用: Switch 续航版 / Lite / OLED（Mariko） / MIG Switch/modchip 卖家被判赔 200 万美元
+
+=== 证书 / TLS 错误 (2) ===
+  TypeError: DEPTH_ZERO_SELF_SIGNED_CERT  https://consolemods.org/wiki/index.php?title=Xbox:Scene_History&diff=37332&oldid=23891
+       引用: Xbox（初代） / 007 存档溢出拿下悬赏
+  TypeError: UNABLE_TO_GET_ISSUER_CERT_LOCALLY  https://swarm.ptsecurity.com/xbox-360-security-in-details-the-long-way-to-rgh3/
+       引用: Xbox 360 / RGH 3.0：无需脉冲芯片
+
+=== 连接超时域名分布 ===
+  29x  en.wikipedia.org
+  15x  consolemods.org
+  12x  psx-place.com
+  6x  web.archive.org
+  5x  notebookcheck.net
+  4x  polygon.com
+  3x  archive.org
+  3x  xda-developers.com
+  3x  xboxdevwiki.net
+  2x  news.bbc.co.uk
+  2x  gamerant.com
+  2x  kotaku.com
+  2x  media.ccc.de
+  2x  bbc.com
+  2x  justice.gov
+  2x  reddit.com
+  1x  beta.rtbf.be
+  1x  bsky.app
+  1x  en.m.wikipedia.org
+  1x  gist.github.com
+  1x  pcsx-redux.consoledev.net
+  1x  respawn.outlookindia.com
+  1x  screenrant.com
+  1x  bbc.co.uk
+  1x  dualshockers.com
+  1x  kyoto-np.co.jp
+  1x  muycomputer.com
+  1x  theguardian.com
+  1x  youtube.com
+  1x  x.com
+
+=== 403 反爬域名分布（前 40）===
+  38x  gbatemp.net
+  11x  engadget.com
+  7x  nintendolife.com
+  7x  videogameschronicle.com
+  6x  tweaktown.com
+  4x  gamedeveloper.com
+  3x  korben.info
+  3x  news.xbox.com
+  3x  psdevwiki.com
+  2x  forums.xboxscene.org
+  2x  kodi.wiki
+  2x  sourceforge.net
+  2x  truthinadvertising.org
+  2x  windowsreport.com
+  2x  digitalworldz.co.uk
+  2x  gamespot.com
+  1x  curia.europa.eu
+  1x  godisageek.com
+  1x  ncjolt.org
+  1x  stevivor.com
+  1x  tech.yahoo.com
+  1x  techbriefly.com
+  1x  wccftech.com
+  1x  wiki.gamehacking.org
+  1x  wiki.gbatemp.net
+  1x  destructoid.com
+  1x  digitalfoundry.net
+  1x  exophase.com
+  1x  pcmag.com
+  1x  purexbox.com
+  1x  resetera.com
+  1x  shacknews.com
+  1x  thenews.com.pk
+  1x  usatoday.com
+  1x  www7.austlii.edu.au
+  1x  www8.austlii.edu.au

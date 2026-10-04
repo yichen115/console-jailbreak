@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlayStation 4 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="PlayStation 4 破解史时间轴：PS4 的破解史是清晰的接力结构：CTurt、fail0verflow 等研究者先公开安全架构与内核漏洞，2017 年后 4.05、5.05、6.72、7.55、9.00 等固件接连被公开越狱，攻击面从浏览器扩展到蓝光 ">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="ps4" data-single="1" style="--accent:var(--ps)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html" class="active">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../playstation.html">PlayStation 家族</a> ／
+    <span style="color:var(--text-dim)">PlayStation 4</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">PlayStation 4<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2013-11</b>发售</div>
+      <div><b>33</b>收录事件</div>
+      <div><b>2013–2026</b>时间跨度</div>
+      <div><b>69</b>条原文链接</div>
+      <div><b>6</b>个 CVE 编号</div>
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">PlayStation</p>
+      <p class="ch-summary">PS4 的破解史是清晰的接力结构：CTurt、fail0verflow 等研究者先公开安全架构与内核漏洞，2017 年后 4.05、5.05、6.72、7.55、9.00 等固件接连被公开越狱，攻击面从浏览器扩展到蓝光 Java、网络协议栈与配件协处理器。索尼用固件更新逐一封堵入口，同时把主机本体做得足够抗篡改，使 PS4 始终没有出现可长期使用的直读芯片或光驱模拟器。2024 年 PPPwn 把内核 RCE 变成网络侧一键触发，2025 年 BD-JB 与 Lapse/Poops 组合把越狱上限推到 12.50 以上，配合 GoldHEN 形成成熟的工具生态。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，PS4 全系机型都可用纯软件方式越狱，上限已被推到最后一代可越狱固件：2026 年 2 月公开的 Vue After Free 借 PlayStation Vue 应用的用户态漏洞（CVE-2017-7117）串接 Lapse/NetCtrl 内核漏洞，覆盖 7.00-13.00（用户态本身可到 13.04）；2026 年 9 月 Syimy（raw-game）的 WebKit 链把纯浏览器越狱一路推到 11.50-13.52，配合 GoldHEN 2.4b18.11/2.4b18.12 实现打开网页即越狱。Sony 随后用 14.00 固件封堵，PPPwn 仍覆盖 7.00-11.00，BD-JB + Poops 路线最高到 13.00，官方只能靠抬高固件门槛应对。</span></div>
+      <div class="stat-row"><span class="stat-pill">工具与生态 <b>8</b></span><span class="stat-pill">硬破 <b>2</b></span><span class="stat-pill">软破 <b>11</b></span><span class="stat-pill">软件漏洞 <b>6</b></span><span class="stat-pill">硬件漏洞 <b>3</b></span><span class="stat-pill">法律与产业 <b>3</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">PlayStation 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip" href="ps1.html"><span class="cc-name">PlayStation (PS1)</span><span class="cc-count">26 条</span></a><a class="console-chip" href="ps2.html"><span class="cc-name">PlayStation 2</span><span class="cc-count">20 条</span></a><a class="console-chip" href="psp.html"><span class="cc-name">PlayStation Portable (PSP)</span><span class="cc-count">23 条</span></a><a class="console-chip" href="ps3.html"><span class="cc-name">PlayStation 3</span><span class="cc-count">29 条</span></a><a class="console-chip" href="ps-vita.html"><span class="cc-name">PlayStation Vita</span><span class="cc-count">27 条</span></a><a class="console-chip cc-active" href="ps4.html"><span class="cc-name">PlayStation 4</span><span class="cc-count">33 条</span></a><a class="console-chip" href="ps5.html"><span class="cc-name">PlayStation 5</span><span class="cc-count">24 条</span></a></div>
+
+  <div class="pager"><a class="pn" href="ps-vita.html"><span>← 上一台</span><b>PlayStation Vita</b></a><a class="pn pn-next" href="ps5.html"><span>下一台 →</span><b>PlayStation 5</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 PlayStation 4 的破解史时间轴，共 33 个事件、69 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/ps4.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

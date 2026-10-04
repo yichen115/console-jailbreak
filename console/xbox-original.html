@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xbox（初代） 破解史时间轴 | 游戏机破解史</title>
+<meta name="description" content="Xbox（初代） 破解史时间轴：初代 Xbox 是主机破解史上第一个被完整拆解安全链的平台：微软用 MCPX BootROM 的 RSA 签名校验、签名 XBE 与写保护的 TSOP flash 构建信任根，却在零售主板保留了 LPC 调试总线，使 2">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .pn { display:flex; flex-direction:column; gap:2px; padding:14px 18px; border-radius:10px;
+        background:var(--bg-card); border:1px solid var(--border-soft); color:var(--text);
+        font-size:13px; min-width:200px; flex:1; max-width:320px; }
+  .pn:hover { text-decoration:none; background:var(--bg-card-hover); border-color:var(--border); }
+  .pn span { color:var(--text-faint); font-size:11.5px; }
+  .pn b { font-size:15px; font-weight:600; }
+  .pn-next { text-align:right; margin-left:auto; }
+  .pn-off { border:none; background:none; }
+  .pager { display:flex; gap:12px; margin:34px 0 0; }
+  .cc-active { border-color:var(--accent); background:var(--bg-card); }
+</style>
+</head>
+<body data-consoles="xbox-original" data-single="1" style="--accent:var(--xbox)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="../index.html">总览</a>
+      <a href="../xbox.html" class="active">Xbox 家族</a>
+      <a href="../switch.html">Switch 家族</a>
+      <a href="../playstation.html">PlayStation 家族</a>
+      <a href="../cve.html">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p style="margin:26px 0 0;font-size:13px;color:var(--text-faint)">
+    <a href="../index.html">总览</a> ／
+    <a href="../xbox.html">Xbox 家族</a> ／
+    <span style="color:var(--text-dim)">Xbox（初代）</span>
+  </p>
+
+  <header class="hero" style="padding-top:20px">
+    <h1 style="font-size:clamp(28px,4.4vw,42px)">Xbox（初代）<br><span style="font-size:.52em;color:var(--text-faint);-webkit-text-fill-color:var(--text-faint)">破解史时间轴</span></h1>
+    <div class="hero-meta" style="margin-top:20px">
+      <div><b>2001-11</b>发售</div>
+      <div><b>25</b>收录事件</div>
+      <div><b>2001–2026</b>时间跨度</div>
+      <div><b>67</b>条原文链接</div>
+      
+    </div>
+  </header>
+
+  <section class="console-block" style="margin-top:8px">
+    <header class="console-head">
+      <h2 style="font-size:19px">概览</h2>
+      <p class="ch-rel">Xbox</p>
+      <p class="ch-summary">初代 Xbox 是主机破解史上第一个被完整拆解安全链的平台：微软用 MCPX BootROM 的 RSA 签名校验、签名 XBE 与写保护的 TSOP flash 构建信任根，却在零售主板保留了 LPC 调试总线，使 2002 年起的直读芯片成为最稳定的绕过方式。2003 年《007: Agent Under Fire》的存档溢出证明纯软件路径同样可行，随后 MechAssault 等游戏漏洞与 UDE、Ndure 一键安装器让软破普及，微软只能用 Xbox Live 封禁与主板改版反制。2010 年官方联机关停后，破解动力从盗版转向媒体中心与自制软件；2020 年代 OpenXenium、ModXO、PrometheOS、nxdk/RXDK 与 Insignia 让该平台彻底社区化。</p>
+      <div class="ch-status"><b>现状</b><span>截至 2026 年 10 月，初代 Xbox 早已没有任何官方支持，整条破解链完全由开源社区维持：硬破用 ModXO（RP2040/RP2350，2026-09-30 更新至 V1.0.17）与 OpenXenium，芯片固件用 PrometheOS（2026-10-02 发布 V1.6.0）与 Cerbios，自制开发用 nxdk/RXDK。Insignia 重建的 Xbox Live 1.0 已支持 204 款游戏、注册用户约 3.5 万，是 2010 年官方关服后唯一的联机方案。2026 年该平台没有出现新的软破或硬件漏洞，微软也不再对其做任何反破解动作。</span></div>
+      <div class="stat-row"><span class="stat-pill">硬件漏洞 <b>3</b></span><span class="stat-pill">硬破 <b>4</b></span><span class="stat-pill">工具与生态 <b>9</b></span><span class="stat-pill">法律与产业 <b>5</b></span><span class="stat-pill">软破 <b>3</b></span><span class="stat-pill">软件漏洞 <b>1</b></span></div>
+    </header>
+  </section>
+
+  <h2 class="section-title">时间轴</h2>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="在本机型内搜索…"
+           style="font:inherit;font-size:13.5px;padding:7px 14px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--text);min-width:240px;flex:1;max-width:400px">
+  </div>
+
+  <div class="legend" style="margin-bottom:22px">
+    <span class="l-soft"><i></i>软破</span>
+    <span class="l-hard"><i></i>硬破</span>
+    <span class="l-hw"><i></i>硬件漏洞</span>
+    <span class="l-sw"><i></i>软件漏洞</span>
+    <span class="l-tool"><i></i>工具与生态</span>
+    <span class="l-legal"><i></i>法律与产业</span>
+  </div>
+
+  <div id="consoles"></div>
+
+  <h2 class="section-title">Xbox 家族其他机型</h2>
+  <div class="console-index"><a class="console-chip cc-active" href="xbox-original.html"><span class="cc-name">Xbox（初代）</span><span class="cc-count">25 条</span></a><a class="console-chip" href="xbox-360.html"><span class="cc-name">Xbox 360</span><span class="cc-count">27 条</span></a><a class="console-chip" href="xbox-one.html"><span class="cc-name">Xbox One</span><span class="cc-count">23 条</span></a><a class="console-chip" href="xbox-series.html"><span class="cc-name">Xbox Series X|S</span><span class="cc-count">21 条</span></a></div>
+
+  <div class="pager"><span class="pn pn-off"></span><a class="pn pn-next" href="xbox-360.html"><span>下一台 →</span><b>Xbox 360</b></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页为 Xbox（初代） 的破解史时间轴，共 25 个事件、67 条原文链接，口径截至 2026 年 10 月。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="../index.html">返回总览</a></p>
+  </footer>
+</div>
+
+<script src="../data/xbox-original.js"></script>
+<script src="../assets/timeline.js"></script>
+</body>
+</html>

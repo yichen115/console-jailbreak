@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CVE 索引 | 游戏机破解史</title>
+<meta name="description" content="Xbox / Nintendo Switch / PlayStation 全系列主机破解史中被正式分配 CVE 编号的漏洞索引，按编号排序并链接到 NVD 与对应事件。">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .cve-id { font-family: var(--mono); font-size: 13px; white-space: nowrap; font-weight: 600; }
+  .cve-year { font-family: var(--mono); font-size: 12px; color: var(--text-faint); }
+  .cve-cat { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
+  .cve-refs { display: flex; flex-direction: column; gap: 10px; font-size: 13px; }
+  .cve-group { display: flex; flex-direction: column; gap: 3px; }
+  .cve-console { font-weight: 600; white-space: nowrap; }
+  .cve-ev { color: var(--text-dim); font-size: 12px; padding-left: 12px; white-space: nowrap; }
+  .cve-ev:hover { color: #7dd3fc; }
+  .note {
+    background: var(--bg-card); border: 1px solid var(--border-soft);
+    border-left: 2px solid var(--hwvuln); border-radius: 10px;
+    padding: 16px 20px; margin: 0 0 26px; color: var(--text-dim); font-size: 13.5px;
+  }
+  .note p { margin: 0 0 8px; }
+  .note p:last-child { margin: 0; }
+  .note b { color: var(--text); }
+</style>
+</head>
+<body style="--accent:var(--swvuln)">
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-dot"></span>游戏机破解史</a>
+    <div class="navlinks">
+      <a href="index.html">总览</a>
+      <a href="xbox.html">Xbox 家族</a>
+      <a href="switch.html">Switch 家族</a>
+      <a href="playstation.html">PlayStation 家族</a>
+      <a href="cve.html" class="active">CVE 索引</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1 style="background:linear-gradient(120deg,#d8c7ff 5%,#a78bfa 95%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">CVE 索引</h1>
+    <p class="lede">
+      主机破解史上漏洞很多，但<b>被正式分配 CVE 编号的只是其中一部分</b>。下表把三大阵营数据里出现过的 CVE 全部汇总，
+      按编号年份排序，每个编号都链接到 NVD 官方条目，并回链到本站对应机型时间轴中的那一条事件。
+    </p>
+    <div class="hero-meta">
+      <div><b>22</b>个 CVE 编号</div>
+      <div><b>32</b>条事件带编号</div>
+      <div><b>10</b>个机型覆盖</div>
+      <div><b>395</b>条事件总数</div>
+    </div>
+  </header>
+
+  <div class="note">
+    <p><b>为什么 CVE 数量远少于漏洞数量？</b>主机破解的很大一部分成果根本拿不到 CVE：直读芯片、脉冲注入、电压毛刺这类<b>硬件改机</b>不是软件漏洞；
+    PS1、PS2、Xbox 初代等早期平台的缺陷大多早于「消费级设备漏洞普遍编号」的年代；而 Switch、PlayStation 的固件漏洞常由厂商内部修复、
+    或经漏洞赏金计划私密披露，未申请编号。反过来，主机里复用的通用组件（FreeBSD 网络栈、WebKit、Chakra、NSS、Windows 内核）一旦被利用，
+    几乎都带着现成的 CVE 编号。</p>
+    <p>因此本页是<b>「已编号漏洞」的完整索引，而不是「全部漏洞」的索引</b>。没有 CVE 的条目仍完整保留在各机型时间轴中，
+    其 <code>cve</code> 字段为空是刻意为之——宁可留空，也不虚构编号。</p>
+  </div>
+
+  <h2 class="section-title">全部 CVE（按编号年份升序）</h2>
+  <div class="table-wrap">
+    <table class="quick">
+      <thead>
+        <tr><th>CVE 编号</th><th>年份</th><th>涉及机型与对应事件</th><th>事件类型</th></tr>
+      </thead>
+      <tbody>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2005-3084" target="_blank" rel="noopener noreferrer">CVE-2005-3084</a></td><td class="cve-year">2005</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/psp.html">PlayStation Portable (PSP)</a><a class="cve-ev" href="console/psp.html#ev-psp-2">2005年9月 · Photo Viewer TIFF 溢出漏洞</a><a class="cve-ev" href="console/psp.html#ev-psp-3">2005年9月 · 首个2.0降级到1.50工具发布</a></div></td><td class="cve-cat">软件漏洞 / 软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2007-1220" target="_blank" rel="noopener noreferrer">CVE-2007-1220</a></td><td class="cve-year">2007</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/xbox-360.html">Xbox 360</a><a class="cve-ev" href="console/xbox-360.html#ev-xbox-360-3">2007年3月 · Hypervisor 系统调用校验缺陷</a><a class="cve-ev" href="console/xbox-360.html#ev-xbox-360-6">2009年 · JTAG/SMC hack 取得自制启动</a></div></td><td class="cve-cat">软件漏洞 / 硬破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2007-1221" target="_blank" rel="noopener noreferrer">CVE-2007-1221</a></td><td class="cve-year">2007</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/xbox-360.html">Xbox 360</a><a class="cve-ev" href="console/xbox-360.html#ev-xbox-360-3">2007年3月 · Hypervisor 系统调用校验缺陷</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2009-2541" target="_blank" rel="noopener noreferrer">CVE-2009-2541</a></td><td class="cve-year">2009</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps3.html">PlayStation 3</a><a class="cve-ev" href="console/ps3.html#ev-ps3-1">2009年7月 · PS3 浏览器 Select 对象漏洞 (CVE-2009-2541)</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2010-1807" target="_blank" rel="noopener noreferrer">CVE-2010-1807</a></td><td class="cve-year">2010</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps3.html">PlayStation 3</a><a class="cve-ev" href="console/ps3.html#ev-ps3-18">2017年11月 · PS3Xploit 实现免硬改破解</a></div></td><td class="cve-cat">软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2010-4577" target="_blank" rel="noopener noreferrer">CVE-2010-4577</a></td><td class="cve-year">2010</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps3.html">PlayStation 3</a><a class="cve-ev" href="console/ps3.html#ev-ps3-18">2017年11月 · PS3Xploit 实现免硬改破解</a></div></td><td class="cve-cat">软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2012-3748" target="_blank" rel="noopener noreferrer">CVE-2012-3748</a></td><td class="cve-year">2012</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps-vita.html">PlayStation Vita</a><a class="cve-ev" href="console/ps-vita.html#ev-ps-vita-2">2012年10月 · WebKit 2.x 用户态利用与 CVE-2012-3748</a></div><div class="cve-group"><a class="cve-console" href="console/ps4.html">PlayStation 4</a><a class="cve-ev" href="console/ps4.html#ev-ps4-2">2014年 · WebKit 堆溢出漏洞被移植到 PS4 浏览器</a></div></td><td class="cve-cat">软件漏洞 / 软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2014-8476" target="_blank" rel="noopener noreferrer">CVE-2014-8476</a></td><td class="cve-year">2014</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps4.html">PlayStation 4</a><a class="cve-ev" href="console/ps4.html#ev-ps4-3">2014年11月 · getlogin 内核栈信息泄漏漏洞影响 PS4</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2015-5675" target="_blank" rel="noopener noreferrer">CVE-2015-5675</a></td><td class="cve-year">2015</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps4.html">PlayStation 4</a><a class="cve-ev" href="console/ps4.html#ev-ps4-6">2015年12月 · CTurt 在 1.76 上实现首个公开内核提权</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2016-4657" target="_blank" rel="noopener noreferrer">CVE-2016-4657</a></td><td class="cve-year">2016</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/switch-mariko.html">Switch 续航版 / Lite / OLED（Mariko）</a><a class="cve-ev" href="console/switch-mariko.html#ev-switch-mariko-0">2016年8月 · PegaSwitch 借 WebKit 漏洞实现浏览器攻击</a></div><div class="cve-group"><a class="cve-console" href="console/switch-v1.html">Nintendo Switch（V1 / Erista）</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-1">2017年3月 · PegaSwitch 公开：首个浏览器 WebKit 软破链</a></div></td><td class="cve-cat">软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2016-7200" target="_blank" rel="noopener noreferrer">CVE-2016-7200</a></td><td class="cve-year">2016</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/xbox-one.html">Xbox One</a><a class="cve-ev" href="console/xbox-one.html#ev-xbox-one-6">2017年3月 · Edge/Chakra 漏洞 CVE-2016-7200 被移植到 Xbox One</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2017-0785" target="_blank" rel="noopener noreferrer">CVE-2017-0785</a></td><td class="cve-year">2017</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/switch-mariko.html">Switch 续航版 / Lite / OLED（Mariko）</a><a class="cve-ev" href="console/switch-mariko.html#ev-switch-mariko-14">2022年11月 · 公开系统漏洞不少，却没有软破链条</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2017-7117" target="_blank" rel="noopener noreferrer">CVE-2017-7117</a></td><td class="cve-year">2017</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps4.html">PlayStation 4</a><a class="cve-ev" href="console/ps4.html#ev-ps4-30">2026年2月8日（v1.0）、2月25日（2.0） · Vue After Free：借 PlayStation Vue 应用拿下 7.00-13.00</a></div></td><td class="cve-cat">软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2017-9417" target="_blank" rel="noopener noreferrer">CVE-2017-9417</a></td><td class="cve-year">2017</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/switch-mariko.html">Switch 续航版 / Lite / OLED（Mariko）</a><a class="cve-ev" href="console/switch-mariko.html#ev-switch-mariko-14">2022年11月 · 公开系统漏洞不少，却没有软破链条</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2018-6242" target="_blank" rel="noopener noreferrer">CVE-2018-6242</a></td><td class="cve-year">2018</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/switch-2.html">Nintendo Switch 2</a><a class="cve-ev" href="console/switch-2.html#ev-switch-2-1">2018年4月 · Fusée Gelée 硬件漏洞公开：Switch 1 的经典 RCM 软破</a></div><div class="cve-group"><a class="cve-console" href="console/switch-mariko.html">Switch 续航版 / Lite / OLED（Mariko）</a><a class="cve-ev" href="console/switch-mariko.html#ev-switch-mariko-1">2018年4月 · Fusée Gelée 公开：BootROM 级 RCM 溢出</a><a class="cve-ev" href="console/switch-mariko.html#ev-switch-mariko-5">2019年8月 · 续航版上市：Tegra X1+ 封堵 Fusée Gelée</a></div><div class="cve-group"><a class="cve-console" href="console/switch-v1.html">Nintendo Switch（V1 / Erista）</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-5">2018年4月 · Fusée Gelée（CVE-2018-6242）公开：不可修补的 RCM 软破</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-6">2018年4月24日 · ShofEL2 发布：不改机运行 Linux</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-8">2018年5月 · RCM 注入工具与 payload 生态成形</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-9">2018年6月 · SX OS / SX Pro：首个商业化硬破方案</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-10">2018年6月 · 官方硬件封堵：2018 年年中起出厂机器已修 BootROM</a></div></td><td class="cve-cat">硬件漏洞 / 软破 / 工具与生态 / 硬破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2020-0601" target="_blank" rel="noopener noreferrer">CVE-2020-0601</a></td><td class="cve-year">2020</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/xbox-one.html">Xbox One</a><a class="cve-ev" href="console/xbox-one.html#ev-xbox-one-15">2019年12月 · ECC Curveball (CVE-2020-0601) 影响 Xbox 证书校验</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2020-7457" target="_blank" rel="noopener noreferrer">CVE-2020-7457</a></td><td class="cve-year">2020</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps4.html">PlayStation 4</a><a class="cve-ev" href="console/ps4.html#ev-ps4-15">2020年7月 · TheFloW 公开 7.02 内核漏洞</a><a class="cve-ev" href="console/ps4.html#ev-ps4-16">2020年7月 · Sleirsgoevy 发布 6.72 越狱与 Mira</a></div><div class="cve-group"><a class="cve-console" href="console/ps5.html">PlayStation 5</a><a class="cve-ev" href="console/ps5.html#ev-ps5-4">2022年 · IPv6 UAF 被用作 3.00-4.51 的内核原语</a><a class="cve-ev" href="console/ps5.html#ev-ps5-8">2023年 · BD-JB 与 IPv6 漏洞组成 3.00-4.51 免刻录链</a></div></td><td class="cve-cat">软件漏洞 / 软破</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2021-43527" target="_blank" rel="noopener noreferrer">CVE-2021-43527</a></td><td class="cve-year">2021</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/switch-mariko.html">Switch 续航版 / Lite / OLED（Mariko）</a><a class="cve-ev" href="console/switch-mariko.html#ev-switch-mariko-14">2022年11月 · 公开系统漏洞不少，却没有软破链条</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2024-30088" target="_blank" rel="noopener noreferrer">CVE-2024-30088</a></td><td class="cve-year">2024</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/xbox-one.html">Xbox One</a><a class="cve-ev" href="console/xbox-one.html#ev-xbox-one-19">2024年6月 · Collateral Damage：Game Script 应用实现代码执行</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2024-43102" target="_blank" rel="noopener noreferrer">CVE-2024-43102</a></td><td class="cve-year">2024</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps5.html">PlayStation 5</a><a class="cve-ev" href="console/ps5.html#ev-ps5-11">2024年 · UMTX 越狱把公开上限推到 7.60</a></div></td><td class="cve-cat">工具与生态</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2025-64390" target="_blank" rel="noopener noreferrer">CVE-2025-64390</a></td><td class="cve-year">2025</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/ps4.html">PlayStation 4</a><a class="cve-ev" href="console/ps4.html#ev-ps4-23">2022年6月 · TheFloW 公开 BD-JB 蓝光 Java 沙箱逃逸</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+<tr><td><a class="cve-id" href="https://nvd.nist.gov/vuln/detail/CVE-2026-82079" target="_blank" rel="noopener noreferrer">CVE-2026-82079</a></td><td class="cve-year">2026</td><td class="cve-refs"><div class="cve-group"><a class="cve-console" href="console/switch-v1.html">Nintendo Switch（V1 / Erista）</a><a class="cve-ev" href="console/switch-v1.html#ev-switch-v1-26">2026年9月10日 · CVE-2026-82079：本地无线协议栈溢出，23.0.0 修补</a></div></td><td class="cve-cat">软件漏洞</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section-title">按机型统计</h2>
+  <div class="console-index"><a class="console-chip" href="console/ps4.html"><span class="cc-name">PlayStation 4</span><span class="cc-count">7 个 CVE</span></a><a class="console-chip" href="console/switch-v1.html"><span class="cc-name">Nintendo Switch（V1 / Erista）</span><span class="cc-count">7 个 CVE</span></a><a class="console-chip" href="console/switch-mariko.html"><span class="cc-name">Switch 续航版 / Lite / OLED（Mariko）</span><span class="cc-count">6 个 CVE</span></a><a class="console-chip" href="console/xbox-360.html"><span class="cc-name">Xbox 360</span><span class="cc-count">3 个 CVE</span></a><a class="console-chip" href="console/ps3.html"><span class="cc-name">PlayStation 3</span><span class="cc-count">3 个 CVE</span></a><a class="console-chip" href="console/xbox-one.html"><span class="cc-name">Xbox One</span><span class="cc-count">3 个 CVE</span></a><a class="console-chip" href="console/ps5.html"><span class="cc-name">PlayStation 5</span><span class="cc-count">3 个 CVE</span></a><a class="console-chip" href="console/psp.html"><span class="cc-name">PlayStation Portable (PSP)</span><span class="cc-count">2 个 CVE</span></a><a class="console-chip" href="console/ps-vita.html"><span class="cc-name">PlayStation Vita</span><span class="cc-count">1 个 CVE</span></a><a class="console-chip" href="console/switch-2.html"><span class="cc-name">Nintendo Switch 2</span><span class="cc-count">1 个 CVE</span></a></div>
+
+  <footer class="footer">
+    <p><b>关于本页</b>：本页由 <code>node tools/build-cve.js</code> 从 <code>data/</code> 自动生成，数据口径截至 2026 年 10 月。
+      所有 CVE 编号都经过人工核查（NVD / MITRE 条目或研究者本人披露），未编号的漏洞一律留空。</p>
+    <p>破解主机可能违反厂商服务条款与当地法律（如 DMCA 第 1201 条反规避条款），并导致账号或主机被封禁。本站不提供任何破解工具、密钥或操作指引，仅供安全研究与技术史参考。</p>
+    <p><a href="index.html">返回总览</a></p>
+  </footer>
+</div>
+</body>
+</html>
